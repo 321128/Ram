@@ -1,0 +1,287 @@
+import express from 'express';
+import http from 'http';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { WebSocketServer, WebSocket } from 'ws';
+import bodyParser from 'body-parser';
+import fs from 'fs';
+
+// ESM-safe __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// ----- Types -----
+interface Anchor {
+  serverTimeEpochMs: number;
+  mediaTimeSec: number;
+}
+
+interface StatePayload {
+  scene: string | number;
+  cueIndex: number; // index within scene
+  playbackRate: number;
+  isPaused: boolean;
+  anchor: Anchor;
+}
+
+interface CueItem {
+  cueId: string;
+  audioFileHi: string | null;
+  audioFileEn: string | null;
+  duration: number | null;
+}
+
+// Resolve repo root relative to compiled file location so it works from ts-node and dist-server
+const ROOT_DIR = path.resolve(__dirname, '..', '..');
+
+// ----- Server State -----
+let currentState: StatePayload = {
+  scene: '1',
+  cueIndex: 0,
+  playbackRate: 1.0,
+  isPaused: true,
+  anchor: { serverTimeEpochMs: Date.now(), mediaTimeSec: 0 },
+};
+
+// Utility to update anchor when state changes related to time
+function setAnchorFromNow(mediaTimeSec: number) {
+  currentState.anchor = { serverTimeEpochMs: Date.now(), mediaTimeSec };
+}
+
+// ----- App Setup -----
+const app = express();
+const server = http.createServer(app);
+const wss = new WebSocketServer({ server, path: '/ws' });
+
+app.use(bodyParser.json());
+
+// CORS for local dev convenience
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  if (req.method === 'OPTIONS') return res.sendStatus(200);
+  next();
+});
+
+// ----- Static -----
+// Serve public assets (Audio) directly
+const distDir = path.join(ROOT_DIR, 'dist');
+const publicDir = path.join(ROOT_DIR, 'public');
+console.log(`Serving public assets from: ${publicDir}`);
+console.log(`Serving built SPAs from: ${distDir}`);
+
+app.use('/public', express.static(publicDir));
+// 3a) Serve built assets at root (so /assets/*.js works everywhere)
+app.use('/assets', express.static(path.join(distDir, 'assets'), { immutable: true, maxAge: '1y' }));
+// Optional helpful statics at root:
+app.use('/favicon.ico', express.static(path.join(distDir, 'favicon.ico')));
+app.use('/sw.js', express.static(path.join(distDir, 'sw.js')));
+app.use('/manifest.webmanifest', express.static(path.join(distDir, 'manifest.webmanifest')));
+app.use('/robots.txt', express.static(path.join(distDir, 'robots.txt')));
+
+
+// (optional) if you want to serve built Audio copied into dist
+app.use('/Audio', express.static(path.join(distDir, 'Audio')));
+
+// Serve SPA shell under both prefixes
+app.use(['/frontx', '/fronty'], express.static(distDir));
+
+// Fallback HTML for client-side routing (AFTER statics)
+app.get(['/frontx/*', '/fronty/*'], (_req, res) => {
+  res.sendFile(path.join(distDir, 'index.html'));
+});
+
+// 3d) Root redirect (choose your default)
+app.get('/', (_req, res) => res.redirect('/fronty'));
+
+// ----- REST: Manifest -----
+// The repo has play data at src/data/playData.json with structure scenes -> dialogs[] with audioFile and duration.
+// We'll map to expected shape: [{cueId, audioFileHi, audioFileEn, duration}]
+// For now, we mirror audioFile to both languages if only one is available.
+
+function loadPlayData(): any | null {
+  const p = path.join(ROOT_DIR, 'src', 'data', 'playData.json');
+  try {
+    const raw = fs.readFileSync(p, 'utf-8');
+    return JSON.parse(raw);
+  } catch (e) {
+    console.error('Failed to load playData.json', e);
+    return null;
+  }
+}
+
+app.get('/manifest/:sceneId', (req, res) => {
+  const { sceneId } = req.params;
+  const data = loadPlayData();
+  if (!data || !data.scenes || !data.scenes[sceneId]) {
+    return res.status(404).json({ error: 'Scene not found' });
+  }
+  const dialogs = data.scenes[sceneId].dialogs || [];
+  const cues: CueItem[] = dialogs.map((d: any) => ({
+    cueId: String(d.cueId ?? ''),
+    audioFileHi: d.audioFile ?? null,
+    audioFileEn: d.audioFile ?? null,
+    duration: typeof d.duration === 'number' ? d.duration : null,
+  }));
+  res.json(cues);
+});
+
+// ----- REST: Current State -----
+app.get('/current', (_req, res) => {
+  res.json(currentState);
+});
+
+// ----- REST: Update State -----
+app.post('/update', (req, res) => {
+  const { scene, cueIndex, playbackRate, isPaused, anchor } = req.body || {};
+
+  if (scene !== undefined) currentState.scene = scene;
+  if (typeof cueIndex === 'number') currentState.cueIndex = cueIndex;
+  if (typeof playbackRate === 'number') currentState.playbackRate = playbackRate;
+  if (typeof isPaused === 'boolean') currentState.isPaused = isPaused;
+
+  if (anchor && typeof anchor.mediaTimeSec === 'number') {
+    setAnchorFromNow(anchor.mediaTimeSec);
+  } else {
+    // If time-impacting fields changed and no anchor provided, keep anchor but refresh server time
+    currentState.anchor.serverTimeEpochMs = Date.now();
+  }
+
+  broadcastStateEvents(req.body);
+  res.json({ ok: true });
+});
+
+// ----- WebSocket -----
+// Broadcast helper
+function wsBroadcast(obj: any) {
+  const payload = JSON.stringify(obj);
+  wss.clients.forEach((client) => {
+    if ((client as WebSocket).readyState === WebSocket.OPEN) {
+      (client as WebSocket).send(payload);
+    }
+  });
+}
+
+function nowWithStamp() {
+  return Date.now();
+}
+
+function helloEvent() {
+  return { type: 'HELLO', serverTimeEpochMs: nowWithStamp() };
+}
+
+function stateEvent() {
+  return { type: 'STATE', serverTimeEpochMs: nowWithStamp(), state: currentState };
+}
+
+function sceneLoadEvent(scene: string | number) {
+  return { type: 'SCENE_LOAD', serverTimeEpochMs: nowWithStamp(), scene };
+}
+
+function cueEvent(index: number) {
+  return { type: 'CUE', serverTimeEpochMs: nowWithStamp(), cueIndex: index };
+}
+
+function pauseEvent() {
+  return { type: 'PAUSE', serverTimeEpochMs: nowWithStamp() };
+}
+
+function resumeEvent() {
+  return { type: 'RESUME', serverTimeEpochMs: nowWithStamp() };
+}
+
+function seekEvent(mediaTimeSec: number) {
+  return { type: 'SEEK', serverTimeEpochMs: nowWithStamp(), mediaTimeSec };
+}
+
+function rateEvent(rate: number) {
+  return { type: 'RATE', serverTimeEpochMs: nowWithStamp(), playbackRate: rate };
+}
+
+function heartbeatEvent() {
+  return { type: 'HEARTBEAT', serverTimeEpochMs: nowWithStamp() };
+}
+
+
+function pongEvent() {
+  return { type: 'PONG', serverTimeEpochMs: nowWithStamp() };
+}
+
+// When REST /update is called, emit granular events for FrontY listeners
+function broadcastStateEvents(updateBody: any) {
+  if (!updateBody || typeof updateBody !== 'object') {
+    wsBroadcast(stateEvent());
+    return;
+  }
+
+  // Always broadcast STATE after granular ones
+  const granular: any[] = [];
+  if (updateBody.scene !== undefined) granular.push(sceneLoadEvent(updateBody.scene));
+  if (typeof updateBody.cueIndex === 'number') granular.push(cueEvent(updateBody.cueIndex));
+  if (typeof updateBody.isPaused === 'boolean') granular.push(updateBody.isPaused ? pauseEvent() : resumeEvent());
+  if (typeof updateBody.playbackRate === 'number') granular.push(rateEvent(updateBody.playbackRate));
+  if (updateBody.anchor && typeof updateBody.anchor.mediaTimeSec === 'number') granular.push(seekEvent(updateBody.anchor.mediaTimeSec));
+
+  granular.forEach(wsBroadcast);
+  wsBroadcast(stateEvent());
+}
+
+wss.on('connection', (ws) => {
+  // On connect: send HELLO and current STATE
+  ws.send(JSON.stringify(helloEvent()));
+  ws.send(JSON.stringify(stateEvent()));
+
+  ws.on('message', (raw) => {
+    try {
+      const msg = JSON.parse(String(raw));
+      switch (msg.type) {
+        case 'PING':
+          ws.send(JSON.stringify(pongEvent()));
+          break;
+        case 'HEARTBEAT':
+          ws.send(JSON.stringify(heartbeatEvent()));
+          break;
+        case 'SEEK':
+          if (typeof msg.mediaTimeSec === 'number') {
+            setAnchorFromNow(msg.mediaTimeSec);
+            wsBroadcast(seekEvent(msg.mediaTimeSec));
+            wsBroadcast(stateEvent());
+          }
+          break;
+        case 'RATE':
+          if (typeof msg.playbackRate === 'number') {
+            currentState.playbackRate = msg.playbackRate;
+            currentState.anchor.serverTimeEpochMs = Date.now();
+            wsBroadcast(rateEvent(msg.playbackRate));
+            wsBroadcast(stateEvent());
+          }
+          break;
+        case 'PAUSE':
+          currentState.isPaused = true;
+          currentState.anchor.serverTimeEpochMs = Date.now();
+          wsBroadcast(pauseEvent());
+          wsBroadcast(stateEvent());
+          break;
+        case 'RESUME':
+          currentState.isPaused = false;
+          currentState.anchor.serverTimeEpochMs = Date.now();
+          wsBroadcast(resumeEvent());
+          wsBroadcast(stateEvent());
+          break;
+        default:
+          // Ignore unknown types
+          break;
+      }
+    } catch (e) {
+      // Ignore malformed
+    }
+  });
+});
+
+// ----- Start -----
+const PORT = Number(process.env.PORT || 5174);
+server.listen(PORT, () => {
+  console.log(`[backend] listening on http://localhost:${PORT}`);
+  console.log('Static public on /public, SPAs on /frontx and /fronty, WS at /ws');
+});

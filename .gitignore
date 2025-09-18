@@ -1,0 +1,108 @@
+// backend/src/server.ts
+import express from "express";
+import path from "path";
+import fs from "fs";
+import mime from "mime";
+import http from "http";
+import { WebSocketServer } from "ws";
+
+const app = express();
+
+// Paths
+const DIST_ROOT = process.env.DIST_ROOT || path.resolve(process.cwd(), "dist");
+const AUDIO_ROOT = process.env.AUDIO_ROOT || path.resolve(process.cwd(), "public/Audio");
+
+// Basic checks
+if (!fs.existsSync(AUDIO_ROOT)) {
+  console.error("AUDIO_ROOT not found:", AUDIO_ROOT);
+  process.exit(1);
+}
+if (!fs.existsSync(DIST_ROOT)) {
+  console.warn("DIST_ROOT not found yet:", DIST_ROOT, "(build your frontend)");
+}
+
+// CORS (dev-friendly)
+app.use((_req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
+});
+
+// Static audio
+app.use("/Audio", express.static(AUDIO_ROOT, {
+  fallthrough: true,
+  setHeaders: (res, filePath) => {
+    res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    res.setHeader("Content-Type", mime.getType(filePath) || "application/octet-stream");
+  },
+}));
+
+// Serve built frontend
+app.use(express.static(DIST_ROOT, { extensions: ["html"] }));
+
+// Minimal API placeholders used by the UI
+app.use(express.json());
+app.post("/api/update-current-dialog", (_req, res) => res.status(204).end());
+app.get("/api/generate-token", (_req, res) => {
+  const token = Math.random().toString(36).slice(2);
+  res.json({ token });
+});
+
+// Create HTTP server and attach WS
+const PORT = parseInt(process.env.PORT || "4508", 10);
+const server = http.createServer(app);
+
+const wss = new WebSocketServer({ server, path: "/ws" });
+
+wss.on("connection", (socket) => {
+  console.log("WS client connected");
+
+  socket.on("message", (data) => {
+    try {
+      const msg = JSON.parse(data.toString());
+      if (msg.type === "PING") {
+        socket.send(JSON.stringify({
+          type: "PONG",
+          payload: { clientTime: msg.payload?.clientTime, serverTime: Date.now() },
+        }));
+      }
+      // Broadcast CUE/STATUS/etc. if needed:
+      // wss.clients.forEach(c => c !== socket && c.readyState === 1 && c.send(JSON.stringify(msg)));
+    } catch {
+      // ignore malformed
+    }
+  });
+
+  socket.on("close", () => console.log("WS client disconnected"));
+});
+
+server.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server at http://0.0.0.0:${PORT}`);
+  console.log(`UI root: ${DIST_ROOT}`);
+  console.log(`Audio root: ${AUDIO_ROOT}`);
+  console.log(`WS path: ws://localhost:${PORT}/ws`);
+});
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
