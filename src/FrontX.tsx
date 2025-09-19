@@ -3,6 +3,57 @@ import { connectWS, nowMs, Anchor, InEvent, StatePayload } from './lib/ws';
 
 type Lang = 'hi' | 'en';
 
+type ManifestCue = {
+  cueId: string;
+  audioFileHi: string | null;
+  audioFileEn: string | null;
+  duration: number | null;
+};
+
+function normalizeAudioPath(path: string | null) {
+  if (!path) return null;
+  const trimmed = path.trim();
+  if (!trimmed) return null;
+  if (trimmed.startsWith('/public/')) return trimmed;
+  if (trimmed.startsWith('/Audio/')) return `/public${trimmed}`;
+  if (trimmed.startsWith('Audio/')) return `/public/${trimmed}`;
+  return trimmed;
+}
+
+function fallbackCuePath(sceneId: string, cueIndex: number, lang: Lang) {
+  const sceneSegment = sceneId.padStart(2, '0');
+  const cueSegment = Math.max(0, cueIndex).toString().padStart(3, '0');
+  return `/public/Audio/${sceneSegment}/${cueSegment}-${lang}.mp3`;
+}
+
+type ManifestLookupResult =
+  | { status: 'ok'; src: string; usedAlternateLanguage: boolean }
+  | { status: 'missing'; reason: 'index' | 'audio' };
+
+function lookupManifestAudio(
+  manifest: ManifestCue[],
+  cueIndex: number,
+  lang: Lang,
+): ManifestLookupResult {
+  if (cueIndex < 0 || cueIndex >= manifest.length) {
+    return { status: 'missing', reason: 'index' };
+  }
+  const cue = manifest[cueIndex];
+  const preferred = normalizeAudioPath(lang === 'hi' ? cue.audioFileHi : cue.audioFileEn);
+  if (preferred) return { status: 'ok', src: preferred, usedAlternateLanguage: false };
+  const alternate = normalizeAudioPath(lang === 'hi' ? cue.audioFileEn : cue.audioFileHi);
+  if (alternate) return { status: 'ok', src: alternate, usedAlternateLanguage: true };
+  return { status: 'missing', reason: 'audio' };
+}
+
+function toAbsoluteUrl(src: string) {
+  try {
+    return new URL(src, window.location.origin).toString();
+  } catch {
+    return src;
+  }
+}
+
 function useClockOffset(ws: WebSocket | null) {
   const [offsetMs, setOffsetMs] = useState(0); // serverTime - clientTime
   useEffect(() => {
@@ -38,13 +89,16 @@ function useClockOffset(ws: WebSocket | null) {
   return offsetMs;
 }
 
-async function preloadNext(src: string) {
+async function preloadNext(src: string | null) {
+  if (!src) return;
   try {
     const a = new Audio();
     a.preload = 'auto';
     a.src = src;
     await a.load?.();
-  } catch {}
+  } catch (err) {
+    console.warn('Failed to preload audio', err);
+  }
 }
 
 function scheduleFromAnchor(audio: HTMLAudioElement, anchor: Anchor, playbackRate: number, offsetMs: number) {
@@ -66,6 +120,9 @@ export default function FrontX() {
   const [ready, setReady] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const [state, setState] = useState<StatePayload | null>(null);
+  const [sceneManifests, setSceneManifests] = useState<Record<string, ManifestCue[]>>({});
+  const manifestFetchRef = useRef<Set<string>>(new Set());
+  const isMountedRef = useRef(true);
 
   useEffect(() => {
     if ('serviceWorker' in navigator) {
@@ -78,7 +135,7 @@ export default function FrontX() {
   }, []);
 
   const WS_URL = `ws://${window.location.hostname}:5174/ws`;  // Express backend WS
-  const ws = useMemo(() => ready ? connectWS(WS_URL, ()=>{}) : null, [ready]);
+  const ws = useMemo(() => ready ? connectWS(WS_URL, ()=>{}) : null, [ready, WS_URL]);
   const offsetMs = useClockOffset(ws);
 
   // Fetch current state once unlocked
@@ -98,21 +155,80 @@ export default function FrontX() {
     return () => ws.removeEventListener('message', onMsg);
   }, [ws]);
 
+  useEffect(() => () => {
+    isMountedRef.current = false;
+  }, []);
+
+  useEffect(() => {
+    if (!state) return;
+    const sceneId = String(state.scene);
+    if (sceneManifests[sceneId] || manifestFetchRef.current.has(sceneId)) return;
+
+    manifestFetchRef.current.add(sceneId);
+
+    fetch(`/manifest/${encodeURIComponent(sceneId)}`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json() as Promise<ManifestCue[]>;
+      })
+      .then((manifest) => {
+        if (!isMountedRef.current) return;
+        setSceneManifests((prev) => ({ ...prev, [sceneId]: manifest }));
+      })
+      .catch((err) => {
+        if (isMountedRef.current) console.warn(`Failed to load manifest for scene ${sceneId}`, err);
+      })
+      .finally(() => {
+        manifestFetchRef.current.delete(sceneId);
+      });
+  }, [state, sceneManifests]);
+
   // Apply state to audio
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio || !state) return;
 
-    // Pick correct file from manifest mapping you already serve
-    // Example path pattern; align with your backend manifest
-    const manifestPath = state.scene.toString().padStart(2, '0');
-    const cueFile = `${state.cueIndex.toString().padStart(3, '0')}-${lang}.mp3`;
-    audio.src = `/public/Audio/${manifestPath}/${cueFile}`;
+    const sceneId = String(state.scene);
+    const manifest = sceneManifests[sceneId];
+    if (!manifest) return;
 
-    // Preload next cue
-    const nextCueIndex = state.cueIndex + 1;
-    const nextCueFile = `${nextCueIndex.toString().padStart(3, '0')}-${lang}.mp3`;
-    const nextSrc = `/public/Audio/${manifestPath}/${nextCueFile}`;
+    const currentLookup = lookupManifestAudio(manifest, state.cueIndex, lang);
+    let currentSrc: string | null = null;
+    if (currentLookup.status === 'ok') {
+      currentSrc = currentLookup.src;
+      if (currentLookup.usedAlternateLanguage) {
+        console.warn(`Missing ${lang} audio for scene ${sceneId} cue ${state.cueIndex}; using alternate track.`);
+      }
+    } else {
+      const fallback = fallbackCuePath(sceneId, state.cueIndex, lang);
+      if (currentLookup.reason === 'index') {
+        console.warn(`Manifest for scene ${sceneId} lacks cue index ${state.cueIndex}; falling back to ${fallback}.`);
+      } else if (currentLookup.reason === 'audio') {
+        console.warn(`Cue ${state.cueIndex} in scene ${sceneId} is missing audio info; falling back to ${fallback}.`);
+      }
+      currentSrc = fallback;
+    }
+
+    if (currentSrc) {
+      const absoluteSrc = toAbsoluteUrl(currentSrc);
+      if (audio.src !== absoluteSrc) {
+        audio.src = currentSrc;
+      }
+    }
+
+    const nextIndex = state.cueIndex + 1;
+    const nextLookup = lookupManifestAudio(manifest, nextIndex, lang);
+    let nextSrc: string | null = null;
+    if (nextLookup.status === 'ok') {
+      nextSrc = nextLookup.src;
+      if (nextLookup.usedAlternateLanguage) {
+        console.warn(`Missing ${lang} audio for upcoming cue ${nextIndex} in scene ${sceneId}; preloading alternate track.`);
+      }
+    } else if (nextLookup.reason === 'audio') {
+      const fallback = fallbackCuePath(sceneId, nextIndex, lang);
+      console.warn(`Cue ${nextIndex} in scene ${sceneId} is missing audio info; preloading fallback ${fallback}.`);
+      nextSrc = fallback;
+    }
     preloadNext(nextSrc);
 
     if (state.isPaused) {
@@ -121,7 +237,7 @@ export default function FrontX() {
     } else {
       scheduleFromAnchor(audio, state.anchor, state.playbackRate, offsetMs);
     }
-  }, [state, lang, offsetMs]);
+  }, [state, lang, offsetMs, sceneManifests]);
 
   return (
     <div className="min-h-screen grid place-items-center bg-black text-white">
