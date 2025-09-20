@@ -3,6 +3,61 @@ import { connectWS, nowMs, Anchor, InEvent, StatePayload } from './lib/ws';
 
 type Lang = 'hi' | 'en';
 
+type ManifestCue = {
+  cueId: string;
+  audioFileHi: string | null;
+  audioFileEn: string | null;
+  duration: number | null;
+};
+
+function normalizeAudioPath(path: string | null) {
+  if (!path) return null;
+  const trimmed = path.trim();
+  if (!trimmed) return null;
+  if (trimmed.startsWith('/public/')) return trimmed;
+  if (trimmed.startsWith('/Audio/')) return trimmed;
+  if (trimmed.startsWith('Audio/')) return `/${trimmed}`;
+  return trimmed;
+}
+
+function fallbackCuePath(sceneId: string, cueIndex: number, lang: Lang) {
+  const sceneSegment = sceneId.padStart(2, '0');
+  const cueSegment = Math.max(0, cueIndex).toString().padStart(3, '0');
+  return `/public/Audio/${sceneSegment}/${cueSegment}-${lang}.mp3`;
+}
+
+type ManifestLookupResult =
+  | { status: 'ok'; src: string; usedAlternateLanguage: boolean }
+  | { status: 'missing'; reason: 'index' | 'audio' };
+
+function lookupManifestAudio(
+  manifest: ManifestCue[],
+  cueIndex: number,
+  lang: Lang,
+): ManifestLookupResult {
+  if (cueIndex < 0 || cueIndex >= manifest.length) {
+    return { status: 'missing', reason: 'index' };
+  }
+  const cue = manifest[cueIndex];
+  const preferred = normalizeAudioPath(lang === 'hi' ? cue.audioFileHi : cue.audioFileEn);
+  if (preferred) return { status: 'ok', src: preferred, usedAlternateLanguage: false };
+  const alternate = normalizeAudioPath(lang === 'hi' ? cue.audioFileEn : cue.audioFileHi);
+  if (alternate) return { status: 'ok', src: alternate, usedAlternateLanguage: true };
+  return { status: 'missing', reason: 'audio' };
+}
+
+function toAbsoluteUrl(src: string) {
+  try {
+    return new URL(src, window.location.origin).toString();
+  } catch {
+    return src;
+  }
+}
+
+function bustCache(url: string) {
+  return `${url}?v=${Date.now()}`;
+}
+
 function useClockOffset(ws: WebSocket | null) {
   const [offsetMs, setOffsetMs] = useState(0); // serverTime - clientTime
   useEffect(() => {
@@ -38,13 +93,16 @@ function useClockOffset(ws: WebSocket | null) {
   return offsetMs;
 }
 
-async function preloadNext(src: string) {
+async function preloadNext(src: string | null) {
+  if (!src) return;
   try {
     const a = new Audio();
     a.preload = 'auto';
     a.src = src;
     await a.load?.();
-  } catch {}
+  } catch (err) {
+    console.warn('Failed to preload audio', err);
+  }
 }
 
 function scheduleFromAnchor(audio: HTMLAudioElement, anchor: Anchor, playbackRate: number, offsetMs: number) {
@@ -66,10 +124,13 @@ export default function FrontX() {
   const [ready, setReady] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const [state, setState] = useState<StatePayload | null>(null);
+  const [sceneManifests, setSceneManifests] = useState<Record<string, ManifestCue[]>>({});
+  const manifestFetchRef = useRef<Set<string>>(new Set());
+  const isMountedRef = useRef(true);
 
   useEffect(() => {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/frontx/sw.js').then(reg => {
+      navigator.serviceWorker.register('/sw.js').then(reg => {
         console.log('Service Worker Registered', reg);
       }).catch(err => {
         console.error('Service Worker registration failed', err);
@@ -78,7 +139,7 @@ export default function FrontX() {
   }, []);
 
   const WS_URL = `ws://${window.location.hostname}:5174/ws`;  // Express backend WS
-  const ws = useMemo(() => ready ? connectWS(WS_URL, ()=>{}) : null, [ready]);
+  const ws = useMemo(() => ready ? connectWS(WS_URL, ()=>{}) : null, [ready, WS_URL]);
   const offsetMs = useClockOffset(ws);
 
   // Fetch current state once unlocked
@@ -98,30 +159,87 @@ export default function FrontX() {
     return () => ws.removeEventListener('message', onMsg);
   }, [ws]);
 
+  useEffect(() => {
+    isMountedRef.current = true;
+    return () => {
+      isMountedRef.current = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!state) return;
+    const sceneId = String(state.scene);
+    if (sceneManifests[sceneId] || manifestFetchRef.current.has(sceneId)) return;
+
+    manifestFetchRef.current.add(sceneId);
+
+    fetch(`/manifest/${encodeURIComponent(sceneId)}?t=${Date.now()}`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json() as Promise<ManifestCue[]>;
+      })
+      .then((manifest) => {
+        if (!isMountedRef.current) return;
+        setSceneManifests((prev) => ({ ...prev, [sceneId]: manifest }));
+      })
+      .catch((err) => {
+        if (isMountedRef.current) console.warn(`Failed to load manifest for scene ${sceneId}`, err);
+      })
+      .finally(() => {
+        manifestFetchRef.current.delete(sceneId);
+      });
+  }, [state, sceneManifests]);
+
   // Apply state to audio
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio || !state) return;
 
-    // Pick correct file from manifest mapping you already serve
-    // Example path pattern; align with your backend manifest
-    const manifestPath = state.scene.toString().padStart(2, '0');
-    const cueFile = `${state.cueIndex.toString().padStart(3, '0')}-${lang}.mp3`;
-    audio.src = `/public/Audio/${manifestPath}/${cueFile}`;
+    const sceneId = String(state.scene);
+    const manifest = sceneManifests[sceneId];
+    if (!manifest) {
+      console.warn("No manifest for scene", sceneId, "Available:", Object.keys(sceneManifests));
+      return;
+    }
 
-    // Preload next cue
-    const nextCueIndex = state.cueIndex + 1;
-    const nextCueFile = `${nextCueIndex.toString().padStart(3, '0')}-${lang}.mp3`;
-    const nextSrc = `/public/Audio/${manifestPath}/${nextCueFile}`;
-    preloadNext(nextSrc);
+    // Try to find the current cue
+    const cue = manifest[state.cueIndex];
+    if (!cue) {
+      console.warn("No cue found for index", state.cueIndex);
+      return;
+    }
+
+    // Always use Hindi for now (can switch with lang)
+    let currentSrc = cue.audioFileHi || cue.audioFileEn;
+    if (currentSrc) {
+      const absoluteSrc = `${currentSrc}?t=${Date.now()}`;
+      console.log("Setting audio src:", absoluteSrc);
+      audio.src = absoluteSrc;
+    }
 
     if (state.isPaused) {
       audio.pause();
       audio.currentTime = state.anchor.mediaTimeSec;
     } else {
-      scheduleFromAnchor(audio, state.anchor, state.playbackRate, offsetMs);
+      // Apply playback rate changes
+      if (audio.playbackRate !== state.playbackRate) {
+        audio.playbackRate = state.playbackRate;
+      }
+
+      // Apply seeking: always align audio with anchor
+      const desiredTime = state.anchor.mediaTimeSec;
+      const delta = Math.abs(audio.currentTime - desiredTime);
+      if (delta > 0.5) {  // only jump if drift > 0.5s
+        console.log("Seeking audio to", desiredTime);
+        audio.currentTime = desiredTime;
+      }
+
+      // Ensure playing
+      audio.play().catch(err => {
+        console.warn("Audio playback failed:", err);
+      });
     }
-  }, [state, lang, offsetMs]);
+  }, [state, sceneManifests]);
 
   return (
     <div className="min-h-screen grid place-items-center bg-black text-white">
@@ -132,7 +250,18 @@ export default function FrontX() {
             <option value="hi">Hindi</option>
             <option value="en">English</option>
           </select>
-          <button onClick={()=>setReady(true)} className="px-6 py-3 rounded-2xl bg-white text-black">
+          <button
+            onClick={() => {
+              setReady(true);
+              if (audioRef.current) {
+                audioRef.current.muted = false; // ensure unmuted
+                audioRef.current.play().catch(err => {
+                  console.warn("Autoplay blocked:", err);
+                });
+              }
+            }}
+            className="px-6 py-3 rounded-2xl bg-white text-black"
+          >
             Tap to Start
           </button>
           <p className="text-xs opacity-70">Keep screen on for uninterrupted audio.</p>

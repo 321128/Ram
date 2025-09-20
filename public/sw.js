@@ -37,6 +37,7 @@ function shouldBypass(req) {
   // Bypass audio completely (covers both patterns)
   if (req.destination === 'audio') return true;
   if (url.pathname.startsWith('/public/Audio/') || url.pathname.startsWith('/Audio/')) return true;
+  if (/\.(mp3|wav|ogg|flac)$/i.test(url.pathname)) return true;
 
   // Don’t cache APIs, WS handshakes, or server state endpoints
   if (url.pathname.startsWith('/ws') || url.pathname === '/current' || url.pathname.startsWith('/manifest')) return true;

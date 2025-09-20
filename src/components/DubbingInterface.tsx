@@ -2,10 +2,11 @@ import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { Play, Pause, SkipForward, SkipBack, Volume2, Zap } from 'lucide-react';
 import initialPlayData from '../data/playData.json';
 import { connectWS, makeAnchor, OutEvent } from '../lib/ws';
+import type { Anchor } from '../lib/ws';
 
 interface Dialog {
   cueId: string;
-  hindi: string;
+  hindi: string | null;
   english: string | null;
   audioFile: string;
   character: string | null;
@@ -23,6 +24,10 @@ interface PlayData {
   scenes: Record<string, Scene>;
 }
 
+function bustCache(url: string) {
+  return `${url}?v=${Date.now()}`;
+}
+
 const DubbingInterface: React.FC = () => {
   const [playData] = useState<PlayData>(initialPlayData);
 
@@ -32,123 +37,127 @@ const DubbingInterface: React.FC = () => {
   const [playbackSpeed, setPlaybackSpeed] = useState<number>(1.0);
   const [autoPlay, setAutoPlay] = useState<boolean>(true);
   const [currentTime, setCurrentTime] = useState<number>(0);
- const [duration, setDuration] = useState<number>(0);
- const rateRef = useRef<number>(playbackSpeed);
+  const [duration, setDuration] = useState<number>(0);
+  const rateRef = useRef<number>(playbackSpeed);
 
- const audioRef = useRef<HTMLAudioElement>(null);
- // Ref for dialog scroll container
- const dialogScrollRef = useRef<HTMLDivElement>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
+  // Ref for dialog scroll container
+  const dialogScrollRef = useRef<HTMLDivElement>(null);
 
- const currentSceneData = playData.scenes[currentScene];
- const currentDialog = currentSceneData?.dialogs[currentCueIndex];
+  const currentSceneData = playData.scenes[currentScene];
+  const currentDialog = currentSceneData?.dialogs[currentCueIndex];
 
- const WS_URL = `ws://${location.hostname}:5174/ws`; // Express backend WS
+  const WS_URL = `ws://${location.hostname}:5174/ws`; // Express backend WS
 
- const ws = useMemo(() => connectWS(WS_URL, () => {}), []);
- const send = (e: OutEvent) => ws.readyState === 1 && ws.send(JSON.stringify(e));
+  const ws = useMemo(() => connectWS(WS_URL, () => {}), []);
+  const send = (e: OutEvent) => ws.readyState === 1 && ws.send(JSON.stringify(e));
 
- useEffect(() => {
-   rateRef.current = playbackSpeed;
-   if (audioRef.current) {
-     audioRef.current.playbackRate = playbackSpeed;
-   }
- }, [playbackSpeed, isPlaying]);
+  useEffect(() => {
+    rateRef.current = playbackSpeed;
+    if (audioRef.current) {
+      audioRef.current.playbackRate = playbackSpeed;
+    }
+  }, [playbackSpeed, isPlaying]);
 
- const onPlayCue = (scene: number, cueIndex: number, mediaTimeSec = 0, playbackRate = rateRef.current) => {
-   const anchor = makeAnchor(mediaTimeSec, 250);
-   // Update your local <audio> immediately to mirror what you broadcast:
-   if (audioRef.current) {
-     audioRef.current.playbackRate = playbackRate;
-     audioRef.current.currentTime = mediaTimeSec;
-     audioRef.current.play().catch(() => { });
-   }
-   send({ type: 'CUE', scene, cueIndex, playbackRate, anchor });
- }
+  const onPlayCue = (scene: number, cueIndex: number, mediaTimeSec = 0, playbackRate = rateRef.current): Anchor => {
+    const anchor = makeAnchor(mediaTimeSec, 250);
+    // Update your local <audio> immediately to mirror what you broadcast:
+    if (audioRef.current) {
+      audioRef.current.playbackRate = playbackRate;
+      audioRef.current.currentTime = mediaTimeSec;
+      audioRef.current.play().catch(() => { });
+    }
+    send({ type: 'CUE', scene, cueIndex, playbackRate, anchor });
+    return anchor;
+  }
 
- const onPause = () => {
-   if (audioRef.current) {
-     const anchor = makeAnchor(audioRef.current.currentTime, 200);
-     audioRef.current.pause();
-     send({ type: 'PAUSE', anchor });
-   }
- }
+  const onPause = () => {
+    if (audioRef.current) {
+      const anchor = makeAnchor(audioRef.current.currentTime, 200);
+      audioRef.current.pause();
+      send({ type: 'PAUSE', anchor });
+    }
+  }
 
- const onResume = () => {
-   if (audioRef.current) {
-     const anchor = makeAnchor(audioRef.current.currentTime, 250);
-     audioRef.current.play().catch(() => { });
-     send({ type: 'RESUME', anchor });
-   }
- }
+  const onResume = () => {
+    if (audioRef.current) {
+      const anchor = makeAnchor(audioRef.current.currentTime, 250);
+      audioRef.current.play().catch(() => { });
+      send({ type: 'RESUME', anchor });
+    }
+  }
 
- const onSeek = (newTime: number) => {
-   if (audioRef.current) {
-     audioRef.current.currentTime = newTime;
-     const anchor = makeAnchor(newTime, 250);
-     send({ type: 'SEEK', anchor });
-   }
- }
+  const onSeek = (newTime: number) => {
+    if (audioRef.current) {
+      audioRef.current.currentTime = newTime;
+      const anchor = makeAnchor(newTime, 250);
+      send({ type: 'SEEK', anchor });
+    }
+  }
 
- const onRateChange = (newRate: number) => {
-   if (audioRef.current) {
-     audioRef.current.playbackRate = newRate;
-     const anchor = makeAnchor(audioRef.current.currentTime, 250);
-     send({ type: 'RATE', playbackRate: newRate, anchor });
-   }
- }
+  const onRateChange = (newRate: number) => {
+    if (audioRef.current) {
+      audioRef.current.playbackRate = newRate;
+      const anchor = makeAnchor(audioRef.current.currentTime, 250);
+      send({ type: 'RATE', playbackRate: newRate, anchor });
+    }
+  }
 
- const playDialog = (dialogIndex: number) => {
-   if (!currentSceneData?.dialogs || dialogIndex < 0 || dialogIndex >= currentSceneData.dialogs.length) {
-     setIsPlaying(false);
-     return;
-   }
+  const playDialog = (dialogIndex: number) => {
+    if (!currentSceneData?.dialogs || dialogIndex < 0 || dialogIndex >= currentSceneData.dialogs.length) {
+      setIsPlaying(false);
+      return;
+    }
 
-   setCurrentCueIndex(dialogIndex);
-   const dialog = currentSceneData.dialogs[dialogIndex];
+    setCurrentCueIndex(dialogIndex);
+    const dialog = currentSceneData.dialogs[dialogIndex];
 
-   if (audioRef.current) {
-     const src = dialog.audioFile;
-     audioRef.current.src = src.startsWith('/Audio') ? `/public${src}` : src;
-     onPlayCue(Number(currentScene), dialogIndex, 0, playbackSpeed);
-     setIsPlaying(true);
-     setDuration(audioRef.current?.duration || dialog.duration);
-   }
+    let anchor: Anchor;
+    if (audioRef.current) {
+      const src = dialog.audioFile;
+      audioRef.current.src = bustCache(src.startsWith('/Audio') ? src : `/Audio/${src}`);
+      anchor = onPlayCue(Number(currentScene), dialogIndex, 0, playbackSpeed);
+      setIsPlaying(true);
+      setDuration(audioRef.current?.duration || dialog.duration);
+    } else {
+      anchor = onPlayCue(Number(currentScene), dialogIndex, 0, playbackSpeed);
+    }
 
-   // Notify backend current state (Express /update)
-   try {
-     fetch('/update', {
-       method: 'POST',
-       headers: { 'Content-Type': 'application/json' },
-       body: JSON.stringify({ scene: currentScene, cueIndex: dialogIndex })
-     });
-   } catch (err) {
-     // ignore
-   }
- };
+    // Notify backend current state (Express /update)
+    try {
+      fetch('/update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ scene: currentScene, cueIndex: dialogIndex, isPaused: false, anchor })
+      });
+    } catch (err) {
+      // ignore
+    }
+  };
 
- const togglePlayPause = () => {
-   if (isPlaying) {
-     onPause();
-     setIsPlaying(false);
-   } else {
-     if (audioRef.current && audioRef.current.src) {
-       onResume();
-       setIsPlaying(true);
-     } else {
-       playDialog(currentCueIndex);
-     }
-   }
- };
+  const togglePlayPause = () => {
+    if (isPlaying) {
+      onPause();
+      setIsPlaying(false);
+    } else {
+      if (audioRef.current && audioRef.current.src) {
+        onResume();
+        setIsPlaying(true);
+      } else {
+        playDialog(currentCueIndex);
+      }
+    }
+  };
 
- // Update playback rate if changed
- useEffect(() => {
-   if (audioRef.current) {
-     audioRef.current.playbackRate = playbackSpeed;
-   }
- }, [playbackSpeed]);
+  // Update playback rate if changed
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.playbackRate = playbackSpeed;
+    }
+  }, [playbackSpeed]);
 
- // Listen for audio events to update UI and handle auto-play
- useEffect(() => {
+  // Listen for audio events to update UI and handle auto-play
+  useEffect(() => {
    const audio = audioRef.current;
    if (!audio) return;
 
