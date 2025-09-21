@@ -9,7 +9,7 @@ services:
     ports:
       - "5174:5174"
     # Uncomment for live-reload style development inside container (optional)
-    # volumes:
-    #   - ./:/app
-    #   - /app/node_modules
-    # command: sh -c "npm run build && npm run server"
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: npm run dev:docker

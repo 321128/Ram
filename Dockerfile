@@ -9,7 +9,7 @@ RUN npm ci || npm install
 COPY . .
 
 # Build frontend and backend
-RUN npm run build:all
+# No build step needed for dev:docker, as volumes will mount source
 
 EXPOSE 5174
 
