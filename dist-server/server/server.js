@@ -68,6 +68,7 @@ app.use('/public/Audio', express.static(path.join(ROOT_DIR, 'public/Audio'), {
         res.set('Expires', '0');
     }
 }));
+app.use('/public', express.static(path.join(ROOT_DIR, 'public')));
 app.use('/public', express.static(publicDir));
 // 3a) Serve built assets at root (so /assets/*.js works everywhere)
 app.use('/assets', express.static(path.join(distDir, 'assets'), { immutable: true, maxAge: '1y' }));

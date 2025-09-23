@@ -245,43 +245,36 @@ export default function FrontX() {
   return (
     <div className="min-h-screen grid place-items-center bg-black text-white">
       {!ready ? (
+        // Before Tap to Start
         <div className="flex flex-col items-center gap-4">
-          <img src="/poster.jpg" className="w-64 rounded-2xl" />
-          <h1 className="text-5xl font-bold text-white">Hamare Ram</h1>
-          <div className="flex gap-2">
-            <button
-              onClick={() => setLang('hi')}
-              className={`px-4 py-2 rounded-lg ${lang === 'hi' ? 'bg-blue-600 text-white' : 'bg-gray-800 text-gray-300'}`}
-            >
-              Hindi
-            </button>
-            <button
-              onClick={() => setLang('en')}
-              className={`px-4 py-2 rounded-lg ${lang === 'en' ? 'bg-blue-600 text-white' : 'bg-gray-800 text-gray-300'}`}
-            >
-              English
-            </button>
-          </div>
+          <img src="/public/poster.jpg" className="w-64 rounded-2xl" />
+          <select
+            className="bg-gray-800 p-2 rounded"
+            value={lang}
+            onChange={(e) => setLang(e.target.value as Lang)}
+          >
+            <option value="hi">Hindi</option>
+            <option value="en">English</option>
+          </select>
           <button
-            onClick={() => {
-              setReady(true);
-              if (audioRef.current) {
-                audioRef.current.muted = false; // ensure unmuted
-              }
-            }}
+            onClick={() => setReady(true)}
             className="px-6 py-3 rounded-2xl bg-white text-black"
           >
             Tap to Start
           </button>
-          <p className="text-xs opacity-70">Keep screen on for uninterrupted audio.</p>
+          <p className="text-xs opacity-70">
+            Keep screen on for uninterrupted audio.
+          </p>
         </div>
       ) : (
-        <>
+        // After Tap to Start
+        <div className="flex flex-col items-center gap-4">
+          <img src="/public/poster.jpg" className="w-64 rounded-2xl" />
           <audio ref={audioRef} preload="auto" />
           <div className="fixed bottom-3 text-xs opacity-60">
             synced offset: {Math.round(offsetMs)} ms
           </div>
-        </>
+        </div>
       )}
     </div>
   );

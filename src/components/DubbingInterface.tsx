@@ -8,7 +8,7 @@ interface Dialog {
   cueId: string;
   hindi: string | null;
   english: string | null;
-  audioFile: string;
+  audioFile: string | null;
   character: string | null;
   duration: number;
 }
@@ -113,7 +113,7 @@ const DubbingInterface: React.FC = () => {
     const dialog = currentSceneData.dialogs[dialogIndex];
 
     let anchor: Anchor;
-    if (audioRef.current) {
+    if (audioRef.current && dialog.audioFile) {
       const src = dialog.audioFile;
       audioRef.current.src = bustCache(src.startsWith('/Audio') ? src : `/Audio/${src}`);
       anchor = onPlayCue(Number(currentScene), dialogIndex, 0, playbackSpeed);
@@ -374,7 +374,7 @@ const DubbingInterface: React.FC = () => {
                <div
                  id={`dialog-row-hindi-${index}`}
                  onClick={() => playDialog(index)}
-                 className={`dialog-row bg-amber-900/20 border border-amber-700/50 rounded-lg p-4 cursor-pointer hover:shadow-lg flex flex-col justify-between h-full ${index === currentCueIndex ? 'ring-2 ring-amber-400' : ''}`}
+                 className={`p-2 rounded bg-gray-800/50 line-through opacity-50`}
                >
                  <div>
                    <div className="flex justify-between items-start mb-2">
