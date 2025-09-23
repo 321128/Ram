@@ -16,7 +16,7 @@
         {
           "cueId": "2",
           "hindi": "prabhu shri ram chandra ki jaiprabhu shri ram chandra ki jai",
-          "english": "Victory to Lord Shri Ram Chandra!Victory to Lord Shri Ram Chandra!",
+          "english": "prabhu shri ram chandra ki jaiprabhu shri ram chandra ki jai",
           "audioFile": "/Audio/1_2 praja.mp3",
           "character": null,
           "duration": 10
@@ -24,10 +24,10 @@
         {
           "cueId": "3",
           "hindi": "Sampoorna lok mein yash phaila Dashrath Nandan Raghurai ka. Jai ghosh goonjta chaaro disha Shri Raghav ki prabhutai ka. He Ram, yagya ho gaya poorn — ab tum samraat ho gaye ho.hai maryada ke shikhar purush, ab maha viraat ho gaye ho.Rishi Valmiki ko aashram se de aamantran bulwaya hai. He Suryavansh ke dhaval ketu, unka sandesha bhi aaya hai.Aaj yha padhare hai rishiwar — do rishi kumar bhi aaye haiWoh roop-sheel, sangeet-nishth charche nagari mein chhaye hain.Rishi Valmiki ki Ramayan woh jhoom jhoom kar gaate hain.Manav to kya, pashu-pakshi bhi sab mantramugdh ho jaate hain.Ye manmohak swar suno Ram, woh kitna meetha gaate hain.Lagta hai dono Rishi Kuvar isi sabha bhavan ko aate hain.",
-          "english": "The fame of Dashrath’s noble son now spreads across the land so wide,The call of victory rings aloud—Lord Ram is known on every side.O Ram, the sacrifice is done—today you are the king of men,The highest peak of truth and law—you shine with mighty strength again.An invite sent to sage Valmiki, his message now has reached today,O bright sun-banner of your line, he sends his blessings on the way.The holy sage has come himself, and with him both his pupils near,Their grace and song are praised so much, their name is spoken far and clear.They sing Valmiki’s Ramayan, with voices sweet, so soft, so strong,Not men alone, but beasts and birds all stop to hear that wondrous song.O Ram, just hear how sweet they sing—the sound is gentle, pure, and clear,It seems those two young sons of saints are walking to this court so near.",
-          "audioFile": "/Audio/1_3_vashishth.wav",
+          "english": " \"The fame of Dashrath’s noble son now spreads across the land so wide,The call of victory rings aloud—Lord Ram is known on every side.O Ram, the sacrifice is done—today you are the king of men,The highest peak of truth and law—you shine with mighty strength again.An invite sent to sage Valmiki, his message now has reached today,O bright sun-banner of your line, he sends his blessings on the way.The holy sage has come himself, and with him both his pupils near,Their grace and song are praised so much, their name is spoken far and clear.They sing Valmiki’s Ramayan, with voices sweet, so soft, so strong,Not men alone, but beasts and birds all stop to hear that wondrous song.O Ram, just hear how sweet they sing—the sound is gentle, pure, and clear,It seems those two young sons of saints are walking to this court so near.\"",
+          "audioFile": "/Audio/1_3_vashishth.mp3",
           "character": null,
-          "duration": 123
+          "duration": 73
         },
         {
           "cueId": "4",
@@ -40,34 +40,34 @@
         {
           "cueId": "5",
           "hindi": "Pranam rishiwar, pranam, Rishiwar,Meri ayodhya nagri mein apka swagat hai",
-          "english": "Salutations, O holy sage , Salutations, O sage,In my city of Ayodhya, I bid you welcome.",
-          "audioFile": "/Audio/1_5 ram + valmiki + ram (1 sec less).mp3",
+          "english": "Salutations, holy sage , Salutations, O sage,In my Ayodhya, I welcome you with grace",
+          "audioFile": "/Audio/1_5_ram+valmiki+ram.mp3",
           "character": null,
-          "duration": 10
+          "duration": 12
         },
         {
           "cueId": "6",
           "hindi": "Kalyan vratu Ram.Yeh Lav-Kush, jinhone itne meethe swar mein aapki geet gaaye.Yeh putra aapke hain — bal, buddhi aur vidha-nidhana.Yeh Suryavansh ke deepak hain, yeh Raghukul ke hai swabhimaan.He dharawan Dashrathnandan, in ghadiyon ka shringar karo.Apne in dono putron ko, he Raghavendra, swikaar karo.\"or Yeh Janaknandini Vaidehi, aadarsh nariyon ki Sita.Maharani Avadh Dham ki hain, he Ram, tumhaari parineeta.\"\"Mere aashram mein Raghukul ke aagaman bhavishya ko paalta hai.He Ram, Janki ne ab tak kul ka astitva sambhaala hai.\"\"Pratipal thi SiyaRam ki, ab Ram punah swikaar karo.Apni priyatama Janki ko, he Raghavendra, angikar karo.\"",
-          "english": "O vow of grace, O blessed fate—These are Lav and Kush who sing so great.With sweetest voice they sang your song,To you, O Ram, they both belong.Your sons in strength, in mind, in art,The shining flames of Suryavansh heart.O noble son of King Dashrath true,Adorn this hour, accept them too.Accept your children, both divine,O Raghavendra, sons are thine.And Janak’s child, O Sita fair,The queen of queens beyond compare.The pride of Avadh, Ram’s own wife,The guiding light of noble life.In my hermitage, their steps foretold,The future of your line uphold.O Ram, till now Ma Janki’s grace,Has kept your clan in honored place.She guarded Ram with love so pure,Now Ram accept her back once more.Embrace your Sita, faithful, true,O Raghavendra, she waits for you.",
-          "audioFile": "/Audio/1_6_valmiki.wav",
+          "english": "O Ram, virtuous in every way,These are Luv and Kush, who sing your praise today.Your sons they are — strength, wisdom, and grace,They are the pride of Suryavansh, the Raghukul’s embrace.O Dashrath’s son, adorn this hour with pride,Accept your sons, O Raghavendra, standing by your side.And here is Janaknandini, Sita, revered and wise,Queen of Avadh, your beloved, a jewel in your eyes.In my ashram, the arrival of Raghukul nurtures the future's light,O Ram, Janki has preserved the family's existence with her mightShe nurtured the legacy of SiyaRam with care,Now, O Ram, accept your wife, so fair.Embrace your beloved Janki, O Raghavendra, take her hand,For she is the queen of your heart, your forever stand",
+          "audioFile": "/Audio/1_6_valmiki.mp3",
           "character": null,
-          "duration": 119
+          "duration": 91
         },
         {
           "cueId": "7",
           "hindi": "\"Are! are, Yeh Maharani Sita hain.\"Are! yeh to janak nandini hainJanak nandini sita,Aare inki to pehle bhi agni pariksha ho chuki haihn hn inki to agni pariksha hui thitoh kya inki fhirse agni pariksha hogiHo skta hai, ho skta hai, hn hn ho sakta haihai prabhu",
-          "english": "\"Ah! Ah, this is the noble Queen Sita.\"Ah! She is Janak’s own beloved daughter.Janak’s dear child, Sita divine,Her trial by fire was seen once in time.Yes, yes, the flames she once had faced,Will she again through the fire be placed?It may be so, it may be so, yes, it may be so indeed,O Lord above…",
-          "audioFile": "/Audio/1_7 darbari.wav",
+          "english": "\"\"\"Are! are, Yeh Maharani Sita hain.\"\"Are! yeh to janak nandini hainJanak nandini sita,Aare inki to pehle bhi agni pariksha ho chuki haihn hn inki to agni pariksha hui thitoh kya inki fhirse agni pariksha hogiHo skta hai, ho skta hai, hn hn ho sakta haihai prabhu\"",
+          "audioFile": "/Audio/1_7 darbari.mp3",
           "character": null,
           "duration": 21
         },
         {
           "cueId": "8",
           "hindi": "Mere sarvasva Ram. Mere devar, meri behnein, or meri matao.He Rishigan, sakal atithi gan, he Ved mantra ke udghaata.He Avadh rajya ke saare jan, Sita ka swikrit ho pranaam.Sita ki avadhi ho gyi poori, ho gaye Dhara ke poorn kaam.\"Yeh dono Kuvar Ayodhya ke, ab hain samarth — apko lautti hoon.Apne Swami Raghunandan ko, dono ka haath thamaati hoon.\"\"Apni Sita ki trutiyon ko, he mere Naath, kshama karna.Ho bhool in putron se kabhi to, he Raghunath, kshama karna.\"\"Ho gayi avadhi poori meri, Maa Vasundhare ab aa jaao.Vishraam chahti hai Sita, apni putri ko le jaao.\"",
-          "english": "\"My all belongs to Lord Ram, my brother, my sisters, my mothers too.O sages, O honored guests, O voice of the Vedas pure and true.O people of fair Avadh land, receive Sita’s humble bow.Her destined span is now complete, the earth fulfills its vow.\"These princes two of Ayodhya’s line, are strong and wise — I now return.To my dear Lord Raghunandan’s care, their hands together I firmly join.\"\"Forgive the faults of Sita, Lord, O Master mine, I humbly pray.And if these sons have erred at all, O Raghunath, forgive I say.\"\"My time on earth is at its close, Mother Earth, O come to me.Sita longs for gentle rest, take back your daughter tenderly.\"",
+          "english": "My all, O Ram, my brothers, sisters, and my mother dear,O Rishis, honored guests, and Vedic seers, please hear.\"\"All the people of Avadh, give Sita her due acclaim,Her time on earth has ended; the world has fulfilled its aim.\"\"These two princes of Ayodhya, now capable and brave,I return them to you, holding Raghunandan’s hand to save.\"\"Forgive your Sita’s faults, O Lord, I humbly plead,If ever my sons err, O Raghunath, grant them heed.\"\"My time has ended, Mother Earth, now come to embrace,Sita seeks her rest, return your daughter to her place.\"",
           "audioFile": "/Audio/1_8_Seeta_final.mp3",
           "character": null,
-          "duration": 276
+          "duration": 76
         },
         {
           "cueId": "9",
@@ -80,111 +80,111 @@
         {
           "cueId": "10",
           "hindi": "Janmon ka bandhan tha site, kya hua — achaanak tod diya.Apne sahjan ko, Vaidehi, kyu kar akele chhod diya.Mere haathon mein jeevan ki peeda ka panna thama diya.apne Raghav ko akela kar, khud Vasudhara mein sama gayii.\"Kitne, kitne sukh-dukh, kitni peeda, hans-hans kar humne saath jiye.Kyon path mein chhod gayi akela, meri ardhangini, praan priye.\"mere, mere praan bhala ku mere tan me hain, praano se pyari sitakya is ashva megh yagya kipuran ahuti ke liye humari sita thihai mahadev, hai mahadev is jeewan ka kalkoot, apka ram nhi pee paygauski, uski sita bhoomisth ho chuki mahadev, bhoomisth ho chukiab apka ram nhi jee payga, ab apka ram nhi jee payga mahadev, ab apka ram nhi jee paygatera raghav, tera raghav nhi jee payga site, nhi jee payga ",
-          "english": " A bond of lifetimes, Sita… what has happened?  Why has it suddenly broken apart?  O Vaidehi, why… why leave your beloved alone?  Into my hands… you placed the page of pain.  Leaving your Raghav deserted… while you sank into the earth again.  So many joys, so many sorrows,  So much suffering — we shared it all!  Why did you leave me halfway, O my half, my soul, my love, my all?  How can my breath remain inside me,  When my Sita was dearer than life itself?  Was it for this Ashvamedh sacrifice…  That my Sita became the final offering?  O Mahadev! O Mahadev!  This poison of life, your Ram cannot drink…  He cannot drink, he cannot bear!  His Sita… his Sita has sunk into the ground!  O Mahadev… she is lost to the earth!  Now your Ram cannot live…  No, Ram cannot live… O Mahadev…  No more can he live!  Your Raghav… your Raghav cannot survive…  Without his Sita… he cannot stay alive…\"",
+          "english": "Generations bound, Sita, yet suddenly torn apart,Why did you leave, Vaidehi, and break my heart?In my hands, life's pain was thrust to bear,You left Raghav alone, merging with earth's air.Countless joys and sorrows, shared in every way,Why, my beloved, did you leave me today?O my soul, why does this body still remain,When Sita, dearer than life, has taken the strain?Was she the sacrifice for the sacred fire's flame,To end this ritual, was Sita to claim the blame?O Mahadev, O Lord, this life’s poison I endure,Your Ram cannot live, for Sita’s loss is sure.Her essence now rests, her form in the earth below,Now, O Mahadev, Ram cannot live, for his sorrow will grow.Your Raghav, O Sita, without you, cannot survive,He cannot live, O Sita, for without you, he’ll never thrive.\"",
           "audioFile": "/Audio/1_10_ram.mp3",
           "character": null,
-          "duration": 277
+          "duration": 134
         },
         {
           "cueId": "11",
           "hindi": "utho Ram, utho putra --- Rishivar, rishivar apne dekha --- He Suryavansh ke adhinayak, Samraat Ram vichlit na hoHe gyaan poonj, he Mahateja, he Poornakaam, vichlit na hoHe Ram, tumhaara Sita se yug-yug ka paavan naata hai.Par is dharti par har praani, jaane ke liye hi aata hai.Is jeev jagat mein praani ko, apna paatratva nibhaana hai.He Ram, ram shok ka tyaag karo, hum sabko ek din jaana hai.",
-          "english": "\"Rise, O Ram… Rise my son --- O sage, O sage, have you seen? ---O Lord of the Solar Dynasty, Kingly Ram, be not dismayed.O font of wisdom, blazing flame, complete in self, be not afraid.O Ram, your bond with Sita is sacred, eternal, forever true.But every soul upon this earth must part, and bid adieu.In this wide world each being must play the role they’re given to play.O Ram, cast off sorrow and grief — we all must depart one day.",
-          "audioFile": "/Audio/1_11+valmiki_ram_valmiki.wav",
+          "english": "Rise, O Ram, rise, O sonO Sage, O Sage, did you see?\"O Lord of the Suryavansh, Samraat Ram, do not be swayed,O repository of wisdom, O mighty one, let your focus not fade.O Ram, your sacred bond with Sita transcends the ages,Yet every being on this earth comes to face their own stages.In this world of life, each soul must fulfill its roleO Ram, forsake this sorrow, for we all must depart one day, whole\"",
+          "audioFile": "/Audio/1_11+valmiki_ram_valmiki.mp3",
           "character": null,
-          "duration": 59
+          "duration": 48
         },
         {
           "cueId": "12",
           "hindi": "Rishiwar,Mahlon se lanka tak, meri, meri Sita ne dukh hi to jhele the.Vanvaas, or vanvaas sahe, do deh pr hum rahe akele the.He Dev, hriday ka soona pan, ab apni  Sita ke bina bharoon kaise?Nishpraan deh par ayodhya ki satta ka, yeh, yeh bhaari bojh dharoon kaise? rishivaryeh bhaari bojh dharoon kaise? rishivar",
-          "english": "O Sage, from palace halls to Lanka’s walls, my Sita knew but pain,Through exile deep, in forest dark, alone we both remain.O Lord, this hollow heart of mine—without my Sita how to fill?On lifeless frame of Ayodhya’s throne, how bear such weight, O Sage, still?How bear such weight, O Sage, still?",
+          "english": "\"O Sage,From the palaces to Lanka, my Sita bore nothing but pain,Exile and exile again, in two forms we endured alone, in vain.O Lord, how can I fill the void in my heart, now that Sita is gone?How can I bear the weight of Ayodhya's throne upon this lifeless form?O Sage, how can I carry this burden, how can I endure this plight?\"",
           "audioFile": "/Audio/1_12_ram.mp3",
           "character": null,
-          "duration": 53
+          "duration": 64
         },
         {
           "cueId": "13",
           "hindi": "he Ram, jahan bhi rahi Siya, uski har saans tumhaari thi.Tum maryada ki moorat ho, woh dharm parayan naari thi.He Raghav, uske jeevan ka, dharti-aakaash tumhaara tha.Woh tumse alag kahaan par hai, jab usmein vaas tumhaara tha?Isliye Ram, tyaago vishaad, khud ko samjhaana hi hoga.Jo saump gayi Sita tumko, ab woh dharm nibhaana hi hoga.putro, utho utho,Apni baahon mein bharo Ram, apne putron se pyaar karo.Jo likha Vidhaata ne Raghav, wah param satya swikaar karo.",
-          "english": "O Ram, wherever Siya dwelt, each breath she drew was thine.You are the form of righteousness, she virtue’s holy shrine.O Raghav, her whole life’s expanse—earth and sky—was you.How could she be apart from Ram, when within her, you lived true?So Ram, forsake this grief, your heart must bear its role.What Sita placed within your hands, is now your dharm, your soul.Sons, arise, arise! Embrace your father near.O Ram, with love enfold your sons, accept fate’s truth sincere.",
+          "english": "\"O Ram, wherever Sita dwelled, her every breath was filled with you,You are the embodiment of virtue, she, the devout woman true.O Raghav, her life, both earth and sky, belonged to you,Where could she be apart from you, when in her, you always grew?Thus, Ram, cast away sorrow, you must guide yourself through,What Sita entrusted to you, now the dharma you must pursue.Sons, arise, arise,Fill your arms with love, for Ram, embrace your sons' ties.What Fate has written, O Raghav, accept that eternal truth,For that is the highest truth, forever our root.\"",
           "audioFile": "/Audio/1_13_valmiki.mp3",
           "character": null,
-          "duration": 92
+          "duration": 73
         },
         {
           "cueId": "14",
           "hindi": "Kshama karna mujhe Guruwar, pita ko rokta hoon main.Uchit hai ya nahi, samraath ko ab tokta hoon main.Hamaari prarthana hai, Raj Rajeshwar, thahar jaaye.O Dinkar Vansh ke Aalokmay, Dinkar tanik thahar jaaye.Humein in prem-poorit baahon mein le sakenge aap?Hamaare kuch prashn hain, unke uttar jo de sakenge aap?yadi pati hain, pita hain, yaa raaja hain to uttar dein. apki nyaay-nistha ka takaaza hain, to uttar dein.param vidwaan hain app, to hume kuch nhi kehnayadi Bhagwaan hain app to hume kuch nhi kehna  ",
-          "english": "Forgive me, Master, O noble sage, yet I must stay his hand.Is it fitting or not, that I, his son, should make this stand?We beg you, Sovereign, Lord of Lords, a moment now delay.O radiant heir of the Solar line, O Sun-born King, we pray.Can you take us, with arms of love, and draw us to your heart?For questions dwell within our souls—can you answers now impart?If husband, father, ruler true—you owe us just reply.Your vow of justice bids you speak, O King, deceive not, lie.If you are sage supremely wise, then silence we must keep.But if you are the Lord Divine, no mortal word we speak.",
+          "english": "\"Forgive me, Master, O noble sage, yet I must stay his hand.Is it fitting or not, that I, his son, should make this stand?We beg you, Sovereign, Lord of Lords, a moment now delay.O radiant heir of the Solar line, O Sun-born King, we pray.Can you take us, with arms of love, and draw us to your heart?For questions dwell within our souls—can you answers now impart?If husband, father, ruler true—you owe us just reply.Your vow of justice bids you speak, O King, deceive not, lie.If you are sage supremely wise, then silence we must keep.But if you are the Lord Divine, no mortal word we speak.\"",
           "audioFile": "/Audio/1_14 love(30 secs more).mp3",
           "character": null,
-          "duration": 92
+          "duration": 62
         },
         {
           "cueId": "15",
           "hindi": "Apne Pita se prashn karne ka, tumhein adhikaar hai bete.Utar jana use chahiye, jo tumhare komal hriday par bhaar hai bete.",
-          "english": "You have the right, my son, to question your father’s way.The weight that burdens your tender heart, he must lift away.",
+          "english": "\"You have the right, my son, to question your father’s way,The answer must come, to ease the burden on your heart today.\"",
           "audioFile": "/Audio/1_15_ram.mp3",
           "character": null,
-          "duration": 16
+          "duration": 19
         },
         {
           "cueId": "16",
           "hindi": "Avadh ki kulvadhu jo thi, woh Sita thi hamaari maata.Nahin maaloom tha, kya hai hamaara aap se naata.Aapke vaaste hi to, sukhon ka aakaar chhoda tha.Liya banvaas meri maata ne, ratnavesh apna chhoda tha.Hazaaron dukh sahe, pati dharm ka aanchal nahin chhoda.Aapki preeti ka Lanka mein bhi sambal nahin chhoda.Aapko jakde hue tha, kaun se abhiShaap ka daavan?Pareeksha agni ki li, kis liye phir aapne Raghav",
-          "english": "She was the bride of Avadh’s line, O Sita, our mother dear.We knew not yet what bond with you would bind our souls so near.For you alone she cast aside the palace joys she knew.In exile deep our mother walked, her royal robes she threw.Through countless trials she held her vow, her wifely dharm intact.Even in Lanka’s captive chains, her love for you stood fact.What curse, O Lord, had bound you so, what flame of fate’s cruel art?Why then demand the trial of fire, O Raghav, pierce her heart?",
+          "english": "\"The one who was the bride of Avadh's royal line, was our Sita, mother divine,Little did we know, what bond with you she did confine.For your sake alone, she left the comforts behind,Endured exile, her treasures cast aside, her fate intertwined.She bore thousands of sorrows, but never let go of her wifely duty,Even in Lanka, she never faltered in her love and beauty.Tightly bound to you, what curse did she endure?Why did she face the trial by fire, O Raghav, so pure?\"",
           "audioFile": "/Audio/1_16_kush.mp3",
           "character": null,
-          "duration": 58
+          "duration": 57
         },
         {
           "cueId": "17",
           "hindi": "Hain jitne prashn baaki, aur tum bacho unhein kar lo.Aaj is yagya-shaala mein apne sabhi prashnon ke uttar lo.Na poochha hai kisi ne jo, na mujhse waqt ne poochha.pr aaj, pr aaj saare jag ke sammukh, mere apne rakt ne poochha.dharm or nyay Raghukul ke liye aaradhye hai bete.De tumhaare sabhi prashnon ke uttar, ab yeh Raghav baadhya hain bete.",
-          "english": "Ask all the questions that remain, O children, seek them now.Within this sacred hall today, receive each answer’s vow.What none have asked, what time itself has never bid of me,Today before the world entire, my very blood asks free.",
+          "english": "\"If questions still remain, ask them all now,Today, in this sacred hall of sacrifice, find all your answers somehow.No one has asked before, nor has time itself inquired,But today, before the world, my own blood has desired.For dharma and justice are revered by the Raghukul line,Now, Raghav is bound to answer, to your questions, so divine.\"",
           "audioFile": "/Audio/1_17_ram.mp3",
           "character": null,
-          "duration": 74
+          "duration": 55
         },
         {
           "cueId": "18",
           "hindi": "To bataayein Taat, jab maa ke udar mein pal rahe the hum,Aapke vansh ke aakaar mein hi to, dhal rahe the hum.Kisliye pativrata maa ko, Raaja ram ne ,banvaas bheja tha?Yeh kaisa kruur nirnay tha, ya patthar ka kaleja tha?Nahin socha, nhi socha  ki aise mein, kahaan jaayegi humari maa?Akele vano mein kaise, reh paayegi humari maa?Satya ka singh, mrigochchhobha hua samraat ke aage.Pati ka dharm bhi bauna hua, samraat ke aage.",
-          "english": "Then tell us, Father, when within our mother’s womb we grew,Were we not shaped in the form of your noble lineage too?Why did King Ram send forth our mother, faithful, pure, and true?Was it a cruel decree of stone, a heart unfeeling too?Did you not think—where would she go, abandoned, cast away?Alone within the forest wild, how could our mother stay?The lion of truth turned deer at once, when faced with kingdom’s call.Even husband’s dharm grew small and weak, before the throne’s great wall.",
+          "english": "\"Then tell us, Father, when within our mother’s womb we grew,Were we not shaped in the form of your noble lineage too?Why did King Ram send forth our mother, faithful, pure, and true?Was it a cruel decree of stone, a heart unfeeling too?Did you not think—where would she go, abandoned, cast away?Alone within the forest wild, how could our mother stay?The lion of truth turned deer at once, when faced with kingdom’s call.Even husband’s dharm grew small and weak, before the throne’s great wall.\"",
           "audioFile": "/Audio/1_18 lav (15 sec less).mp3",
           "character": null,
-          "duration": 63
+          "duration": 48
         },
         {
           "cueId": "19",
           "hindi": "Nahin hum samjh paaye pyaar ki yeh sanhita, Raghav.Abhaaga kar diya beton ko, he kaise pita Raghav?",
-          "english": "We could not grasp this law of love, O Raghav, Lord divine.Unblessed, abandoned sons you made—what father calls this thine?",
+          "english": "\"We could not grasp this bond of love, O Raghav, so divine,How could a father abandon his sons, O Raghav, in such a sign?\"",
           "audioFile": "/Audio/1_19_kush.mp3",
           "character": null,
-          "duration": 17
+          "duration": 15
         },
         {
           "cueId": "20",
           "hindi": "Abhi lagta hai taskaran mein prashnon ke bahut se teer baaki hain.Abhi lagta hai apne pita se prashn krne, kuch aur gambhir baaki hain.",
-          "english": "It seems within this quiver still, many arrows of questions stay.It seems of our own father yet, some graver doubts we must convey.",
+          "english": "\"it seems, in the hearts of thieves, many arrows of questions remain,it seems, there are deeper questions yet, to ask of our father’s reign\"",
           "audioFile": "/Audio/1_20_ram.mp3",
           "character": null,
-          "duration": 21
+          "duration": 17
         },
         {
           "cueId": "21",
           "hindi": "Satya kehte hain! Yeh socha kabhi? ki Kaise pale hain hum?Dahakti aag par nange payon kaise chale hain hum?yadi Guruwar ne humko, pyaar se paala naa hota.to Aaj yeh aapse koi, poochhne waala naa hota.Jo khoya hai, bataayein humko, woh dhan de sakenge aap?Kahiye humko hamaara beeta bachpan, de sakenge aap?Shakti ke saamne nirbal, sada asahaay hai Raajan.Ek abla se, bachchon se — yeh kaisa nyaay hai Raajan?",
-          "english": "They call you Truth! But tell us, thought you ever how we grew?Barefoot upon the burning coals—such trials we labored through.Had not our Master raised us with his love, his patient care,Then none today would stand before to question you so bare.Can you return what we have lost, the treasure torn away?O tell us, can you give us back our childhood’s fleeting day?Against the strong, the weak must bow, defenseless, brought to shame.From helpless mother and her sons—what justice can you claim?",
+          "english": "\"Truth be told! Have you ever wondered how we’ve grown,How we’ve walked barefoot through the burning fire, all alone?Had the Guru not raised us with love and care,Today, no one would be here, asking these questions fair.What has been lost, can you return that treasure?Can you give back to us our lost childhood, with all its pleasure?Before power, the weak are always helpless, O King,What justice is this, to let children suffer such a thing?\"",
           "audioFile": "/Audio/1_21_luv.mp3",
           "character": null,
-          "duration": 51
+          "duration": 46
         },
         {
           "cueId": "22",
           "hindi": "Rajan, Yahaan jo Ashwamedh yagya, jo Raajan, apne rachaaya hai.Thi jeevit, meri maa, pr unki, swarn pratima ko bithaaya hai.Diya banvaas ghar se sa, hriday se bhi diya Raghav.Bhala kis dosh ka prashodh, humari maa se le liya Raghav?Hriday par itne apmaanon ki chotey maa sah nahin paayi.Aapke saath ya phir is sansaar mein hamaari maa reh nahin paayi.",
-          "english": "O King, this Ashwamedh you decreed, this rite you set in place,While yet my mother lived, you raised her golden idol’s face.You cast her forth from hearth and home, from heart’s embrace as well, O Ram.For what imagined fault of hers did you decree such cruel dharm?Upon her heart so many wounds of insult, cut by shame, were laid.She could not bear this world, nor you—her soul in sorrow swayed.",
+          "english": "\"O King, this Ashvamedha Yajna that you have conducted,Was it meant to honor, or to see my mother affected?She was alive, yet you placed her golden statue with pride,Exiled by you, Raghav, how could you let her heart divide?You sent her away, from home and from your  heart,What fault of hers was there, to make you tear her apart?So many wounds to her heart, she could no longer endure the pain,With you, or in this world, she could not remain.\"",
           "audioFile": "/Audio/1_22_kush.mp3",
           "character": null,
-          "duration": 65
+          "duration": 45
         },
         {
           "cueId": "23",
           "hindi": "Nyaay par aur manujta par, aap upkaar kar lena.Jo uttar de sakein inka, to humse pyaar kar lena.",
-          "english": "If justice and true humanity still dwell within your part,Then answer what we ask of you—and show a father’s heart.",
+          "english": "\"Be kind to justice and humanity, O King,If you can answer them, then our love you shall bring.\"",
           "audioFile": "/Audio/1_23_luv.mp3",
           "character": null,
           "duration": 11
@@ -192,58 +192,58 @@
         {
           "cueId": "24",
           "hindi": "param vidwaan hain aap, to humein kuch nahi kehna.yadi Bhagwaan hain aap, to humein kuch nahi kehna.",
-          "english": "If you are but a sage supreme, then nothing we shall say.If you indeed are God Himself, our words must fall away.",
+          "english": "\"If you are a great scholar, so we have nothing to say,If you are a God, then we have nothing to convey.\"",
           "audioFile": "/Audio/1_24_luv+kush (make overlap).mp3",
-          "character": null,
-          "duration": 10
-        },
-        {
-          "cueId": "25",
-          "hindi": "shaant baalak,  shaantWaha sab prashn mit jaate, jahaan sneh rehta hai.Aur waha uttar nhi hote, jha tanik bhi sandeh rehta hai.Satya aur dharm ke maarg par har pal vicharte hain.kya Kabhi Gurudev, Shri Ram par aakshit karte hain?aur yadi apne prashnon ke uttar tum pita se aaj paa jaoge?To kya vishwas karlen hum sabhi ki tum dono maan jaoge?",
-          "english": "Be calm, my sons, be calm—where love resides, all doubts subside.But where suspicion lingers still, no answers can abide.On paths of truth and righteous law my steps are ever found.Would holy Gurudev ever cast on Ram a doubting sound?And if from father’s lips today your answers all are won,Shall we then trust, O tell me true, that peace will crown my sons?",
-          "audioFile": "/Audio/1_25_LAKSHMAN.mp3",
-          "character": null,
-          "duration": 41
-        },
-        {
-          "cueId": "26",
-          "hindi": "Nhi Lakshman, yeh Awashyak nhi hai. --- kshama kare bhaiya --- Lakshman --- yeh ati awashyak hai. --- nahi putr",
-          "english": "No, Lakshman—this is not required. --- Forgive me, brother. --- Lakshman --- This is most essential. --- No, my son.",
-          "audioFile": "/Audio/1_26_ram_lakshman_ram_lakshman_ram.mp3",
-          "character": null,
-          "duration": 11
-        },
-        {
-          "cueId": "27",
-          "hindi": "Ho tum jis vansh ke gaurav ab main unhi ko bulata hoon.Unhi se saare sandehon ko main jad se mitaata hoon.Jisne tej hamare vansh ne vistaar paaya hai.Tumhari deh tak jinka lahoo chal kar ke aaya hai.ab Wahi denge sabhi uttar, unhi ka dhyaan karta hoon.Main tambhaari Diwakar Surya ka aahvaan karta hoon.om suryay namah!om suryay namah!",
-          "english": "The glory of the line you bear—I call upon that name.From them shall every doubt be crushed, their truth consumes all shame.From them our clan drew shining light, its radiance spread afar.Their very blood now courses still within your veins, my star.From them shall come the final word, to them my thoughts ascend.I summon now our Sun Divine, on whom all worlds depend.Om, O Sun, we bow!Om, O Sun, we bow!",
-          "audioFile": "/Audio/1_27_lakshman.mp3",
-          "character": null,
-          "duration": 56
-        },
-        {
-          "cueId": "28",
-          "hindi": "pranam pitamah, pranam surya dev pranam",
-          "english": "Salutations, grandsire…Salutations, O Sun Divine… salutation!",
-          "audioFile": "/Audio/1_28_ram.mp3",
-          "character": null,
-          "duration": 7
-        },
-        {
-          "cueId": "29",
-          "hindi": "Utho ram --- pitamah -- pranam pitamah",
-          "english": "Rise, O Ram --- Grandsire --- Salutations, grandsire",
-          "audioFile": "/Audio/1_29_suryadev_ram_luv.mp3",
           "character": null,
           "duration": 8
         },
         {
+          "cueId": "25",
+          "hindi": "shaant baalak,  shaantWaha sab prashn mit jaate, jahaan sneh rehta hai.Aur waha uttar nhi hote, jha tanik bhi sandeh rehta hai.Satya aur dharm ke maarg par har pal vicharte hain.kya Kabhi Gurudev, Shri Ram par aakshit karte hain?aur yadi apne prashnon ke uttar tum pita se aaj paa jaoge?To kya vishwas karlen hum sabhi ki tum dono maan jaoge?",
+          "english": "\"Quiet, my child, quiet,There, where love exists, all questions fade away,And answers are found, where no doubt can stay.On the path of truth and righteousness, we tread each day,Does ever, O Gurudev, Shri Ram waver or stray?And if today, you receive answers to your questions from your father,Shall we all believe that you, together, will follow this path thereafter?\"",
+          "audioFile": "/Audio/1_25_lakshman.mp3",
+          "character": null,
+          "duration": 45
+        },
+        {
+          "cueId": "26",
+          "hindi": "Nhi Lakshman, yeh Awashyak nhi hai. --- kshama kare bhaiya --- Lakshman --- yeh ati awashyak hai. --- nahi putr",
+          "english": "No, Lakshman, this is not necessary.Forgive me, brotherLakshmanThis is absolutely necessary.No, my son.",
+          "audioFile": "/Audio/1_26_ram_lakshman_ram_lakshman_ram.mp3",
+          "character": null,
+          "duration": 13
+        },
+        {
+          "cueId": "27",
+          "hindi": "Ho tum jis vansh ke gaurav ab main unhi ko bulata hoon.Unhi se saare sandehon ko main jad se mitaata hoon.Jisne tej hamare vansh ne vistaar paaya hai.Tumhari deh tak jinka lahoo chal kar ke aaya hai.ab Wahi denge sabhi uttar, unhi ka dhyaan karta hoon.Main tambhaari Diwakar Surya ka aahvaan karta hoon.om suryay namah!om suryay namah!",
+          "english": "\"You belong to the lineage whose glory I now invoke,From him, I remove all doubts, and to him, my spirit spoke.It is him who has expanded the greatness of our name,And it is their blood that flows through your veins, the same.Now, he will provide all the answers, to you, I turn my mind,I call upon the radiant Sun, the source of light so kind.Om Surya Namah!Om Surya Namah!\"",
+          "audioFile": "/Audio/1_27_lakshman.mp3",
+          "character": null,
+          "duration": 59
+        },
+        {
+          "cueId": "28",
+          "hindi": "pranam pitamah, pranam surya dev pranam",
+          "english": "\"Greetings, Pitamah,Greetings, Surya Dev, Greetings!\"",
+          "audioFile": "/Audio/1_28_ram.mp3",
+          "character": null,
+          "duration": 11
+        },
+        {
+          "cueId": "29",
+          "hindi": "Utho ram --- pitamah -- pranam pitamah",
+          "english": "Rise, O Ram --- Grandsire --- Greetings, grandsire",
+          "audioFile": "/Audio/1_29_suryadev_ram_luv.mp3",
+          "character": null,
+          "duration": 13
+        },
+        {
           "cueId": "30",
           "hindi": "Tumhaare aur jag ke prashn saare jaanta hoon main.Mile uttar sabhi ko yeh hriday se maanta hoon main.Jo Ramayan likhi Rishiwar ne, jise gaakar sunaate ho.Ram or siya ki leela, jaise jag ko bataate ho.Suno, gaayi hai jo gaatha, yadi use dekh paoge.To apne chitt se sandeh ki chhaaya mitaoge.Jo aankhen dekhti hain wah, nahin milta hai vo vaani se.Tumhein uttar milenge, Ram or Siya ki kahaani se.Kintu putron,Jaise paap ke bina punya ka koi mahatva nahin hotaAur prakaash ki shreshthta, andhkaar ke kaaran hi hai.Vaise hi kisi bhi kahani mein dheerodatyanayak ka prabhutvKhalnayak ke varchasv se hi hota hai. Atah tumhaareMata aur pita ke darshan se poorv Ram katha ke paramPrataapi khalnayak se tumhein milvaata hoon.\"",
-          "english": "I know the questions in your hearts, and all the world’s as well.Each answer here I now affirm, as in my soul they dwell.The Ramayan that sages wrote, which singers chant aloud,The deeds of Ram and gentle Siya, proclaimed before the crowd—If you behold the tale they sang, with open eyes and soul,The shadows of your doubt will fade, your heart will find its whole.What eyes behold is seldom found in words mere tongues can weave;Your answers live in Ram and Siya, in stories you believe.Yet, my sons—As merit has no worth at all, unless a sin is near,And light shines brightest in the dark, when shadows still appear—So too in every tale of men, the hero’s might and graceIs measured by the villain’s power, the foe whom he must face.Therefore, before you see your sire and mother, face to face,I show to you the mightiest foe—dark Lanka’s pride, disgrace.",
+          "english": "\"I know the questions in your hearts, and all the world’s as well.Each answer here I now affirm, as in my soul they dwell.The Ramayan that sages wrote, which singers chant aloud,The deeds of Ram and gentle Siya, proclaimed before the crowd—If you behold the tale they sang, with open eyes and soul,The shadows of your doubt will fade, your heart will find its whole.What eyes behold is seldom found in words mere tongues can weave;Your answers live in Ram and Siya, in stories you believe.Yet, my sons—As merit has no worth at all, unless a sin is near,And light shines brightest in the dark, when shadows still appear—So too in every tale of men, the hero’s might and graceIs measured by the villain’s power, the foe whom he must face.Therefore, before you see your sire and mother, face to face,I show to you the mightiest foe—dark Lanka’s pride, disgrace.\"",
           "audioFile": "/Audio/1_30_suryadev (11 secs more).mp3",
           "character": null,
-          "duration": 118
+          "duration": 108
         },
         {
           "cueId": "31",
@@ -261,7 +261,7 @@
         {
           "cueId": "1",
           "hindi": "Hey Tribhuvanpati, Hey Mahakaal, Hey Vishwambhar, Hey Vishwanaath.Hey Aushadhirath, Hey Pralayankar, Hey Aashutosh, Hey Bhootnaath..Apne aaradhya Maheshwar ka vidhivaat aaradhan karta hoon.Hey Naath aapka mein Ravan saadar aavaahan karta hoon..Meri pooja, yeh aahutiyaan, Hey Mahadev sveekaar karo.Apne charnon ke sevak ka darshan dekar uddhaar karo.. ghrit aur Saakilya ki aahutiyaan poorn huyin mandodaripoornahuti ka nariyal?..",
-          "english": "O Lord of the Three Worlds, O Time Eternal, O Keeper of All, O Cosmic Breath.O Chariot of Healing, O Doom of Ages, O Swift to Grace, O Lord of Death.With solemn rite I worship now my chosen god, Mahesh divine.O Master, I, Ravan, call—accept this humble prayer of mine.These offerings, these flames of ghee—O Mahadev, receive today.Grant vision of your feet to me, uplift your servant on this way.The ghee and sacred oblations end, Mandodari attends the fire,The final gift—the coconut placed, completes the rite entire.",
+          "english": "\"O Lord of the Three Worlds, O Time Eternal, O Keeper of All, O Cosmic Breath.O Chariot of Healing, O Doom of Ages, O Swift to Grace, O Lord of Death.With solemn rite I worship now my chosen god, Mahesh divine.O Master, I, Ravan, call—accept this humble prayer of mine.These offerings, these flames of ghee—O Mahadev, receive today.Grant vision of your feet to me, uplift your servant on this way.The ghee and sacred oblations end, Mandodari attends the fire,The final gift—the coconut placed, completes the rite entire.\"",
           "audioFile": "/Audio/2_1 more modulation mid accuracy.mp3",
           "character": null,
           "duration": 101
@@ -277,53 +277,45 @@
         {
           "cueId": "3",
           "hindi": "Tha yahin nariyal vidyamaan vha kahan gaya, kya maya hai?Kya pooja khandit karne ko devon ne use churaya hai?Poornahuti bela mein sab par, nariyal kahan se laaun main?Poornahuti mein nariyal ke badle phir kya vastu chadhaun main?Mere swami ki pooja ka abhiyan nahin ruk payega.Nariyal ke badle mein Ravan apna yeh sheesh chadhayega.Main param bhakt Shiv Shankar ka, is bali se unhe rijhata hoon.Poornahuti sweekar karo Shambhu mein apna yeh sheesh chadhata hoon.",
-          "english": "The coconut was present here, but now it seems it’s gone away.What magic caused it to vanish so, what trick is here at play?Was it the gods who stole it now, to break this sacred rite?To leave the worship incomplete, to cast it into night?At this last and final moment, from where can I bring one more?What offering can I place instead, upon the altar’s floor?The worship of my Lord shall not be stopped or left undone.In place of fruit, Lord Ravan now will give his very own.A faithful servant of mighty Shiv, with sacrifice I plead.Accept, O Lord, my very head—let this final rite succeed.",
+          "english": "\"The coconut was present here, but now it seems it’s gone away.What magic caused it to vanish so, what trick is here at play?Was it the gods who stole it now, to break this sacred rite?To leave the worship incomplete, to cast it into night?At this last and final moment, from where can I bring one more?What offering can I place instead, upon the altar’s floor?The worship of my Lord shall not be stopped or left undone.In place of fruit, Lord Ravan now will give his very own.A faithful servant of mighty Shiv, with sacrifice I plead.Accept, O Lord, my very head—let this final rite succeed.\"",
           "audioFile": "/Audio/2_3_ravan (20 sec less).mp3",
           "character": null,
           "duration": 53
         },
         {
           "cueId": "4",
-          "hindi": "Shiv Tandav",
-          "english": "Shiv Tandav",
-          "audioFile": "/Audio/2_4 Shiv Tandav.wav",
-          "character": null,
-          "duration": 137
-        },
-        {
-          "cueId": "5",
           "hindi": "Kar sakta koi bhakt nahi tune jo kar dikhlaya hai.Poornahuti mein tune mujhko apna hi sheesh chadhaya hai.param bhakti ka yeh divya roop, ab tak na kisi ne dekha hai.Praanon ka arpan kar dala, kheenchi bhakti ki rekha hai..Tera ye balidan amar hove aashish tujhe main deta hoon.Ek sheesh chadhaya hai tune, das sheesh tujhe main deta hoon..Man ke vikaar ke ashwon ki tu tham sake vallgayen bhi.Iislie hai ravan Das sheesh hi nahi deta hoon bees bhujaayen bhi.. Aao bhakt raaj aa daskhandar, kritaarth apna jeevan kar le.poorn kr Apni manokamna, aakar mere darshan kar le..",
-          "english": "No devotee has ever done the deed that you have shown today.For in the final sacrifice, your very head you gave away.Such radiant faith, such holy form, the world has never known.You offered up your very life, a line of love was shown.This sacrifice shall live for all, my blessing now you gain.One head you gave in offering, ten heads I give in name.And may you bridle, firmly hold, the wild steeds of the mind.So not ten heads alone I grant, but twenty arms combined.Come forth, O king of devotees, O conqueror renowned.Fulfil your heart’s most secret wish, behold me where I’m found.",
+          "english": "\"No devotee has ever done the deed that you have shown today.For in the final sacrifice, your very head you gave away.Such radiant faith, such holy form, the world has never known.You offered up your very life, a line of love was shown.This sacrifice shall live for all, my blessing now you gain.One head you gave in offering, ten heads I give in name.And may you bridle, firmly hold, the wild steeds of the mind.So not ten heads alone I grant, but twenty arms combined.Come forth, O king of devotees, O conqueror renowned.Fulfil your heart’s most secret wish, behold me where I’m found.\"",
           "audioFile": "/Audio/2_5_shiv.mp3",
           "character": null,
           "duration": 85
         },
         {
-          "cueId": "6",
+          "cueId": "5",
           "hindi": "\"De diya aaj jitna Prabhu ne, kya main uska adhikari hoon.  He Nath aapke charnon ka main aajivan abhari hoon.  Ho gaya dhanya mera jeevan, har swans bhakti mein dhal sakoon.  He Nath aapki kripa rahe, main sada yahi vrat pal sakoon.\"",
-          "english": "All that the Lord has given me—am I worthy of such grace?O Master, at your holy feet, my thanks shall find their place.My life is blessed, my breath transformed, in worship let it stay.O Lord, with mercy guard me so, this vow be mine each day.",
+          "english": "\"All that the Lord has given me—am I worthy of such grace?O Master, at your holy feet, my thanks shall find their place.My life is blessed, my breath transformed, in worship let it stay.O Lord, with mercy guard me so, this vow be mine each day.\"",
           "audioFile": "/Audio/2_6 Ravan.mp3",
           "character": null,
           "duration": 25
         },
         {
-          "cueId": "7",
+          "cueId": "6",
           "hindi": "Sarvasva samarpit, jo kar de, dekha aisa anurakt nahi.  Teeno lokon mein hai Ravan, tum jaisa mera koi bhakt nahi.  Sarvadhik nikat hrday ke main, Ravan tumko hi paata hoon.  aaj prasannchit, teri Lanka se mein jaata hoon.",
-          "english": "One who surrenders all he owns, such love I’ve never known to see.In all the three great worlds, O Ravan, no truer devotee than thee.Most closely to my heart I find, O Ravan, it is only you.Today content, from Lanka’s gates, I take my leave with blessings true.",
+          "english": "\"One who surrenders all he owns, such love I’ve never known to see.In all the three great worlds, O Ravan, no truer devotee than thee.Most closely to my heart I find, O Ravan, it is only you.Today content and pleased, from Lanka’s gates, I take my leave with blessings true.\"",
           "audioFile": "/Audio/2_7_shiv.mp3",
           "character": null,
           "duration": 37
         },
         {
-          "cueId": "8",
+          "cueId": "7",
           "hindi": "He Asutosh do ghadi ruko, ek prayojan shesh abhi.  Swami ke pavon charnon mein, hai ek nivedan shesh abhi.  He Nath aapke charnon mein, bhavon ke kusum chadhata hoon.  Shiv Tandav Stotr likha maine, vah gakar tumhe sunata hoon.",
-          "english": "O Lord Ashutosh, pause awhile, one purpose yet remains.Before my Master’s sacred feet, one humble plea sustains.O Lord, upon your holy feet, my flowers of feeling fall.The Hymn of Shiva’s mighty dance I wrote—I sing it all.",
+          "english": "\"O Lord Ashutosh, pause awhile, one purpose yet remains.Before my Master’s sacred feet, one humble plea sustains.O Lord, upon your holy feet, my flowers of feeling fall.The Hymn of Shiva’s mighty dance I wrote—I sing it all.\"",
           "audioFile": "/Audio/2_8 raavan.mp3",
           "character": null,
           "duration": 26
         },
         {
-          "cueId": "9",
+          "cueId": "8",
           "hindi": "uchit hai lanka pati, Yeh abhilasha bhi poorn kar lo.",
           "english": "It is just, O Lord of Lanka—fulfil this longing too.",
           "audioFile": "/Audio/2_9_shiv.mp3",
@@ -331,7 +323,7 @@
           "duration": 7
         },
         {
-          "cueId": "10",
+          "cueId": "9",
           "hindi": "Shiv Tandav",
           "english": "Shiv Tandav",
           "audioFile": "/Audio/2_10 shiv tandav stotram.wav",
@@ -339,15 +331,15 @@
           "duration": 132
         },
         {
-          "cueId": "11",
+          "cueId": "10",
           "hindi": "Teri vaani, teri shraddha, tera yeh kavya amar hove,Hey bhakti teri advitiya vats, teri yeh shakti prakhar hove..Main hoon atishay prasann tujh par, jag mein phaile tera prakash,Jo hai ajay jag mein Ravan, deta hoon tujhko Chandrahas..Jab dhara-dharam ki raksha hit, isko das-kanth chalayega,Is Chandrahas ka hey Ravan, koi vaar na khali jayega..",
-          "english": "Your voice, your faith, your hymn of praise shall live in endless flame.O child, your matchless devotion shines, your power earns its name.I stand delighted, pleased with you—let all the world be shown.To you I give the Chandrahas, where Ravan’s might is known.When earth and dharm call out for guard, this blade your hands shall wield.And every stroke of Chandrahas shall never leave unsealed.",
+          "english": "\"Your voice, your faith, your hymn of praise shall live in endless flame.O child, your matchless devotion shines, your power earns its name.I stand delighted, pleased with you—let all the world be shown.To you I give the Chandrahas, where Ravan’s might is known.When earth and dharm call out for guard, this blade your hands shall wield.And every stroke of Chandrahas shall never leave unsealed.\"",
           "audioFile": "/Audio/2_11_shiv.mp3",
           "character": null,
           "duration": 46
         },
         {
-          "cueId": "12",
+          "cueId": "11",
           "hindi": "Ho gayi dhanya main, Prananath ki ye kaisi adbhut pooja hai,Mere Swami jaisa koi is jag mein aur na dooja hai.Pehnaya di Bhole Shankar ko bhavon ki bhaktimayi mala,Nariyal nahi uplabdh hua apna hi sheesh chadha dala.Avtardani ne Swami ko di bees bhuja das sheesh diye,Hokar prasann Jagdishwar ne ashishon par aashish diye.",
           "english": "I am made blessed, O Lord of life—what wondrous rite is this!No other in this world exists, like my dear Master’s bliss.To gentle Shankar you have placed a garland woven true,When no coconut could be found, your very head you drew.The Giver of forms bestowed on you ten heads and twenty arms,And pleased, the Lord of all the worlds gave blessings without qualms.",
           "audioFile": "/Audio/2_12_Mandodari.mp3",
@@ -355,7 +347,7 @@
           "duration": 40
         },
         {
-          "cueId": "13",
+          "cueId": "12",
           "hindi": "Aaradhya Dev Shiv Shankar to, manda, ghat-ghat ke vaasi hai,Woh Asutosh Avtardani bas bhavon ke abhilashi hai..Itna kuch mujhe diya Prabhu ne, de gaye saath mein Chandrahas,Mere pranon mein Pran-Priya bhar gaye amarta ka prakash..",
           "english": "My chosen Lord, great Shiv Shankar, dwells within each beating heart.Ashutosh, the giver of forms, seeks only love’s true part.So much my Master has bestowed, and placed in hand Chandrahas,He filled my life with deathless light, eternal breath to last.",
           "audioFile": "/Audio/2_13_ravan (8 sec less).mp3",
@@ -363,7 +355,7 @@
           "duration": 21
         },
         {
-          "cueId": "14",
+          "cueId": "13",
           "hindi": "Jo anupam bhakti mili usmein karuna ko aatmasat kar lo,Jo paya punya prakash Nath, usse jagti ka tam har lo..Apni in mahashaktio se dukhiyon ka Prabhu paritaran karo,Kalyan roop Lanka Naresh is tribhuvan ka kalyan karo..Jab peedit aur dukhi praani Das-kandhar se sukh payenge,To bhay se nahi swami,prem se gun-gaan tumhara gayenge..",
           "english": "The peerless faith that you have won—let mercy fill its place.The light of virtue, Lord, now shine, and drive the world’s dark trace.With all your mighty powers, O King, the suffering souls defend.As form of good, O Lord of Lanka, let all three worlds befriend.When troubled, grieving hearts shall find their comfort at your side,Not fear but love, O Sovereign Lord, shall sing your praise worldwide.",
           "audioFile": "/Audio/2_14_Mandodari.mp3",
@@ -371,7 +363,7 @@
           "duration": 41
         },
         {
-          "cueId": "15",
+          "cueId": "14",
           "hindi": "Tum meri aatma-shakti Manda, pranon se adhik maanta hoon,Path mera thoda bhinn priya mein dharma-adharm jaanta hoon..Kya punya-paap, kya reeti-neeti Devi iska hai gyaan mujhe,Main rakhsa sanskriti ka swami, jiska rakhna hai maan mujhe..Ye daya, kshama,  karuna, mamata ye badhak hain anushasan ke,Ye Arya sanskriti ke gun hain, ye sab hain karm sanatan ke..Main asur sanskriti ka swami, atank bhaav mein rehta hai,Hinsa, chal-kapat, krodh Devi mere swabhav mein rehta hai..Manda, yeh daya-kshama lekar purusharth nahi kar sakta hoon,asuron ka raja  Ravan hoon, paramarth nahi kar sakta hoon..Jal nahi kamal ke jeevan mein jo pankh bahut aavashyak hai,Vaise hi asur sanskriti mein atank bahut aavashyak hai..",
           "english": "You are my soul’s own strength, O Manda, dearer than my breath.My path is set apart, beloved—I know both life and death.What sin or virtue, law or rite—these truths are known to me.I guard the culture I must keep, its honor bound to be.But mercy, pardon, tender love—these weaken discipline’s hand.Such traits belong to Aryan ways, eternal in their stand.I am the lord of demon-kind, in terror I reside.Deceit and anger, blood and war, within my nature bide.O Manda, with such mercy’s weight, no valor can I claim.I am the king of asura race, no higher goal my aim.As water is to lotus life, the wings it needs to grow,So too in demon’s way of life, dread’s rule must always show.",
           "audioFile": "/Audio/2_15_ravan (44 sec less).mp3",
@@ -379,7 +371,7 @@
           "duration": 66
         },
         {
-          "cueId": "16",
+          "cueId": "15",
           "hindi": "Asuri sanskriti ka swami, jaise chaho vistar karo,kintu apni ardhangi ke anumany par tanmik vichar karo..Amaratva theek hai Praneshwar par jo bhootal par aata hai,Koi kitna bhi ho mahaan Swami, samapt awasya ho jata hai..Ab wahi karo Lanka Naresh jismein nijta ka bhi hit hai,Milta hai jisko janma Nath, uski toh mrityu sunishchit hai..",
           "english": "O lord of demon’s heritage, expand your reign as you desire,But heed your queen’s consenting word, to what your heart aspires.Immortality is well, my Lord, yet here on earthly ground,However great a king may be, an end must still be found.So act, O King of Lanka now, in ways that guard your soul.For birth ensures that death shall come—this fate consumes us whole.",
           "audioFile": "/Audio/2_16_Mandodari.mp3",
@@ -387,7 +379,7 @@
           "duration": 54
         },
         {
-          "cueId": "17",
+          "cueId": "16",
           "hindi": "Hrdayeshwari satya keh rahi ho, har jeev mrityu ko paata hai,Antar itna hai jeevan mein, vah kaisa marg banata hai..Ichchhao, abhilashao se, man ke sampurn vikaro se,Is gyaan-dhyan, aur kaya se, chintan se aur vicharo se..paani hai Mujko mukti priye, uska udyog karunga main,Jeevon si mrityu nahi Manda, Ravan hoon moksh varung mein.. shambhoooooooooo",
           "english": "O Queen of heart, your words ring true—each soul meets death one day.The difference lies in how life’s path is shaped along the way.By longings, cravings of the mind, by every flaw and stain,Through wisdom, prayer, and body’s strength, through thought and soul’s refrain—Beloved, I shall strive for this: the freedom waters bring.Not die as mortals, but as Ravan, I’ll choose release and sing.Shambhoooooooooo!",
           "audioFile": "/Audio/2_17 ravan (1).mp3",
@@ -395,7 +387,7 @@
           "duration": 49
         },
         {
-          "cueId": "18",
+          "cueId": "17",
           "hindi": "end scenes",
           "english": "End scenes",
           "audioFile": "/Audio/2_18 dashanan music.wav",
@@ -429,7 +421,7 @@
           "english": "O cosmic Enchantress, O radiant bride,In Sita’s embrace, my glory I confide.Blessed is earth with Ram’s sacred name,Sanatan dharm I uphold without shame.On dharma’s path we both shall stand,Together we walk, hand in hand.Sita, I guard Raghu’s noble flame,Heir of forefathers, I honor their name.For cow, for sage, for truth, for right,I pledge my heart, my strength, my might.I, son of Dashrath, Ram by name,Today I vow this truth, this claim.Through ages past, in every clan,Wives and daughters were bound by man.Though called “ardhangini,” sacred, divine,The woman was never given her rightful sign.This broken order I now repair,O Sita, today I swear:Until my final breath is done,I vow one wife, and her alone.In faith and ritual, in festal song,Woman’s rights to man belong.She is not mere pleasure or frail disguise,She is man’s strength, his power, his rise.Nature and Spirit in balance stay,Man and woman in equal way.Without them both, creation is vain,Brahma’s cosmos incomplete remains.Woman is blessing, not worldly thing,She is mother, sister, daughter, queen.Yet still her pride some men defame,Why should she bear their spiteful shame?Why does man boast of women ten,But envy another’s glance again?In life’s great stream, all bonds must flow,Husband and wife as equals growThose who seek the faithful wife,Must vow one wife throughout their life.This truth shall last through age and time,In dharma’s law, man’s path shall shine.For woman is half of all that is,Her name stands first, her power lives.No longer Ram then Sita’s claim,From this day forth it’s Sita-Ram’s name.",
           "audioFile": "/Audio/3_3_1 ram final.mp3",
           "character": null,
-          "duration": 243
+          "duration": 0
         },
         {
           "cueId": "4",
@@ -455,7 +447,7 @@
         {
           "cueId": "2",
           "hindi": "Ramba dance",
-          "english": null,
+          "english": "Ramba dance",
           "audioFile": "/Audio/4_2 Rambha Dance.mp3",
           "character": null,
           "duration": 27
@@ -528,9 +520,9 @@
           "cueId": "11",
           "hindi": "Vasana-grast Dasakandhar ne apna aaveg nikala haiMeri lajja ko usne hi angaaron se bhar dala haiUs kaamatur ne hey Swami, rishton ka gala maroda haiMain rahi cheekhati, par mera yeh haal bana kar chhoda haiAb Main kaise yeh kalank lekar is jag ko mukh dikhlaungiApni asmita ganva karke hey priye kaise jee paungimain nhi jee paugi",
           "english": "The lust-consumed ten-headed fiend has loosed his vile desire,My honor he has scorched to ash, my soul consumed in fire.That lecher, O my Lord, has torn the sacred bonds apart,I screamed, yet he abandoned me with torment in my heart.How shall I bear this tainted scar, to face the world with pain?With honor lost, O dearest one, how can I live again?I cannot live… I cannot stay…This stain has stolen life away.",
-          "audioFile": "/Audio/4_11_rambha (5 sec more).mp3",
+          "audioFile": "/Audio/4_11_rambha.mp3",
           "character": null,
-          "duration": 49
+          "duration": 84
         },
         {
           "cueId": "12",
@@ -548,7 +540,7 @@
         {
           "cueId": "1",
           "hindi": "Lanka naresh Raavan k papachaar ko dhawast krne hetu niyati ne apni vyuh rachna kr diMaryaada purushotam Rajkumar Ram ko Raja Ram bnne se porv he niyati dawara tay ki hui ek dusri yatra pr nikalna pra",
-          "english": "To shatter the sins of Lanka’s king, of Ravan’s dark misdeed,Fate itself prepared a plan, a destined path decreed.Before Prince Ram as king could rise, in glory’s crown to reign,Destiny set another course—another journey’s chain.",
+          "english": "To eradicate the sins of Lanka's king, Ravana, destiny had already laid its path.Before Prince Ram could ascend as King Ram, fate had destined him for another journey.",
           "audioFile": "/Audio/5_1 narrator final.mp3",
           "character": null,
           "duration": 15
@@ -556,7 +548,7 @@
         {
           "cueId": "2",
           "hindi": "Nhi Kaikeyi nhi tujhe gyaat bhi hai ki tu kya var maang rahi hai?Tha sneh tujhe ram se sabse adhik, Ram to teri aankhon ka tara thaRam to tujhe hey Kaikeyi, apne pranon se bhi adhik pyara thaDe putra Bharat ko singhasan, tera ye var sweekar mujheRaghav ko van bhejkr, ho paapan baimaut na maar mujheitne Nirdayi na ho Rani, apne vachanon mein parivartan kar leParivartan nahi hai sambhav, to thoda sa to thoda sa hi sanshodhan kar leDe rajy Bharat ko hey Kaikeyi, isse mujhe parhez nahiChaudah varshon ke liye kintu tu Raghav ko van mein bhej nahi Kaikeytu Raghav ko van mein bhej rahi ",
-          "english": "No, Kaikeyi, no—do you even know what boon you seek today?Your dearest love was Ram alone, your heart’s bright guiding ray.To you, O Queen, was Ram more dear than even life’s own breath,He was the jewel within your eyes, your joy, your soul, your depth.Give Bharat now the throne, O Queen—this boon I shall accept,But banish not Lord Ram to woods—such sin leaves hearts bereft.Do not be cruel, O Rani, change the harshness of your word,If change cannot be wholly made, amend at least a part, be heard.Crown Bharat as the king, O Queen, no quarrel rests with me,But fourteen years of exile dark—send not my Ram to forest’s sea!Yet still, Kaikeyi, you decree, my Raghav banished shall be…",
+          "english": "No, Kaikeyi, no—do you even know what boon you seek today?Your dearest love was Ram alone, your heart’s bright guiding ray.To you, O Queen, was Ram more dear than even life’s own breath,He was the jewel within your eyes, your joy, your soul, your depth.Give Bharat now the throne, O Queen—this boon I shall accept,But banish not Lord Ram to woods—such sin leaves hearts bereft.Do not be cruel, O Rani, change the harshness of your word,If change cannot be wholly made, amend at least a part, and be heard.Crown Bharat as the king, O Queen, no quarrel rests with me,But fourteen years of exile dark—send not my Ram to forest’s sea!Yet still, Kaikeyi, you decree, my Raghav banished shall be ",
           "audioFile": "/Audio/5_2 Dushrat ( 3 sec more).mp3",
           "character": null,
           "duration": 71
@@ -588,7 +580,7 @@
         {
           "cueId": "6",
           "hindi": "kintu kaikeyPranam PitajiPutra Raam , Putra ramPitaji\"Hai Adhikar tumhara singhasan, hey putr use pehchano tumMera athva is paapan ka, aadesh koi na maano tum\"",
-          "english": "\"But Kaikeyi…Salutations, Father—My son, O Ram… my dearest son…Father…The throne is yours by rightful claim, O son, your crown, your due,Reject the word of sin or mine—heed not what’s false, nor true.\"",
+          "english": "\"But Kaikeyi,Pranam, Father,Son Ram, Son Ram,Father,\"\"That throne is your rightful claim, my son, recognize it,But my command, this sin of mine, you must not accept.\"\"\"",
           "audioFile": "/Audio/5_6 dushrat_ram_dushrat_ram_dushrat final.mp3",
           "character": null,
           "duration": 41
@@ -596,7 +588,7 @@
         {
           "cueId": "7",
           "hindi": "Adhikar nahi seekha maine, pitaji kartavya apke putra ko aata haiRaghuvanshi rakt, pran jaye par apne vachan vo nibhata haiMujhse maa ne kuch to chaha, yeh Ram sada abhaari haiVanvaas mere liye pita, mangalmay hai hitkaari haiPrasthan karun main kanan ko, do mujhko aadesh pitaRaghukul ki vachanbaddhta ka, yeh hoga iss jag ko sandesh pitaAgya dijeye pitajiMahadev         Sitey, Sitey mujhe vidaai do, mata ka aadesh nibhana haiChaudah varshon ke liye hey pran priye ab mujhe van jaana hai",
-          "english": "I learned not to claim my rights, O Father—duty is my way,The son of Raghu keeps his word, though life itself decay.What Mother asks, I shall obey, for Ram is ever true,This exile is no curse to me, but blessing born anew.Permit me now to journey forth, command me to the wild,The vow of Raghu’s noble line shall echo undefiled.Grant me your leave, O Father dear—O Mahadev, be witness here.       Sita, O Sita, bid me farewell, my love, obey I must,A mother’s word compels me now, in dharma I place trust.For fourteen years, beloved wife, my path to forest lies,O dearest heart, I go from you, with tears within your eyes.",
+          "english": "I learned not to claim my rights, O Father—duty is my way,The son of Raghu keeps his word, though life itself decay.What Mother asks, I shall obey, for Ram is ever true,This exile is no curse to me, but blessing born anew.Permit me now to journey forth, command me to the wild,The vow of Raghu’s noble line shall echo undefiled.Grant me your leave, O Father dear—O Mahadev, be witness here.\"Sita, O Sita, bid me farewell, my love, obey I must,A mother’s word compels me now, in dharma I place trust.For fourteen years, beloved wife, my path to forest lies,O dearest heart, I go from you, with tears within your eyes.\"",
           "audioFile": "/Audio/5_7 and 5_8 ram and ram final.mp3",
           "character": null,
           "duration": 112
@@ -612,7 +604,7 @@
         {
           "cueId": "10",
           "hindi": "\"Site, nahin, Van ki pathreeli kathin bhoomi, hinsak pashu, asuron ki mayaKantakarini durgam rahein, aatank aur bhay ki chhayaTum komal ho sukumari ho, yeh kasht nahi sah paogiVan ka jeevan asurakshit hai, tum vahan nahi reh paogiVarsha, garmi, bheeshan sardi tumhare tan ko nishpran banayegi      \"\"Raghav\"\"Yeh phoolon si komal kaya Vaidehi murjha jayegiBas chaudah varsh bitte hi, main laut Avadh ko aaungaAur aakrke apni Janaki ko apne hridhey lagaunga\"",
-          "english": "\"Sita, no! The forest holds harsh stone and rugged ground,With beasts of prey and demons’ snares that ever lurk around.The paths are thorny, steep, and dark, with terror’s shadow near,Such life of peril, tender one, you could not bear, I fear.The rains, the heat, the biting cold would drain your fragile breath,Such trials, dearest, would wear you down and bring you close to death.\"\"Raghav\"\"This body, soft as blossoms, O Vaidehi, would wither away,But when fourteen years have passed, I shall return one day.And coming back to Ayodhya’s throne, my Sita I shall hold,Close to my heart, my Janaki—my joy, my life, my soul.\"",
+          "english": "Sita, no! The forest holds harsh stone and rugged ground,With beasts of prey and demons’ snares that ever lurk around.The paths are thorny, steep, and dark, with terror’s shadow near,Such life of peril, tender one, you could not bear, I fear.The rains, the heat, the biting cold would drain your fragile breath,Such trials, dearest, would wear you down and bring you close to death.\"Raghav\"\"This body, soft as blossoms, O Vaidehi, would wither away,But when fourteen years have passed, I shall return one day.And coming back to Ayodhya’s throne, my Sita I shall hold,Close to my heart, my Janaki—my joy, my life, my soul.\"",
           "audioFile": "/Audio/5_10_ram_sita_ram.mp3",
           "character": null,
           "duration": 92
@@ -649,7 +641,7 @@
         {
           "cueId": "1",
           "hindi": "Ider Shri Ram, Sita aur Laksham sahit van k oor pransthan kr rhe haur uder Raavan ne apni he bhen Srupnakha k pati Vidhujiha k nirmam hatya kr daalijiske baad ashaya Srupnakha ne Lanka ko Khul devi Nikumbala devi ko pukara",
-          "english": "On one side, Shri Ram, along with Sita and Lakshman, was proceeding towards the forest.And on the other side, Ravan mercilessly killed Vidyutjivha, the husband of his own sister Shurpanakha.After this cruel act, the helpless Shurpanakha called upon the guardian goddess of Lanka, Nikumbala Devi.",
+          "english": "On one side, Shri Ram, along with Sita and Lakshman, was proceeding towards the forest.And on the other side, Ravan mercilessly killed Vidyutjivha, the husband of his own sister Surpanakha.After this cruel act, the helpless Surpanakha called upon the guardian goddess of Lanka, Nikumbala Devi.",
           "audioFile": "/Audio/6_1_narrator.wav",
           "character": null,
           "duration": 22
@@ -697,7 +689,7 @@
         {
           "cueId": "7",
           "hindi": "Yeh sach hai beti main Lanka nagri ki raksha karti hoonLekin duskarmi Ravan ke paapon se ab main bhi darti hoonYeh hua nirankunsh mahapati, jo chahe kar sakta haiDevta, yaksh aur asuron se yeh kabhi nahi mar sakta haiShiv aur Vidhata se, tap karke isne vo var paye hainJo iska ahankar beti, paapacharon tak laye hainNhi putri Teri peeda ko dekh, main bhi peedit ho jaati hoonIss dusht k marne ka surapnaye, mein tujhe upay batalati hoon",
-          "english": "It is true, my daughter, I protect Lanka’s land,But now I fear Ravana’s sins, out of hand.He is a mighty lord, with power untold,No gods, yakshas, or demons can make him fold.By penance, he gained boons from Shiva and Fate,But his arrogance, my dear, will seal his state.Seeing your pain, I too share your sorrow,But I’ll show you the way to end this dark tomorrow.",
+          "english": "It is true, my daughter, I protecter of  Lanka’s land,But even I now, fear the sins of the wicked ravanHe has become a tyrant without restraint, doing whatever he pleasesNeither gods, nor yakshas, nor asuras can kill himthrough penance, before shiva and creater himself he received boonsthat now feed his arrogance, leading him deep into sin and corruptionNo my daughter, when I see you suffering I too feel the painbut i shall now reveal to you surpnakha, the way by which this evil one may be slain",
           "audioFile": "/Audio/6_7 Devi ( 14 sec more) .mp3",
           "character": null,
           "duration": 70
@@ -713,7 +705,7 @@
         {
           "cueId": "9",
           "hindi": "to sunno beti do kunvar Ayodhya se, is Dandak van mein aaye hainJo bade kunvar hain vah apni patni ko sang mein laye hainVeh dono patnitvadhari hai, dono maryada palak hainBeti dono avatari hain, veh danuj vansh ke ghalak hainJakar ke unhe vivah hetu, apni maya dikhlao tumMana karenge jab vo tumko, tab dono ko dhamkao tumMain dekh rahi hoon, Main dekh rahi hoonBeti Dono phir kuch aisa kar jayengeJo tujhko ang-bhang karke Lanka tak tujhe pathaengeLanka jakar Ravan ko Sita ke hit uksana tumBeti us dabmi Ravan ka bas ahankar bhadkana tumItna kar lo to samjho, tumhe badla mil jayegaYeh paapi unke hi dwara karmon ka phal pa jayega",
-          "english": "Listen, my daughter, two princes from Ayodhya have come,The elder prince brought his wife along, to this forest, they’ve come.Both are dutiful husbands, both uphold the law,They are avatars, born to slay the demon’s flaw.Show them your magic, make them fall for your trick,When they deny, threaten them with words so quick.I am watching, yes, I see,They’ll do something that will bring pain to thee.They’ll break you, then send you to Lanka’s gate,There you’ll provoke Ravana, make him seal his fate.Instigate that wicked Ravan, let his pride rise high,And in his arrogance, he will fall, oh so sly.Do this much, and you’ll see,The sinners will pay the price for their deeds, indeed.",
+          "english": "Listen, my daughter, two princes from Ayodhya have entered this forest of Dandak,The elder prince brought his wife along, with him.Both of them are devoted to their vow, both uphold dharma and mariyadaMy chils both are incarnations, destined to destroy demon raceGo to them and for the sake of marriage, display your beauty before themWhen they refuse you then threaten themI can already see, I can already see what will happenMy daughter those two will do something, that will disfigure youand in that state they will send you back to lankathen, reaching Lanka you must provoke ravan in seeta's matterdaughter you must only inflame the arrogance of that tyrant ravanif you can do just this, know that your revenge will be fulfilled for this sinner will then, meet the fruits of his own actions through them",
           "audioFile": "/Audio/6_9_devi final.mp3",
           "character": null,
           "duration": 103
@@ -734,7 +726,7 @@
         {
           "cueId": "1",
           "hindi": "Bhagwati Nikumbhla ke paramarsh aur apni vasna ke utkarsh se madant, Suparnakha ne Rajkumar Ram aur Lakshman ke sammukh pranay ke prastav rakhe. Unke dwara asvikar karne par Devi Janaki ko avarodh maanti hui, Suparnakha ne unpar aakraman kar diya. Jisse krodhit hokar Lakshman ne use nasika aur shravan vihin kar diya. Pratishodh mein ast-vyast hui Suparnakha ne mahabali Trishira, Khar aur Dushtan ki senaon sahit Shri Ram ke haathon sanhar karva kar, Ravan k pass Lanka gai.",
-          "english": "Guided by the counsel of Goddess Nikumbhala, and driven by the rise of her own desires, Shurpanakha approached Princes Ram and Lakshman with a proposal of love.When they refused her, and she saw Devi Janaki as an obstacle, Shurpanakha attacked her.Angered by this act, Lakshman struck her and cut off her nose and ears.In her rage and humiliation, Shurpanakha sought revenge.She brought the armies of the mighty Trishira, Khar, and Dushtan against Shri Ram, but they were all slain at his hands.Defeated and desperate, Shurpanakha then went to Lanka, to her brother Ravan",
+          "english": "Guided by the counsel of Goddess Nikumbhala, and driven by the rise of her own desires, Shurpanakha approached Princes Ram and Lakshman with a proposal of love.When they refused her, and she saw Devi Janaki as an obstacle, Shurpanakha attacked her.Angered by this act, Lakshman struck her and cut off her nose and ears.In her rage and humiliation, Shurpanakha sought revenge.She brought the armies of the mighty Trishira, Khar, and Dushan against Shri Ram, but they were all slain at his hands.Defeated and desperate, Shurpanakha then went to Lanka, to her brother Ravan",
           "audioFile": "/Audio/7_1_narrator.mp3",
           "character": null,
           "duration": 44
@@ -751,25 +743,25 @@
           "cueId": "3",
           "hindi": "Hey Mahavir Lanka Naresh, hey asur sarumani maharaj, hey naath apki chaya me hai, sukhi sakal ye danav samaaj,lanka se lekr tribhuvan tk, jaighosh hai apka gunj rhahey mahamanasvi, mahaprakrami mahapratapi lankeshiss dhra pr har vaqkti hai keval apko he pooj rha.",
           "english": "Hail, mighty sovereign of Lanka’s throne,Great lord of demons, in power alone.Beneath your shadow the asuras rejoice,Your name resounds as the people’s choice.From Lanka’s heart to the heavens high,Your glory thunders across the sky.O valiant, steadfast, and peerless king,All earth bows down your praise to sing.",
-          "audioFile": "/Audio/7_3 darbari.mp3",
+          "audioFile": "/Audio/7_3_darbari.mp3",
           "character": null,
-          "duration": 20
+          "duration": 29
         },
         {
           "cueId": "4",
           "hindi": "Kimchit  satya katan hai tumhara, rahe yashshvi lanka adhipati, yehi samkal ho hamaradeva de dev Mahadev jb sawam kre apka naam karanhey shiv tandav strotr racheytaaap khellaye maha pandit Ravanhey maharaj dasanan trilok vijayta aparam gyaani maha mardanihey vedo k gyata hey gesth bhrataye anuj Vibhishan sada aapka pita saman adr hai krtahey taat me sada visharva vansh k hit ki he baat krugatatha dharm aur neeti ka he margprashsht krungahey rajan jis raja k bhi rajya uske guru mantri vaid senapatiapne niji swarth hetu raja ko raja k hit se.",
           "english": "Some truth abides in the words you declare,May Lanka’s king rule long and fair.This be our vow, our steadfast claim,When Mahadev himself bestowed your name.O author of Shiva’s fierce Tandav song,Great Pandit Ravan, supreme and strong.Ten-headed monarch, victor of skies,Peerless in wisdom, mighty and wise.Knower of Vedas, learned brother revered,By loyal Vibhishan ever honored and feared.O father, I vow, in Vishrava’s line,To guard its glory through deed and sign.I shall uphold the path of the just,Of dharma and duty, in faith and trust.For every king, his counsel must be,His priest, his general, his ministry—Not bent to selfish desire or greed,But serving the ruler and kingdom’s need.",
-          "audioFile": "/Audio/7_4 Vibhishan (32 sec more) .mp3",
+          "audioFile": "/Audio/7_4_vibhishan.mp3",
           "character": null,
-          "duration": 86
+          "duration": 82
         },
         {
           "cueId": "5",
           "hindi": "Bhaiyaaaaaaa!!, bhaiya duhai ho duhai ho bhaiyaHey Lankapati Trailokya-vijayi, veh mahabali mere bhaiHey Nyay-nipun, peeda lekar behna hai chaukhat par aai",
           "english": "Brother! O brother! I cry out in woe,Hear me, my brother, my sorrow I show.O king of Lanka, conqueror grand,My mighty brother of strength command.Master of justice, in anguish I’ve come,Your sister now weeps at the threshold home.",
-          "audioFile": "/Audio/7_5 Surupnakha (5 sec more) .mp3",
+          "audioFile": "/Audio/7_5_supranakha.mp3",
           "character": null,
-          "duration": 35
+          "duration": 42
         },
         {
           "cueId": "6",
@@ -782,10 +774,10 @@
         {
           "cueId": "7",
           "hindi": "Hey Mahavir Dandak van mein aisa bheeshan bhuchaal huaRavan ke rehte Ravan ki behna ka aisa haal hua",
-          "english": "O mighty hero, such tremors shook the wood,That Ravana’s sister in misery stood.While Ravana reigns, such sorrow befell,His own dear sister endured this hell.",
-          "audioFile": "/Audio/7_7 Surupnakha ( 2 sec  more) .mp3",
+          "english": "O mighty mahaveer, such a fierce quack shook dandak's landeven in ravan's presence his sister, suffered such a stand",
+          "audioFile": "/Audio/7_7_supranakha.mp3",
           "character": null,
-          "duration": 24
+          "duration": 20
         },
         {
           "cueId": "8",
@@ -798,31 +790,31 @@
         {
           "cueId": "9",
           "hindi": "Do veer bankure Ram-Lakhan, hey taat Avadh se aaye hainApne sang mein vah Roopvati Sita sukumari laye hainVah Rishi-muniyon ke rakshak hain, sare vanvasi kehte hainHai Dandak van mein Panchvati, vah jahan abhay ho rahte hainTribhuvan mein aisi Roopvati hai nahi bhaiya ki jaisi Sita haiAdvitiya Sundari Mrignaini, vah Raghav ki parineeta haiSundarya dekh uska maine, apne man hi man than liyaBhaiyya maine to Lanka ki usko partarani maan liyaMain paas gayi unko apna bas parichay hi batlaya thaRavan ki behna hoon sunkar, mera upahas udaya thaLakshman bhadke jyonhi maine Lankapati ka gun-gaan kiyaKeh diya napunsak tak tumko, mera bhari apmaan kiya bhaiya, bhut apnam kiyaLekar ke naam Dashanan ka phir maine bhi dhamka dalaLakshman ne badi krurta se mera yeh haal bana dala bhaiya. ah ah bhaiya",
-          "english": "Two valiant warriors, Ram and Lakhan, have come from Avadh’s land,With them the gentle, radiant Sita, by Raghav’s hand.Protectors of sages, the hermits all say,In Panchvati’s forest, they now safely stay.No beauty in all three worlds compares,To Sita, whose grace beyond measure declares.A peerless maiden, with eyes of a doe,Raghav’s own bride, her radiance aglow.When I beheld her, my heart took its stand,I dreamed she would rule Lanka, as queen of this land.I drew near softly, my name I revealed,But mocked I was, my honor unsealed.Hearing I’m Ravan’s sister, they laughed in disdain,Their scorn, O brother, has wounded me in pain.Lakshman grew furious when I praised your might,Called you unmanly — my shame, my blight!By naming you, O king, I strove to command,But Lakshman struck cruelly with merciless hand.And thus, O brother, behold me undone,My torment, my insult — see what they’ve done!Ah, brother! O brother! My cries fill the air,Behold your sister, dishonored, laid bare.",
-          "audioFile": "/Audio/7_9 surupnakha ( 19 sec less).mp3",
+          "english": "Two brave, valiant heroes, Ram and Lakshman, have come from Avadh’s land,With them they bring gentle Sita, fair and tender, hand in hand.Guardians of sages and seers, all the forest folk proclaim,In Dandak’s Panchvati, a haven safe they claim.In all the three worlds, no beauty like Sita’s can be found,The unmatched, graceful doe-eyed maiden, Raghav’s bride renowned.Beholding her charm, within my heart I made my stand,Brother, I deemed her Lanka’s prize, held firmly in my hand.I approached her, only to give my introduction plain,Hearing I am Ravan’s sister, she mocked me with disdain.Lakshman flared the moment I praised Lanka’s lord,He called me impotent, my honor crushed, my pride ignored.Invoking Dashanan’s name, I too struck with might,But Lakshman, cruelly, left me in utter plight,Ah, ah, brother, the torment he gave me that night!",
+          "audioFile": "/Audio/7_9_supranakha.mp3",
           "character": null,
-          "duration": 107
+          "duration": 97
         },
         {
           "cueId": "10",
           "hindi": "Hmm acha, MaharajYe bhatak rahi thi kanan mein, aur isne dekha us nari koAur isne nirnay le liya swayam, Lanka lana sukumari koSrupnakha yadi Itni chinta thi bhai ki, to Lanka ko aa jaatiLanka Naresh ko aakar phir apna aashay batalaatiYeh jo bhi uchit samjhte veh, nirnay lete karke vicharApne man se nirnay lekar swayam hi kar dala aar-paar\"",
           "english": "Hmm, so be it, O king, hear what befell,She wandered the forest and a maiden she did tell.At once she resolved in her heart alone,To carry that gentle bride to Lanka’s throne.If Shurpanakha cared so deeply, she,Should have come to Lanka, confiding in thee.To Lanka’s lord she could then have explained,Her longing, her counsel, what wish she contained.But instead she chose, by her will and mind,A rash decision, both reckless and blind.",
-          "audioFile": "/Audio/7_10 Malyavat (1 sec more).mp3",
+          "audioFile": "/Audio/7_10_malyavant.mp3",
           "character": null,
-          "duration": 43
+          "duration": 55
         },
         {
           "cueId": "11",
           "hindi": "Apni naatin se kabhi nahi, ek pal bhi tumne pyar kiyaJab aai tumhare paas kabhi tumne mujhe dukar diyaMain ghayal hoon apmaanit hoon, pehle se gai satai hoonMain tumse nahi, nana ji apne bhai se, nyay maangne aai hoonMain swayam vyatha se vyakul hoon bhaiyaa, vyarth ho gaya samjhanaKadvi vani se achha hai tum mera vadh kar do nana",
-          "english": "Not once, O grandsire, did you show me care,When I sought your presence, you cast me elsewhere.I am wounded, dishonored, tormented with pain,No solace I’ve found, only sorrow remain.I seek not from you, but from brother I plead,For justice, O grandsire, attend to my need.I am burdened with grief, my heart torn apart,All counsel is wasted, unheeded my heart.Better than bitter words that wound and destroy,Take my life, O grandsire, and end this alloy.",
-          "audioFile": "/Audio/7_11_Surupnakha (22 sec more) .mp3",
+          "english": "Never did you love me, not even for a moment,When I came to you, you dismissed me with torment.\"\"I am wounded, insulted, already bearing the pain,I have come to seek justice, not from you, but from my brother’s reign.\"\"I am troubled by my own anguish, brother, it’s all in vain,Better than harsh words, is to end my suffering with your pain",
+          "audioFile": "/Audio/7_11_supranakha.mp3",
           "character": null,
-          "duration": 69
+          "duration": 54
         },
         {
           "cueId": "12",
           "hindi": "Dekha maharaj ab ye ugra ho rahi hai, baaton se baat badhati haiApni manmaani kar rhi hai, mujh par aarop laga rahi hai",
-          "english": "Behold, O king, her fury grows,With every word her anger shows.She acts at will, defiant, wild,And casts on me her charges piled.",
+          "english": "Look, O King, now this anger is rising, with words turning into more.She is doing as she pleases, casting accusations galore.",
           "audioFile": "/Audio/7_12 Malyavat (2 sec less) .mp3",
           "character": null,
           "duration": 10
@@ -830,10 +822,10 @@
         {
           "cueId": "13",
           "hindi": "Kshama kijiyega nanashri, Kshama kijiyega maharaj hey Lanka Naresh,Dayitva sachiv ka hai mujhpar, k tb iss kshan me kaise maun rahunYadi aap aaja den rajan, to main apni bhi kuch baat kahun?",
-          "english": "Forgive me, grandsire, forgive me, O king,Lanka’s great lord, to your feet I cling.The duty of counsel lies heavy on me,How can I in silence at this moment be?If granted, O sovereign, your leave to impart,I too shall speak what weighs on my heart.",
-          "audioFile": "/Audio/7_13 vibhishan ( 13 min more) .mp3",
+          "english": "Please forgive me, O King, forgive me, O Lord of Lanka,It is my duty as your secretary, how can I remain silent in this moment?If you grant me permission, O King, may I speak my heart’s words?",
+          "audioFile": "/Audio/7_13_vibhishan.mp3",
           "character": null,
-          "duration": 30
+          "duration": 17
         },
         {
           "cueId": "14",
@@ -846,18 +838,18 @@
         {
           "cueId": "15",
           "hindi": "maharaj.  Behna ye anarth jab hua tabhi, Khar aur Dushan par jaati tumTrishira bhi tha us kanan mein, usko jakar batalati tum\"Tere in gehre ghavon ko, vey apni karuna se bhar deteVe mahavir un dono ka, sanhar vahin par kar dete",
-          "english": "O king, when this misfortune came to be,You should have sought Khar and Dushan instantly, Sister.Trishira too was present in that wood,You could have told him — he well understood.Your wounds, so deep, they would have healed with care,And slain those heroes then and there.",
-          "audioFile": "/Audio/7_15 vibhishan (1 sec more) .mp3",
+          "english": "O king, sister yes brotherwhen this misfortune yescame to be,You should have sought Khar and Dushan instantly, Sister.Trishira too was present in that wood,You could have told him — he well understood.Your wounds, so deep, they would have healed with care,And slain those heroes then and there.",
+          "audioFile": "/Audio/7_15_vibhishan.mp3",
           "character": null,
-          "duration": 26
+          "duration": 38
         },
         {
           "cueId": "16",
           "hindi": "Bhaiyya, Trishira ke paas gayi, Khar-Dushan ko bhi batlayaUn teeno ko sena samet Raghav ne Yam-pur pahunchayaTb Hokar ke vivash bhaiyya, aai hoon paas Dashanan kePar samvaad yahan k tode rahe, saare sahas mere man ke",
           "english": "Brother, to Trishira I went in despair,To Khar and Dushan I carried my prayer.Yet Raghav struck, and with warrior’s hand,Sent all three with armies to Yama’s land.Helpless at last, O brother, I came,To mighty Dashanan, to speak my claim.But here in this court my voice grows weak,My courage falters, I scarcely can speak.",
-          "audioFile": "/Audio/7_16 Surupnakha ( 2 sec more).mp3",
+          "audioFile": "/Audio/7_16_supranakha.mp3",
           "character": null,
-          "duration": 50
+          "duration": 54
         },
         {
           "cueId": "17",
@@ -870,7 +862,7 @@
         {
           "cueId": "18",
           "hindi": "Hey Pitashri, Khar-Dushan ke bal ki to koi thah na thiJo pada saamne to uske, bachne ki koi raah na thiKhar-Dushan se randheer ko, jisne aklele hi maar diyaTrishira ka sena samet, samarangann mein sanhar diyaChinta ki hai yeh baat Pitashri, ve veer nahi sadharan hainVah Shankar hain ya Indradev, vah nar hain ya Narayan hainPhir bua hamari pehle se man mein aakrosh dabaye hainApne pati ka hey taat, aapko yeh hatyara thaharaye hainhey Pita shri, Pehle un dono veeron ki sacchai ki pehchan karenLanka Naresh jo uchit lage, aage apna abhiyan karen",
-          "english": "O father, the strength of Khar and Dushan was naught,Before such power no refuge was sought.He struck them down, that warrior dread,Trishira with army lay lifeless and dead.This is a matter of grave concern, sire,These heroes are not of mortals entire.Are they Lord Shankar or Indra on high?Or Narayan himself in human guise?And our aunt, long burdened with grief,Calls you her husband’s slayer, chief.So, father, first discern their truth,The nature of these mighty youths.Then, O king, as you deem right,Let Lanka’s armies rise to fight.",
+          "english": "O Father, the strength of Khar and Dushan was immeasurable,But when faced with them, there was no escape, no way to survive.Khar and Dushan, who alone defeated Randheer,Trishira’s army was also destroyed on the battlefield by him.\"\"This is a matter of concern, Father, for they are not ordinary warriors,Are they Shiva himself or Indra, human or divine?\"\"Moreover, our aunt already harbors anger in her heart,She holds you responsible for the death of her husband.\"\"O Father, first recognize the truth of those two brave souls,Then, according to what seems right, proceed with your campaign.",
           "audioFile": "/Audio/7_18 meghnath (19 sec less) .mp3",
           "character": null,
           "duration": 55
@@ -878,10 +870,10 @@
         {
           "cueId": "19",
           "hindi": "Yeh, Yeh, yeh mere apne hain, mujhpar, kaise aarop lagate hainBhaiya, Sun sakte nahi vyatha meri, aparadhi mujhe batate hainYeh gyaat mujhe hota to main Lanka mein kabhi nahi aatiPi leti vahin halahal main, Dandakarany mein mar jaati",
-          "english": "These, these are my own, yet on me they accuse,O brother, my sorrow they will not excuse.If I had known they would brand me defiled,I’d never have come, but perished exiled.I would have drunk poison, embraced my fate,And died in Dandak’s woods of hate.",
-          "audioFile": "/Audio/7_19 Surupnakha (11 sec less).mp3",
+          "english": "These, these. these are my own, yet on me they accuse,O brother, my sorrow they will not excuse.If I had known they would brand me defiled,I’d never have come, but perished exiled.I would have drunk poison, embraced my fate,And died in Dandak’s woods of hate.",
+          "audioFile": "/Audio/7_18_meghnath.mp3",
           "character": null,
-          "duration": 32
+          "duration": 64
         },
         {
           "cueId": "20",
@@ -903,7 +895,7 @@
           "cueId": "23",
           "hindi": "Ji bhaiyaa",
           "english": "Yes, brother",
-          "audioFile": "/Audio/7_23 Surupnakha (no change).mp3",
+          "audioFile": "/Audio/7_23_supranakha.mp3",
           "character": null,
           "duration": 2
         },
@@ -923,7 +915,7 @@
         {
           "cueId": "1",
           "hindi": "Vanvaas kaal ka nirvahan karte hue Janak-nandini Vaidehi aur Shri Ram kathin margon aur samasyon se jhunjhte hue Panchvati pahuche.Panchvati mein Janak-nandini Vaidehi jahaan ek taraf vano ki sundarta se mohit hai, vahin doosri or Shri Ram aane vali vipdaon se bhali bhaanti parichit hai.",
-          "english": "Through exile’s years, with trials faced, through hardships dark and long,Janak’s daughter Vaidehi and Ram pressed firm and strong.To Panchvati at last they came, through paths both harsh and dire,Where Sita marveled at the woods, their beauty to admire.But Ram, forewarned by fate’s design, knew well what lay ahead,Of dangers waiting in the shade, of grief and trials spread.",
+          "english": "During there exile Janaknandini vaidehi and Shriram strugged through difficult paths and challenges, finally reaching panchwatiin panchwati, janaknandini vaidehi was captivated by the beauty of the forest, while shriram was well aware of the dangers that lay ahead",
           "audioFile": "/Audio/8_1_narrator.mp3",
           "character": null,
           "duration": 20
@@ -950,12 +942,12 @@
           "english": "On every side the demons lurk, their snares of fear and guile,Here dangers dwell, with terror’s shade, and perils all the while.Around us spreads the forest dark, no guiding light is near,The beasts of prey haunt night and day, with hunger sharp and clear.Sita… had you but heeded me, and stayed in palace bright,Then pearls and gems would grace your hair, and crown you in delight.",
           "audioFile": "/Audio/8_4_ram.mp3",
           "character": null,
-          "duration": 51
+          "duration": 45
         },
         {
           "cueId": "5",
           "hindi": "Patthar ke moti-maniyon mein pushpon ki mahak nahi hotiMahalon ki un deewaron mein chidiyaon ki chahak nahi hoti",
-          "english": "In stones of pearl and gems of gold, no fragrance of flowers bestow,Within the palace walls so grand, no sweet birdsong will flow.",
+          "english": "In stones of pearl and gems of gold, no fragrance of flowers bestow,Within the palace walls so grand, no birdsong sweet will flow.",
           "audioFile": "/Audio/8_5_sita (6 sec more).mp3",
           "character": null,
           "duration": 15
@@ -980,9 +972,9 @@
           "cueId": "8",
           "hindi": "Lo Ram aaj phir haar gaya, ho gayi vijite phir Sita haiAb tumhi batao kya koi apni patni se jeeta haiHai drishti jaisi jiski usko,  vaisa dikhlata haiKichad mein khila kamal dikhta, keechad na drishti mein aata haiMain khoob jaanta hoon Site, tum door nahi reh sakti hoHanskar sah logi kasht magar, tum virah nahi sah sakti hoJab tak dharti par is tan mein, saanson ka aana-jana haiIk dooje ka ik dooje ke dil mein, tab tak thikana haiMain apni priya Janaki ko, dekho kis tarah sajaata hoonKaale kamjor keshon mein, bale ke phool lagaata hoon",
           "english": "See, Sita, once again I yield, today you win the fight.But tell me, has a husband ever prevailed over wife in right? The world mirrors the gaze of one who carries their own light,In mud, they see a lotus bloom, not the dirt that's in sight.I know you well, O dearest Sita, you cannot stay apart.You’ll smile through pain and suffer much, but not a severed heart. As long as breath shall fill this frame, and life on earth remain. Within each other’s hearts, our souls shall evermore sustain. Behold, my love, how Ram adorns his Janaki with care. Upon her dark and tender locks, he weaves bright blossoms fair. ",
-          "audioFile": "/Audio/8_8_ram.wav",
+          "audioFile": "/Audio/8_8_ram.mp3",
           "character": null,
-          "duration": 116
+          "duration": 75
         },
         {
           "cueId": "9",
@@ -1056,7 +1048,7 @@
         {
           "cueId": "3",
           "hindi": "\"Re thahar! + pitamaha (Sita) + Ek naari ko tu zabardasti le ja raha hai?Paapi, tujhko kya pata nahi yeh van mera kehlata hai?!Iss anchal ki ek maryada hai... re neech!! ise na khone dunga maiNaari ka haran kare koi, ye paap na hone dunga main!Adharmi.. Atyachari.. Chhod de beti ko... warna youdh karna hogatu chahe koi bhi ho, mujhe tera vadh karna hoga",
-          "english": "Stop there! O Pitamaha (Sita) — you are dragging a woman away by force?Sinner, do you not know this forest is mine?This land has its own dignity… vile one! I shall not let it be lost.If anyone abducts a woman, I shall never let such sin be done!O unrighteous one… oppressor… release the daughter at once,Or I will be forced to fight you.Whoever you may be, I shall kill you!",
+          "english": "Stop there! O grandsire (Sita) — you are dragging a woman away by force?Sinner, do you not know this forest is mine?This land has its own dignity… vile one! I shall not let it be lost.If anyone abducts a woman, I shall never let such sin be done!O unrighteous one… oppressor… release the daughter at once,Or I will be forced to fight you.Whoever you may be, I shall kill you!",
           "audioFile": "/Audio/9_3_jatayu_sita_jatayu.mp3",
           "character": null,
           "duration": 42
@@ -1176,7 +1168,7 @@
         {
           "cueId": "18",
           "hindi": "\"Mann toh kar raha tha ki apni poori jwala se Ravan ke Pushpak Viman ko jala dalun, Vaidehi ko bacha lun.Par bhagya ne hamare har pal ka rasta pehle se hi tai kar rakha hai. Meri shakti sirf praniyon ko jeewan dene aur prakash failane ke liye hai... Majboor, main kuch na kar saka.Jatayu ke pitaji Arun bhi mera rath chala rahe the, aur behaal hokar apne veer bete ka balidaan dekhte rahe...Woh bhi kitna kuch kar sakte the, par niyati ke haathon majboor the, aansoo bahate rahe...\"\"Ghabrao mat beto, dil ko shaant karo. Ye sab toh bahut pehle ho chuka hai...Ab aage dekho - tumhare pitaji Shri Ram ki daya aur shaurya ka chamatkar!\"",
-          "english": "My heart longed to unleash my full blaze and burn Ravan’s Pushpak Viman, to rescue Vaidehi.But fate has already written the path of every moment.My power is only to give life to beings, to spread light…Helpless, I could do nothing.Jatayu’s father, Arun, was driving my chariot,and in anguish, he too watched his brave son’s sacrifice.He too could have done much,but bound by destiny, he was powerless, shedding tears.\"**(Lav and Kush begin to weep. The Sun God consoles them:)Do not be afraid, my children. Calm your hearts.All this happened long ago…Now look ahead — behold the miracle of your father, Shri Ram,in his compassion and valor!",
+          "english": "My heart longed to unleash my full blaze and burn Ravan’s Pushpak Viman, to rescue Vaidehi.But fate has already written the path of every moment.My power is only to give life to beings, to spread light…Helpless, I could do nothing.Jatayu’s father, Arun, was driving my chariot,and in anguish, he too watched his brave son’s sacrifice.He too could have done much,but bound by destiny, he was powerless, shedding tears.(Lav and Kush begin to weep. The Sun God consoles them:)Do not be afraid, my children. Calm your hearts.All this happened long ago…Now look ahead — behold the miracle of your father, Shri Ram,in his compassion and valor!",
           "audioFile": "/Audio/9_18_suryadev.mp3",
           "character": null,
           "duration": 102
@@ -1233,9 +1225,9 @@
           "cueId": "25",
           "hindi": "Apne pita par kiye gaye prashnon ke uttar tumhen mil gaye honge. Vats, kintu Shri Ram ke jeevan ki yatra.. jo drishya tum aage dekhoge.. unme un prashno ne uttar bhi honge jo aane wale yugon mein kuchh agyaani, Shri Ram aur unki katha ke auchitya par uthaayenge. Karunaanidhaan Shri Ram to maanavta ke praan hain. Ve kisi ko jaati-dharm aur varg ke bhed se nahin dekhte. Vo nandan van hai ram, jahan par phool pyar ke khilte hai, aur jiske jaise hai bhav use vaise hi hokar milte hai... karuna, mamta aur shama roop hai pita tumhare Raghunandan, vo dekh nahi sakte jab manavta ka pran ho. Mere kul ke kirtiketu unhi ke yash par to itrata hu.. aao putra tumhe aage ki shree ram katha dikhata hu.",
           "english": "The questions you had about your father must have now been answered, my child.But the journey of Shri Ram’s life — the scenes you are about to witness — will also give answers to those questions which, in future ages, the ignorant may raise against Shri Ram and the truth of his story.Compassionate Shri Ram is the very breath of humanity.He does not see anyone through the divisions of caste, creed, or class.Ram is like a garden of bliss, where the flowers of love bloom, and to each soul he appears in the way their own heart receives him.Compassion, tenderness, and forgiveness — these are the forms of your father, Raghunandan.He cannot bear to see the spirit of humanity suffer.He is the crest-jewel of my lineage, and I take pride in his glory.Come, my son… let me show you the next chapter of Shri Ram’s story.",
-          "audioFile": "/Audio/9_25_suryadev.wav",
+          "audioFile": "/Audio/9_25_suryadev.mp3",
           "character": null,
-          "duration": 194
+          "duration": 90
         },
         {
           "cueId": "26",
@@ -1277,7 +1269,7 @@
         {
           "cueId": "4",
           "hindi": "Braahman hokar karte pranaam, man upajta sanshay bhaai.Ye kaun? Kahaan se aaye hain, poocho inka parichay bhaai.Yeh sach mein braahman hain athavaa, braahman ka bhesh banaya hai.Is van mein chaaron or taat, kapati asuron ki maaya hai.Inke swaroop ka sach kya hai, pehle yeh jaanch liya jaaye.Yoon nahin kisi par is van mein, bhaiyaa vishvaas kiya jaaye.",
-          "english": "Though he bows like a Brahmin, suspicion rises in my mind, brother.Who is he? From where has he come? Brother, we must ask his true identity.Is he truly a Brahmin, or has he merely taken a Brahmin’s guise?For all around in this forest, brother, is the deceitful magic of demons.We must first uncover the truth of his form.In this forest, brother, no trust should be given so easily.",
+          "english": "Though he bows like a Brahmin, suspicion rises in my mind, brother.Who is he? From where has he come? we must ask his identity, brother.Is he truly a Brahmin, or just wearing a guise as one? For all around in this forest, is the deceitful magic of demons.We must first uncover the truth of his form.No one is trusted easily in this forest brother. ",
           "audioFile": "/Audio/10_4_lakshman.mp3",
           "character": null,
           "duration": 37
@@ -1357,7 +1349,7 @@
         {
           "cueId": "14",
           "hindi": "Tanik bhi nahi",
-          "english": "Not at all",
+          "english": "No not even a little",
           "audioFile": "/Audio/10_16_ram.mp3",
           "character": null,
           "duration": 26
@@ -1365,29 +1357,21 @@
         {
           "cueId": "15",
           "hindi": "Mere bachpan mein sakha rahe ab kitne bade ho gaye ho.Humko vipatti mein dekha jo aakar ke khade ho gaye ho.Bhaiyaa ke pyaare ho meri aankhon ke taare ho Hanumat. bhatak rahe hain hum ab iss van me tumhi sahaare ho Hanumat.",
-          "english": "In my childhood, we were companions, now look how big you've grown.You saw us in adversity and stood by us, with strength you've shown.\"\"O Hanumat, beloved of my brother, the light of my eyes you are.Lost in this forest, you are our support, our guiding star",
+          "english": "you were our companion in childhood and now you've grown so muchSeeing us in distress, you came and stood beside usBeloved of my brother, jewel of my eyeOh hanuman, we wondered helplessly in this forest, you alone are our support, O hanuman",
           "audioFile": "/Audio/10_17_hanuman.mp3",
           "character": null,
           "duration": 20
         },
         {
           "cueId": "16",
-          "hindi": "Song",
-          "english": "Song",
-          "audioFile": "/Audio/10_18 song .mp3",
-          "character": null,
-          "duration": 92
-        },
-        {
-          "cueId": "17",
           "hindi": "Hanumaan hamaare priye tumne braahman ka bhesh banaya tha.Isliye kesri nandan ko ye raghav aaj pehchaan na paaya tha.",
-          "english": "Hanuman, you had come to us in the disguise of a Brahmin.That is why Raghav could not recognize his beloved companion today.",
+          "english": "Hanuman, you had come to us in the disguise of a Brahmin.That is why oh kesari nandan this Raghav could not recognize his beloved companion today.",
           "audioFile": "/Audio/10_19_ram.mp3",
           "character": null,
           "duration": 21
         },
         {
-          "cueId": "18",
+          "cueId": "17",
           "hindi": "\"Ab bhi pehchaan adhoori ho to he Naath aur batlaata hoon.Aap ghat-ghat vaasi hain phir bhi Satyayug ki katha sunaata hoon.",
           "english": "If still my recognition is incomplete, O Lord, then let me explain further.Though you dwell within every heart, I shall recount a tale from Satya Yuga.",
           "audioFile": "/Audio/10_20_hanuman.mp3",
@@ -1395,7 +1379,7 @@
           "duration": 39
         },
         {
-          "cueId": "20",
+          "cueId": "19",
           "hindi": "mere Swami bhi ho sevak bhi ho maine to apna maan liya.He Pavan Putra, rudra avtar Hanumaan mene tumhen pehchaan liya.",
           "english": "You are my Lord, and yet also my servant — I have accepted this truth.O son of the Wind, O Rudra’s incarnation, Hanuman — I have now recognized you.",
           "audioFile": "/Audio/10_21_ram.mp3",
@@ -1403,7 +1387,7 @@
           "duration": 36
         },
         {
-          "cueId": "21",
+          "cueId": "20",
           "hindi": "Dhanya hogaya kintu ....Aisa kyon kah diye Naath har Dharmshaastr yeh kehta hai.Swami to Swami hota hai, sevak–sevak hi rahta hai.Isliye prabhu is sevak par, Swami ka dharm nibhaaye aap.Ab aage kya karna hoga, is Hanumat ko batlaaye aap.",
           "english": "Why do you say so, my Lord? Every scripture declares the same —The Master is always the Master, and the servant remains the servant.Therefore, O Lord, fulfill the duty of the Master upon this servant.Tell Hanuman what must be done next — show me the way, my Lord.",
           "audioFile": "/Audio/10_22_hanuman.mp3",
@@ -1411,7 +1395,7 @@
           "duration": 94
         },
         {
-          "cueId": "22",
+          "cueId": "21",
           "hindi": "\"Apaharan kiya hai Raavan ne, Lanka ka thaur thikaana hai.Lekin Sita ko raksha kahaan,  phle iska pata lagaana hai.Jaane vah hogi kahaan taat, kis haalat mein rahti hogi?Meri Sita he Mahaaveer, kya-kya vipati sahti hogi?\"",
           "english": "Ravan has carried her away, and Lanka is his dwelling place.But where Sita is kept in safety — that must first be found.Tell me, O noble one, where could she be? In what condition must she be living?My Sita, O mighty hero… what trials, what sufferings must she be enduring?",
           "audioFile": "/Audio/10_23_ram.mp3",
@@ -1419,28 +1403,1140 @@
           "duration": 24
         },
         {
-          "cueId": "23",
-          "hindi": null,
-          "english": null,
-          "audioFile": "/Audio/",
+          "cueId": "22",
+          "hindi": "\"Mata Sita shakti-swaroopaa hain, isliye naa vyaakul hon Swami.Sankat naa unhen chhoo paayega, kyon dhairya kho rahe hain Swami.Swami is Rishyamoog giri par, Sugreev bhaybheet rahte hain.Bhai Baali ke kooton ki, vednaa nirantar sahte hain.Us Baali ne patni samet, unka har vaibhav cheen liya.De diya raajya se nirvaasan, chhote bhai ko deen kiya.Unse chhal kar mitrataa karen, vah maitri dharm nibhaayenge.Tribhuwan mein jahaan kahi bhi hongi, Maataa sita ka pata lagaayenge.He prabhi, deen ke dukhharta, karunaa kijiye karunaa nidhaan.Sugreev prateeksha mein baithe, ab unko dije abhay daan.\"",
+          "english": "Mother Sita is the very embodiment of divine power — so do not be anxious, my Lord.No calamity can touch her, why then do you lose your courage, my Lord?Here, upon the Rishyamukha mountain, dwells Sugreev, living in fear.He constantly suffers the torment of his elder brother Bali’s cruelty.That Bali, with deceit, has seized his wife and taken away all his wealth and honor.He exiled him from the kingdom and left his younger brother destitute.If you befriend him, he will remain true to the bond of friendship.And together you shall surely discover where Mother Sita is hidden, anywhere in the three worlds.O Lord, reliever of the distressed, treasure of compassion — show your mercy!Sugreev waits for you in hope — now grant him the gift of fearlessness",
+          "audioFile": "/Audio/10_22_hanuman.mp3",
           "character": null,
-          "duration": 0
+          "duration": 94
+        },
+        {
+          "cueId": "23",
+          "hindi": "Tum mere priya ho hanumat, jo kaha use kartaa hoon main.Kar deta hoon unko nirbhay, saari peeda harta hoon main.Sugreev jahaan karte nivaas, us thao mujhe le jaao tum.Is beehrad kaanan mein Hanumat, aage ki raah dikhaao tum.",
+          "english": "You are dear to me, O Hanuman — whatever you say, I shall do.I shall make him fearless, and remove all his suffering.Take me to the place where Sugreev now resides.In this dense forest, O Hanuman, show me the path ahead",
+          "audioFile": "/Audio/10_23_ram.mp3",
+          "character": null,
+          "duration": 24
         },
         {
           "cueId": "24",
-          "hindi": null,
-          "english": null,
-          "audioFile": "/Audio/",
-          "character": null,
-          "duration": 0
-        },
-        {
-          "cueId": "25",
           "hindi": "song",
           "english": "song",
           "audioFile": "/Audio/10_24 ending music.mp3",
           "character": null,
           "duration": 38
+        }
+      ]
+    },
+    "11": {
+      "title": "Shri Ram – Hanuman Samvaad",
+      "dialogs": [
+        {
+          "cueId": "1",
+          "hindi": "Sugreev ki aseem vaanar sena ke saath Prabhu Shri Ram ne saagar tat par dere daal diye.Unhone apne ananya bhakt Kesarinandan Hanumaan ko Lanka mein Sita ka pata lagaane hetu, apni mudrika dekar jaane ka nirdesh diya. Saagar paar kar Lanka nagari mein bhaktraaj Vibhishan se bhet karte hue Bajrangbali ne Ashok Vaatika mein Shri Ram ke virah mein shok grasth Sita ko pranaam kar Ramadal ka samachaar diya. Smriti chinh ke roop mein Maataa se choodaamani praapt kar apni bhookh mitaane hetu Raavan ki vaatika mein pravesh kar liya. Vajraang shri Hanumaan ne poori vaatika vidhvansh kar di.Raakshas asuron ke saath Raavan ke putra Akshay Kumar sahit, hazaaron raakshason ka vadh kar dikhaya. ant me  mahaashakti Meghnaad ne Hanumaan se bheeshan yuddh kiya aur bhrampash mein unhen baandh kar Raavan ke sammukh le aya.",
+          "english": "\"With the vast army of vanaras under Sugreev, Lord Shri Ram encamped upon the seashore.He entrusted his dearest devotee, Hanuman, son of Kesari, with a ring as his token, and commanded him to go to Lanka and search for Sita.Crossing the mighty ocean, Hanuman reached the city of Lanka.There, after meeting the noble Vibhishan, he entered  Ashok Vatika, where he found Mother Sita, grief-stricken in separation from Shri Ram.He bowed to her, gave her the message of Ram, and as a sign of remembrance, received her choodamani.To relieve his weariness, Hanuman entered Ravan’s grove.There, with unmatched power, he destroyed the entire garden of Lanka.He slew thousands of rakshasas, including Ravan’s own son, Akshay Kumar.At last, the mighty warrior Meghnad came forth.Engaging in fierce combat, he captured Hanuman with the Brahmapash, and brought him bound before Ravan’s court\"",
+          "audioFile": "/Audio/11_1_Narrator.mp3",
+          "character": "narrator",
+          "duration": 76
+        },
+        {
+          "cueId": "2",
+          "hindi": "Song",
+          "english": "Song",
+          "audioFile": "/Audio/11_2 strange music.mp3",
+          "character": "strange music",
+          "duration": 7
+        },
+        {
+          "cueId": "3",
+          "hindi": "\"\"\"Hey pitashri is vaanar ne, bheeshan utpaat machaaya hai.Yah putra aapka bandi kar is markat ko le aaya hai.Vaatika ujaadi hai isne, aneko asuron ko maaraa hai.Aapke putra, mere bhai, Akshay ka yeh hatyaaraa hai.Mere is aagyaapalan mein he taat prabhutva aapka hai.Iss Aparaadhi ko kya dand mile ab yeh daayitva aapka hai.\"\"\"",
+          "english": "O Father, this vanara has caused terrible devastation.Your son has captured this monkey and brought him before you.He has destroyed the royal grove and slain countless asuras.He is the killer of your son, my brother Akshay.I have fulfilled my duty, O Father, and brought him bound before your throne.Now it is your authority to decide — what punishment shall be given to this offender?",
+          "audioFile": "/Audio/11_3_Meghnath.mp3",
+          "character": "Meghnath",
+          "duration": 45
+        },
+        {
+          "cueId": "4",
+          "hindi": "Pause",
+          "english": "Pause",
+          "audioFile": "/Audio/11_4 pause.mp3",
+          "character": "pause",
+          "duration": 12
+        },
+        {
+          "cueId": "5",
+          "hindi": "\"utpaadi, shakhamrga vaanar, tu kon? kahan se aya hai?kyu aya meri lanka me, aur kisne tujhe pataya hai? vatika ujadi kyu tune? kyu asuro ka sanghar kiya?aur kis liye nipat vaanar tune akshay kumar ko maar diya?\"",
+          "english": "Mischievous one, monkey of the wild, who are you?From what distant land have you come into view?Why enter my Lanka, who guided your way?Who sent you forth — this truth you must say.Why did you ravage my sacred grove?Why did you slay the demons who strove?But most of all, tell me and make it clear —Why kill my son Akshay, my child so dear?",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "6",
+          "hindi": "\"sarvapratham lanka pati ko mera sadar pranam\"\"He Lankapati is gusse se, kyon apna hriday jalaaye hain.Main doot unhi ka hoon, jinki naari har kar laaye hain.Main Pavan Putra, Kesari sutan, Maa Anjani ka jaayava hoon.Maataa Sita ki khoj hetu, main Lanka nagari mein aaya hoon.Main Vaanar, thi bhookh lagi, apke vatika se thode se hi to phal khaaye.Mera vadh karne ke nimitt kitne rakshak daude aaye.Raajan, nij praan bachaane ka poora adhikaar hamaara hai.Jisne mujhko maara maine to keval usko hi sanghara hai.\"\"\"",
+          "english": "\"First of all, I offer my respectful greetings to the Lord of Lanka.O Lanka King, why do you burn your heart in anger?I am the messenger of the one whose wife you have abducted.\"\"\"\"I am the son of the wind, Kesari’s offspring, and the son of Mother Anjani.I have come to Lanka to search for Mother Sita.\"\"\"\"I am a Vanara, and I was hungry, yet I ate only a few fruits from your grove.Many of your guards ran to attack me with the intent to kill.\"\"\"\"O King, the full right to protect my own life is mine.Whoever attacked me, I struck down only them, and no one else.\"",
+          "audioFile": "/Audio/11_6_hanuman.mp3",
+          "character": "Hanuman",
+          "duration": 60
+        },
+        {
+          "cueId": "7",
+          "hindi": "\"\"\"Tu doot roop mein aaya tha to seedhe mere paas aata.Sita ka pata lagaana tha, to vah main tujhko batlaata.Tu chori se ghus kar aaya, itna utpaat kiya tune.Jo rakshak tujhko rok rahe unko bhi maar diya tune.\"\"\"",
+          "english": "\"If you had come as a messenger, you should have come straight to me.If it was Sita you sought, I myself would have told you where she be.But you crept in secretly and caused such destruction,And even slew the guards who came forth in obstruction.\"",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "8",
+          "hindi": "\"\"\"Chadh aaye itne asur veer phir baat achaanak bigad gayi.Is uthaa–patak mein he Raajan, vaatika aapki ujad gayi.aur vo putra aapka Lankapati, mera vadh karne ko aaya tha.Kya karta anchahe usko maine hi Yamlok pathaaya tha.\"\"\"",
+          "english": "\"So many mighty demons rose, yet suddenly chaos spread,In this uproar, O King, your garden lay wasted, dead.\"\"\"\"And your own son, O Lanka’s lord, had come to strike me down,But I sent him to Yamlok myself, before he could claim the crown\"",
+          "audioFile": "/Audio/11_8_hanuman.mp3",
+          "character": "Hanuman",
+          "duration": 23
+        },
+        {
+          "cueId": "9",
+          "hindi": "\"\"\"Tu mera bandi hokar ke bhi mera upahaas kar raha hai.Laga raha mrityu ka bhay teri, buddhi ka naash kar raha hai.Kiska ghamand tujhko Vaanar, kiske bal par itraata hai.Trilok vijeta Raavan se tu tanik nahin bhay khata hai.\"\"\"",
+          "english": "\"Though bound as my captive, you mock with disdain,You speak without fear — has madness clouded your brain?O monkey, on whose strength do you so proudly rely?Do you not fear Ravana, conqueror of earth, heaven, and sky?\"",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "10",
+          "hindi": "\"\"\"Tribhuvan ghabraya tha Raavan, swayam aap jinse ghabraaye the.Jinki anupasthiti mein Maataa Sita ko har kar laaye the.Un hi Raghavendra ki aagyaa ka, main aksharashah paalan kartaa hoon.Main Pavan Putra hoon Dashkandhar, nahin kisi se darta hoon.\"\"\"",
+          "english": "\"The three worlds trembled, Ravan, at the one who made you fear,In whose absence, Mother Sita you had brought here.\"\"\"\"By that same Raghavendra’s command, I follow every part,I am the Wind’s own son, O Dashkandhar, fearless at heart.\"",
+          "audioFile": "/Audio/11_10_hanuman.mp3",
+          "character": "Hanuman",
+          "duration": 21
+        },
+        {
+          "cueId": "11",
+          "hindi": "\"\"\"Saare hi dev darshanan ki aagyaa ka paalan karte hain.Lanka ke mahlon mein paani, jaledev Varun hi bharte hain.Aarati hamaari Lanka ki, Dinkar utaara karta hai.Tu Pavan Putra hai, Pavan nagar ke path buraata rehta hai.Aur tu ek shudra vanvaasi ka mujhse gunagaan kar raha hai.Uski mahimaa gaakar tu mera apmaan kar raha hai.\"\"\"",
+          "english": "\"All gods obey my word, they follow my command,In Lanka’s shining palaces, Varuna, the god of waters, fills each pool by hand.The Sun himself performs the aarati of my reign,While you, O Son of the Wind, roam the sky in vain.Yet you dare to praise a lowly forest-dwelling man,By singing of his glory, you insult Ravana’s clan.\"\"All gods obey my word, they follow my command,In Lanka’s shining palaces, Varuna, the god of waters, fills each pool by hand.The Sun himself performs the aarati of my reign,While you, O Son of the Wind, roam the sky in vain.Yet you dare to praise a lowly forest-dwelling man,By singing of his glory, you insult Ravana’s clan.\"",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "12",
+          "hindi": "\"aapke saath Jo Sahasbaahu ya Baali ne hai kiya, kya main bhi vahi sammaan karoon?Mujh me saahas hai kahaan bhala,  jo main Raavan ka apmaan karoon.Sammaan chaahiye yadi jag mein, prabhu Shri Ram ke sharan mein jaayein aap.Maataa Sita ko saunp unhen, nirbhaya ho jaaye aap .\"\"\"",
+          "english": "\"What feats have Sahasbaahu or Baali performed by your side,Shall I, then, match such honor with equal pride?\"\"\"\"Where is my courage, to insult mighty Ravan’s name?If you seek respect in this world, seek refuge in Shri Ram’s fame.\"\"\"\"Entrust Mother Sita to him, fearless and true,And in his protection, O King, may safety guide you through.\"",
+          "audioFile": "/Audio/11_12_hanuman.mp3",
+          "character": "Hanuman",
+          "duration": 33
+        },
+        {
+          "cueId": "13",
+          "hindi": "\"Hanumaan bada gyaani hai tu, Raavan ko gyaan sikhaata hai.ye khada mrityu ke mukh mein hai, itna bhi samajh na paata hai.Phir Ram–Lakhan se niptunga, apna aakrosh utarunga.Pehle apne in haathon se main tera vadh kar daalunga.\"",
+          "english": "\"Hanuman, so wise you claim to be, to lecture Ravana’s name?You stand at death’s own threshold, yet see not your shame.With Ram and with Lakshman my fury I’ll vent,But first with these hands shall your life be spent.\"",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "14",
+          "hindi": "\"\"\"kshma kare maharaj kshma kareHey Lanka Naresh, hey dashnam, pran daan de do apni kuch baat koRavan: avashya vibhishan hey ved bhagta, hey neeti nipunHain aap neeti ke vighya taat, maanas mein tanik vichaar karein.Hai doot upasthit jo sammukh us par swayam na prahaar karein.Hey rajan nishchit hi yeh Vaanar, is Lanka ka apraadhi hai.Lekin isne to apne hi Swami ki ichchha saadhi hai.Hota hai doot avadhya Naath, yeh dharmaneeti batlaati hai.He prabhu jagat kya samjhaayega?, Raavan ko neeti na aati hai?Isliye hey Raajan, pehle aap apne krodh ko shaant karein.Phir aur dand kya dena hai, hey maharaj, is par vichaar karein.\"\"\"",
+          "english": "\"Forgive, O King, forgive, I pray,O Lord of Lanka, O Ten-headed one, hear what I say.Ravan: Certainly, VibhishanO guardian of Vedas, master of law,In statecraft profound, none find a flaw.When a messenger stands before your throne,It is not for the monarch to strike him alone.This monkey is guilty of Lanka’s offence,Yet he has acted at his Master’s expense.A messenger is protected — the law makes it clear,Shall the world then mock Ravana, saying justice is not here?Therefore, O King, let your anger subside,Then judge what punishment should rightly be applied.\"",
+          "audioFile": "/Audio/",
+          "character": "Vibhishan",
+          "duration": 0
+        },
+        {
+          "cueId": "15",
+          "hindi": "Pause",
+          "english": "Pause",
+          "audioFile": "/Audio/11_15 pause.mp3",
+          "character": "Pause",
+          "duration": 41
+        },
+        {
+          "cueId": "16",
+          "hindi": "\"Bhai Vibhishan sahi kaha anuchit hai iska vadh karna.Par dand ise hoga nishchit apne aparaadho ka, varna...Is Ram doot Vaanar par main, ab antim nirnay leta hoon.Yeh hai avadhya to phir iska main ang bhang kar deta hoon.Kapde lapet kar ke dum mein, us par ghee daala jaaye.Isse na tanik bhi daya-bhaav hai, hey Indrajeet paala jaaye.Lanka nagari mein Vaanar ko chahuar ghumaao Meghnaad.Apmaanit kar iski dum mein phir aag lagao Meghnaad.Is vanar ka daman nahin, saahas bhi tod diya jaaye.aur Jal jaaye loom jabhi iski, saagar tat chhod diya jaaye.Lekar yeh jali poonch apni jab Ram ke sammukh jaayega.Durdasha dekhkar vah iski, sar patak vahi mar jaayega.\"\"\"",
+          "english": "\"Brother Vibhishan, your counsel to not kill him is just,Yet punishment must follow for his offences — in this I trust.Ram’s envoy he may be, yet his end I proclaim,If death is denied him, then cripple his frame.Wrap cloth on his tail, pour ghee without pause,Show him no mercy — Indrajeet, take this cause.Drag him through Lanka, O Meghnad, in scorn,Humiliate him deeply, then set his tail torn.Break down his courage, let pride be undone,When each hair is burned, cast him forth by the ocean.When he goes before Ram with his tail aflame,At the sight of his misery, Ram will strike his head in grief and die of shame.\"",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "17",
+          "hindi": "Sita Ram sita ram sita ram",
+          "english": "Sita, Ram... Sita",
+          "audioFile": "/Audio/11_17 hanuman.mp3",
+          "character": "Hanuman",
+          "duration": 2
+        },
+        {
+          "cueId": "18",
+          "hindi": "Jo agya pitaji, hahahaha",
+          "english": "As you command, Father. ",
+          "audioFile": "/Audio/11_18_meghnath.mp3",
+          "character": "meghnath ",
+          "duration": 2
+        },
+        {
+          "cueId": "19",
+          "hindi": "Ending song",
+          "english": "Ending song",
+          "audioFile": "/Audio/11_19 Ending song.mp3",
+          "character": "Ending song",
+          "duration": 10
+        }
+      ]
+    },
+    "12": {
+      "title": "Shri Hanuman – Raavan Samvaad (Lanka Dahan)",
+      "dialogs": [
+        {
+          "cueId": "1",
+          "hindi": "\"Lanka dahan karne ke pashchaat Vaayuputra Anjaneya ne samudra mein apni poonch bujhakar, Sindhu paar kiya. Tatpashchaat Prabhu Shri Ram ko Maataa Sita ka smritichinh choodamani diya aur unhein dukhi Vaidehi ka saara vrittaant sunaaya. Lanka par aakraman karne ke liye samudra par setu ka nirmaan aavashyak tha.Jise Karunaanidhaan Shri Ram ki aagyaa se Nal-Neel tatha samast vaanaron ne, Samudra Dev ki salaah par, patharon par Shri Ram ka naam likhkar nirmit kar diya.\"",
+          "english": "\"After setting Lanka ablaze, Hanuman — son of the Wind and Mother Anjana — extinguished his burning tail in the ocean and crossed the vast sea.He gave Lord Shri Ram Sita’s token, the jewel Choodamani, and told Him all her sorrow.To march upon Lanka, a bridge across the ocean was needed.By Ram’s command, Nal and Neel, with all the monkeys, built it — writing Shri Ram's name upon the stones, as guided by the Ocean Lord.\"",
+          "audioFile": "/Audio/12_1_narrator.mp3",
+          "character": "Narrator",
+          "duration": 35
+        },
+        {
+          "cueId": "2",
+          "hindi": "Jai shri ram jai shri ram jai shri ram. Pranam Prabhu (2h 24m 26s-27s)",
+          "english": "\"Glory to Lord Ram! Glory to Lord Ram! Glory to Lord Ram!My salutations to You, O Lord\"",
+          "audioFile": "/Audio/12_2 everyone.mp3",
+          "character": "Everyone",
+          "duration": 7
+        },
+        {
+          "cueId": "3",
+          "hindi": "Prabhu Aapke charanon ke prataap se setu nirmaan kaarya poorn hua.",
+          "english": "Lord, by the glory of Your feet, the bridge is now complete.",
+          "audioFile": "/Audio/12_3_Nal.mp3",
+          "character": "nal",
+          "duration": 4
+        },
+        {
+          "cueId": "4",
+          "hindi": "Shell sound",
+          "english": "Shell sound",
+          "audioFile": "/Audio/12_4 shell.mp3",
+          "character": "Shell sound",
+          "duration": 6
+        },
+        {
+          "cueId": "5",
+          "hindi": "\"Prabhu, Ho gaya poorna setu nirmaan, aarambh aaj hi abhyaan karein.Prabhu, aap aagyaa dein, saare sainik Lanka jay ko prasthaan karen.\"",
+          "english": "\"Lord, the bridge stands complete — let the march begin today,Give Your command, that all warriors advance for victory over Lanka’s sway.\"",
+          "audioFile": "/Audio/12_5_sugriv.mp3",
+          "character": "Sugriv",
+          "duration": 10
+        },
+        {
+          "cueId": "6",
+          "hindi": "\"\"\"Ban gaya setu, ab kya vilamb, hum Lanka ko sancharan karein.bhaiya aap bss Aadesh dijiye, uss Raavan par aakraman karein.\"\"\"",
+          "english": "\"The bridge is built — why further delay?Let us march on Lanka without more stay.Brother, just give the command we seek,And upon Ravana’s might we shall swiftly wreak.\"",
+          "audioFile": "/Audio/12_6_Lakshman.mp3",
+          "character": "Laxman",
+          "duration": 29
+        },
+        {
+          "cueId": "7",
+          "hindi": "Pause",
+          "english": "Pause",
+          "audioFile": "/Audio/12_7 pause.mp3",
+          "character": "Pause",
+          "duration": 5
+        },
+        {
+          "cueId": "8",
+          "hindi": "\"\"\"Thehero, thehero. Sugreev ji,  ye satya hai ki abh lanka pr hme karni avilamb chadhaai hai.parantu mere man manas mein ek baat achanak aayi hai.Shiv ling ko sthaapit karke, pehle hum unhe manaayengePhir Dashkandhar ko kul sahit nishchit yam lok pathaayenge.\"\"\"",
+          "english": "\"Wait, wait, O Sugreev, though Lanka we must face,A thought has now arisen within my heart’s place.By first establishing the Shiva Lingam and honour him with sacred rite,Then send Ravana and his kin to Yama’s dark night.\"",
+          "audioFile": "/Audio/12_8_ram.mp3",
+          "character": "Ram",
+          "duration": 27
+        },
+        {
+          "cueId": "9",
+          "hindi": "\"parantu bhaiya, agar karni hi hai to kariye shakti poojan pehle. Shiv ki araadhna kyu?hum to vaishnav hai, to mahadev ka poojan kyu?\"",
+          "english": "\"But brother, if worship must be, let it honor the Goddess of Power first,Why bow to Lord Shiva, when to Vishnu we serve\"",
+          "audioFile": "/Audio/12_9_Lakshman.mp3",
+          "character": "Laxman",
+          "duration": 15
+        },
+        {
+          "cueId": "10",
+          "hindi": "\"\"\"Lakshman, Hari ka drohi koi Shiv ka anurakt na ho sakta.Jo mere Shiv ka bhakt nahin hai, vo Naaraayan bhakt na ho sakta.2h 26m 13s - 18s (pause of 5 secs)Antar na Shaiv aur Vaishnav mein iss jag ko sandesha dena hai.Shiv ke param-bhakt ke vadh se purva, aashish Shambhu ka lena hai.\"\"\"",
+          "english": "\"Lakshman, one who betrays Hari can never love Shiva true,And one who rejects Lord Shiva cannot be Narayan’s devotee too. [5 seconds pause]The world must be taught — no division stands in this land,Shaivite and Vaishnavite walk together, hand in hand.”“Before striking down Ravana, Shiva’s steadfast devotee,We must first seek shiv Shambhu’s blessings himself, in all humility.\"",
+          "audioFile": "/Audio/12_10_Ram.mp3",
+          "character": "Ram",
+          "duration": 50
+        },
+        {
+          "cueId": "11",
+          "hindi": "\"Sarvatha uchit kaha apne pehle Shiv ka aranyan ho.Aakraman karein phir Lanka par saare asuron ka mardan ho\"",
+          "english": "\"You speak most rightly — first worship Lord Shiva’s name,Then march on Lanka, and slay the demons in flame.\"",
+          "audioFile": "/Audio/",
+          "character": "Hanuman",
+          "duration": 0
+        },
+        {
+          "cueId": "12",
+          "hindi": "\"parantu hanuman ji .. hanuman: Prabhu. Is par bhi sab vichar karna ki yahan jo shivling sthapit karayega.Vah Shiv pooja ka adhikari, acharya kahan se aayega?\"",
+          "english": "\"But Hanuman…”Hanuman: “Yes, my Lord.”“If here a Shiva Lingam we seek to rear,Who shall be the priest, and from where shall he, appear?\"",
+          "audioFile": "/Audio/12_12_ram+hanuman+ram.mp3",
+          "character": "ram",
+          "duration": 23
+        },
+        {
+          "cueId": "13",
+          "hindi": "Clearing Throat",
+          "english": "Clearing Throat",
+          "audioFile": "/Audio/12_13 clearing throat.mp3",
+          "character": "clearing throat",
+          "duration": 3
+        },
+        {
+          "cueId": "14",
+          "hindi": "\"Prabhu mera paramarsh hai yeh chhoti si buddhi hamari hai.hai Shiv ka hai param bhakt Ravan, vah acharya path ka adhikari hai॥Vah maha pratapi pandit hai, vaisa vidwaan na dooja hai.Apne sheeshon ko kaat kaat, mahadev ko usne pooja hai\"",
+          "english": "\"My Lord, this counsel I humbly impart,Ravana, Shiva’s devotee, is fit for the priestly part.A mighty scholar, unmatched in his fame,By severing his heads, he has worshiped Mahadev’s name.\"",
+          "audioFile": "/Audio/12_14_Jamvant.mp3",
+          "character": "jammvant",
+          "duration": 21
+        },
+        {
+          "cueId": "15",
+          "hindi": "\"Kya bhool gaye ho Reecharaj ke Ravan shatru hamara hai.Mata Sita ka haran kiya, usne hamme ran ko lalkaara hai॥Sammukh aayega to mere baan ruk nhi paayenge.Bhaiya Hum apni pooja ka acharya use kaise banayenge,\"",
+          "english": "\"Have you forgotten, O king of bears, that Ravana is our foe?He seized Mother Sita, and to battle he dares us to go.”If he stands before me, my arrows will fly unchained,Brother, how can he be priest where our worship is ordained?\"",
+          "audioFile": "/Audio/12_15_Lakshman.mp3",
+          "character": "Laxman",
+          "duration": 19
+        },
+        {
+          "cueId": "16",
+          "hindi": "\"Veervar Lakshman, hai satya vahi, Shri Jamvant jo kehte hain.Har praani mein hi Dev, dannuj, do roop samahit rehte hain॥Ravan hai Shatru hamara, par vah param bhakt hai, pandit hai.Shiv pooja ke kaaran Ravan tribhuvan mein mahimamandit hai॥Us param shatru lankapati ko, hey Lakshman hum nahin bulaayenge.Pandit Ravan ko bulva mere bholey ki sthapana karaayenge\"",
+          "english": "\"Heroic Lakshman, it is true, as Shri Jamvant declared,In every soul both god and demon are paired.Ravana is our foe, yet a scholar most renowned,Through worship of Shiva, in all three worlds his honor is found.That great enemy, O Lakshman, we shall not call,But Ravana the priest shall establish the Shiva lingam after all.\"",
+          "audioFile": "/Audio/12_16_Ram.mp3",
+          "character": "ram",
+          "duration": 40
+        },
+        {
+          "cueId": "17",
+          "hindi": "Pause",
+          "english": "Pause",
+          "audioFile": "/Audio/12_17 pause.mp3",
+          "character": "Pause",
+          "duration": 3
+        },
+        {
+          "cueId": "18",
+          "hindi": "\"Hey Nath, Pavansut ko bheje,  veh nirbhay ho Lanka jaayenge.Bajrangbali to balpurvak hi, us Ravan ko le aayenge.\"",
+          "english": "\"O Lord, send the Son of the Wind, he will go to Lanka without fear.Bajrangbali, with his great strength, will bring Ravana here\"",
+          "audioFile": "/Audio/12_18_Sugreev.mp3",
+          "character": "Sugriv",
+          "duration": 11
+        },
+        {
+          "cueId": "19",
+          "hindi": "\"Nahin Sugriv, nahin, mera aamantran le karke, he Jamvant tum, Lanka jaao.aur Us maha tapasvi pandit ko mera acharya bana aao॥Is punya karya ke hetu dashanan ko tum samjha sakte ho.Acharya bana kar Ravan ko, keval, tumhi le sakte ho\"",
+          "english": "\"No, Sugriv, no — Jamvant, take my call,Go forth to Lanka and bring the scholar for all.For this sacred task, the Ten-headed one you must persuade and sway,Only you, Jamvant, can bring Ravana as priest today.\"",
+          "audioFile": "/Audio/12_19_Ram.mp3",
+          "character": "Ram",
+          "duration": 24
+        },
+        {
+          "cueId": "20",
+          "hindi": "\"Prabhu ne aadesh diya hai to main taktashan Lanka jaata hoon.Aapka nimantran Ravan tak, he Raghvendra, pahunchata hoon॥Mujhko poora vishwas, Hey Nath, Ravan bhi neeti vicharega.Shiv bhakt darshanan Swami ke aamantran ko sveekaregaPrnaam!\"",
+          "english": "\"Since my Lord has commanded, to Lanka I now go,O Raghavendra, Your summons to Ravana I shall show.I am certain, O Lord, with wisdom he will choose the way,As Shiva’s devotee, Your invitation he will obey.I bow to You!\"",
+          "audioFile": "/Audio/12_20_Jamvant.mp3",
+          "character": "jammvant",
+          "duration": 24
+        },
+        {
+          "cueId": "21",
+          "hindi": "Pranaam",
+          "english": "Salutations.",
+          "audioFile": "/Audio/12_21_Ram.mp3",
+          "character": "Ram",
+          "duration": 1
+        },
+        {
+          "cueId": "22",
+          "hindi": "Jai shri Ram Jai shri ram jai shri ram. ",
+          "english": "Hail Shri Ram! Hail Shri Ram!",
+          "audioFile": "/Audio/12_22 everyone.mp3",
+          "character": "Everyone ",
+          "duration": 5
+        },
+        {
+          "cueId": "23",
+          "hindi": "Pause",
+          "english": "Pause",
+          "audioFile": "/Audio/12_23 pause.mp3",
+          "character": "Pause",
+          "duration": 5
+        }
+      ]
+    },
+    "13": {
+      "title": "Shri Ram – Jaamvant – Lakshman Samvaad",
+      "dialogs": [
+        {
+          "cueId": "1",
+          "hindi": "Ranvan doing pooja ",
+          "english": "Ranvan doing pooja ",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "2",
+          "hindi": "Hey poojya Pitamah ke bhrata, anandit mera tan man hai.Lanka mein aap padhare hain, sadar swagat abhinandan hai",
+          "english": "O revered brother of Grandfather, my spirit and body is full of cheer,You have arrived in Lanka — I greet and revere you here.",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "3",
+          "hindi": "\"Kalyan amastu lanka dhipatiSwagat ka dhanyavad kintu main doot roop mein aaya hoon.Prabhu Shri Ram ka hey vats, sadar aamantran laaya hoon\"",
+          "english": "\"May prosperity be yours, O King of Lanka.Thank you for your welcome, but I have come in the form of a messenger.It is Lord Shri Ram’s message I bring, with a heartfelt invitation.\"",
+          "audioFile": "/Audio/13_3_Jamvant.mp3",
+          "character": "Jammvant",
+          "duration": 16
+        },
+        {
+          "cueId": "4",
+          "hindi": "Aamantran?… mere shatru ka aamantran?",
+          "english": "An invitation?… an invitation from my enemy?",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "5",
+          "hindi": "Ye nyota hai acharya hetu, poojan Shivpurn kaam ka hai.Ye nyota nahin shatru ka hai, nyota yajmaan Ram ka hai॥Ban gaya setu hai saagar par,  ab Shivling ka hoga sthapan.Us poojan ke acharya hetu, sarvatha uchit ho tum Ravan॥Ban jao purohit tum Ravan, Raghav ke namra nivedan par.Tum sa vidwaan aur pandit, Shiv bhakt  aur na koi dashkandhar",
+          "english": "\"This invitation is for the role of Priest— for the sacred worship of Shiva.It is not the summons of an enemy, but the invitation of Lord Ram, the patron.The bridge is now built across the ocean, and the Shiva Lingam shall be established.To perform that worship, Ravana, you are the most fitting.Be the High Priest, O Ravana, at the humble request of Raghav.For none is as learned, none so wise, none such a devotee of Shiva, as you, O Ten-headed one.\"",
+          "audioFile": "/Audio/13_5_Jamvant.mp3",
+          "character": "Jammvant",
+          "duration": 40
+        },
+        {
+          "cueId": "6",
+          "hindi": "\"Accha, Shiv ling ka sthapana hoga saagar ke us tat par.Aur is poojan se Ram chahte hain Lanka par jay ka var॥Apne pairon par swayam hi kya, main apne haathon vaar karoon.Acharya hetu is pooja ka main nyota kyon sveekar karoon\"",
+          "english": "\"So then, the Shiva Lingam shall be established upon the ocean’s shore,And through this worship, Ram seeks victory over Lanka in war.Why should I, with my own hands, prepare the rites of my downfall?Why accept an invitation that brings my ruin, my fall?\"",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "7",
+          "hindi": "\"Ho Shiv ke param bhakt, kya tum Shiv ki pooja thukraoge.Hokar trilok vijeta jag mein tum apna uphaas karaoge॥Acharya hetu anurodh kiya, tumko sammaan de rahe hain.Hain shatru bhale hi, par tumko vo pandit ka maan de rahe hain॥Kya uchit tumhein Lankapati hai, is par soch vichar karo.Mera to yahi nivedan hai, ab aamantran sveekar karo\"",
+          "english": "\"O supreme devotee of Shiva, will you now refuse His worship?Though conqueror of the three worlds, will you invite mockery upon yourself?They have requested you to be the High Priest, offering you honor.Though their enemy, they still regard you as a learned scholar.What seems right to you, O King of Lanka? Think well upon this.My humble plea is this alone — accept the invitation now.\"",
+          "audioFile": "/Audio/13_7_Jamvant.mp3",
+          "character": "Jammvant",
+          "duration": 34
+        },
+        {
+          "cueId": "8",
+          "hindi": "\"Hai satya ki is aamantran ko main mana nahin kar paoonga.Main Shiv ka param bhakt, kaise unki pooja thukraaoonga॥parantu Pitamah, Yeh paavan yajna Maheshwar ka, manas ki vimal tapasya hai.Is poojan mein to Reecharaj pehle hi ek samasya hai॥Ekaki Raghav ki pooja nishphal hai aur adhoori hai.Shivling ki praan pratishtha mein patni ka saath zaroori hai॥Shastron mein niyam sunishchit hai, usko kaise jhuthlaayenge.Sita ke bina Ram kaise yeh anushthan kar paayenge॥Isliye Ram se keh dena, main shastra viruddh na jaoonga.Shiv ki aisi poojan ka main acharya nahin ban paoonga\"",
+          "english": "\"It’s true — this invitation I cannot refuse,As devotee of Shiva, how the opportunity to worship him, can I lose?But Grandsire, this sacred sacrifice to Maheshwar is pure,And in this worship, O King, there’s a challenge to endure.The worship of Raghav alone is incomplete,For the establishment of the Lingam, the wife’s role is the feat.This rule in the scriptures is firm and strong,Without Sita, how can Ram right this wrong?Tell Ram, I cannot defy the scriptures’ command,Such worship of Shiva, I cannot take in hand.\"",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "9",
+          "hindi": "laughter",
+          "english": "laughter",
+          "audioFile": "/Audio/13_9 laughter.mp3",
+          "character": "laughter",
+          "duration": 5
+        },
+        {
+          "cueId": "10",
+          "hindi": "\"Shastron ke gyaata Dashkandhar, Shiv bhakt param vigyani ho.phir Kyon aise prashn uthate ho jaise koi agyaani ho॥Pandit koi acharya hetu jab bhi haami bhar leta hai.Jo bhi abhaav ho pooja mein, vah swayam poorn kar deta hai\"",
+          "english": "\"O Dashkandhar, knower of the scriptures, a great devotee of Shiva and a learned scholar,Why then do you raise questions that seem to come from the ignorant?Whenever a scholar agrees to become a priest for a ritual,He himself rectifies any shortcomings in the worship, completing it to perfection\"",
+          "audioFile": "/Audio/13_10_Jamvant.mp3",
+          "character": "Jammvant",
+          "duration": 29
+        },
+        {
+          "cueId": "11",
+          "hindi": "\"He Manas putra Vidya ke Ravan, tum par balihari hai.Kar diya vishwas mujhko, adbhut yeh buddhi tumhari hai॥Acharya ban gaya to phir main saare avarodh hataoonga.Shiv ki pooja mein Sita ko main saath liwa kar aaoonga॥Par shart hamari keh dena, jismein koi ghaat nahin hogi.Pooja to saath karenge vo, aapas mein baat nahin hogi॥Kal sooryoday Sita sahit main Ramdal me aa aoonga.Yajmaan Ram ke haathon se Shiv ka poojan karvaaoonga॥Jo bhi keh diya poorn hoga, man mein na tanik sanchay lena.Yeh vachan purohit Ravan ka, Yajmaan Ram se keh dena\"",
+          "english": "O son of Manas, as Ravan, master of wisdom so bright,You have earned my trust, your knowledge is a wondrous light.Once I become the priest, all obstacles I will clear,I’ll bring Sita to join the worship, and the ritual will be sincere.But here is the condition, it must be done with care:They’ll perform the worship together, but no words shall they share.Tomorrow at sunrise, with Sita at my side,I’ll join Ram’s army, and with his hands, the worship will collide.Whatever I have promised will come true, have no doubt at all,This is the vow of Priest Ravan, to Ram, this message call.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "12",
+          "hindi": "awashya",
+          "english": "Certainly!",
+          "audioFile": "/Audio/13_12_Jamvant.mp3",
+          "character": "Jammvant",
+          "duration": 1
+        },
+        {
+          "cueId": "13",
+          "hindi": "Shambhuuuu",
+          "english": "Hey Lord Shiva!",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "14",
+          "hindi": "Song",
+          "english": "Song",
+          "audioFile": "/Audio/13_14 song.mp3",
+          "character": "Song",
+          "duration": 29
+        }
+      ]
+    },
+    "14": {
+      "title": "Raavan – Jaamvant Samvaad",
+      "dialogs": [
+        {
+          "cueId": "1",
+          "hindi": "Maha Pandit Ravan ne apne pitatulya Jamvant ji ko diye hue vachan anusar, agle hi din sooryoday se poorv Ashok Vatika mein vishad grast Sita se kaha",
+          "english": "\"In accordance with the promise made by the great scholar Ravan to his father-like Jamvant ji, the very next day, before sunrise, he went to Ashok Vatika and spoke to the sorrowful Sita\"",
+          "audioFile": "/Audio/14_1_Narrator.mp3",
+          "character": "Narrator ",
+          "duration": 12
+        },
+        {
+          "cueId": "2",
+          "hindi": "\"Bas kuch hi pal mein he Vaidehi, arunodaya hone wala hai.Dekho Prachi mein rakt varna ka phaila hua ujaala hai॥Baitho Pushpak Vimaan mein tum, tatkshan hi humein nikalna hai.Avasad chhod kar saath chalo, humko Ramadal chalna hai\"",
+          "english": "\"In just a few moments, Vaidehi, the dawn will break.Look to the east, where the red-hued light spreads and makes the sky awake.”“Sit in the Pushpak Vimana, we must leave at once.Leave behind your sorrow, come with me, we head for Ram’s army’s hunt.\"",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "3",
+          "hindi": "Jo kapti chhadma vesh dhar kar, mujhko chal se har ke laaya hai.Kar diya kalankit porush ko, kul ka bhi naam mitaaya hai॥Jiske shaasan mein nyaay nahin, jiske shaasan mein dharm nahin.Jo dambh aur vasna grast, aankhon mein jiske sharm nahin॥Vah aaj upasthit hua punah  koi sharyantra rachane ko.Shri Ram Chandra ji ke paas,  bada aya mujhe le jaane ko",
+          "english": "\"The one who, in a deceptive disguise, abducted me here through treachery,Has dishonored himself, tainting his family’s name.Under his rule, there is no justice, no dharma.He is driven by arrogance and desire, with no shame in his eyes.And now, once again, he stands before me, plotting his schemes.But I am being led to Shri Ram Chandra ji, where I truly belong\"",
+          "audioFile": "/Audio/14_3_Seeta.mp3",
+          "character": "Sita ",
+          "duration": 39
+        },
+        {
+          "cueId": "4",
+          "hindi": "Sita, mat karo krodh, Devi, durvachan na Ravan ko bolo.Vaidehi satya saamne hai, dekho apni aankhen kholo॥Saagar ke us tat, Raghav ne Shri Har ka yajna rachaya hai.Shivling sthapana ka devi mujhko acharya banaya hai॥Shiv maha yajna mein pati ke sang patni ka saath zaroori hai.Isliye tumhein lekar jana, Sita meri majboori hai॥Pooja karvaakar phir tumko wapas Lanka le aaoonga.Main bana purohit Raghav ka, to uska dharm nibaaunga॥Acharya dashanan ka Devi, aagrah anugyaan thukraao mat.Yajmaan pratiksha mein honge, Vaidehi der lagao mat",
+          "english": "Sita, do not be angry, O Goddess, do not speak harsh words in wrath.Vaidehi, the truth is clear, open your eyes and walk the righteous path.On that ocean’s shore, Raghav has arranged a sacred rite,For The establishment of Shiva’s Lingam, he has made me the priest of this light.In this grand ritual, the husband and wife must stand side by side.Thus, it is my duty to take you, Sita, as per the tradition’s guide.After the worship, I will bring you back to Lanka in haste.As the priest of Raghav, I will fulfill this sacred duty with grace.O Devi, do not refuse my request, please do not turn away.Host Raghav awaits, Vaidehi, do not delay.",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "5",
+          "hindi": "\"Tere chal ka Lanka naresh, kya Sita ko abhaas nahin.Tu laakh yatn kar le, par Vaidehi ko tujh par vishwas nahin॥Pehle bhi kai roop dharkar, tune maya rachayi hai.Chhal, kapat, jhooth, paakhand; Ravan, teri ye sachchai hai॥Kul kirti, bhakt Shiv Shankar ki, sab kuch vinashth kar daala hai.Teri grvah mein padi hui dashkanth paap ki maala hai॥Ravan Tu baat dharm ki karta hai, seema adharm ki todi hai.Teri kul Devi Chandi ne yeh Lanka nagri chhodi hai॥Sanrakshak UmaMaheshwar the, vah bhi har naata tod gaye.Tujhko hi nahin, tere kaaran, Lanka ko chhod gaye॥Tu mujhe Lanka mein lekar aaya, chhavidhaam mujhko le jaayenge.Tera vadh karke Ravan,  Shri Ram, mujhe le jaayenge॥Tu apna kapat jaal  tribhuvan mein kahin bichha Ravan.Main saath na tere jaaungi, mere sammukh se ab ja Ravan\"",
+          "english": "\"O Ravan, the King of Lanka, do you not realize the presence of Sita?No matter how hard you try, Vaidehi will never trust you.Time and again, you’ve taken on many forms and spread your illusions.Deceit, hypocrisy, arrogance, and lies — Ravan, this is your truth.You’ve destroyed your family’s honor, and the devotees of Shiva.Around your neck hangs the garland of your own sinful actions.You speak of dharma, but you’ve shattered the limits of adharma.Your family goddess, Chandi, has abandoned this city of Lanka.Uma Maheshwar were your protectors, but they too broke their ties with you.It is not just you, but because of you, your Lanka has been forsaken.You brought me to Lanka, to this abode of illusion, but now I shall leave with Ram.After destroying you, Shri Ram will take me with him.You’ve spread your deceit across the three worlds, Ravan,but I will not walk with you — leave my sight, Ravan!\"",
+          "audioFile": "/Audio/14_5_Seeta.mp3",
+          "character": "Sita",
+          "duration": 110
+        },
+        {
+          "cueId": "6",
+          "hindi": "\"Acharya Ram ka hoon Devi, prativad nahin kar paoonga.Ho raha vilamb, bahut Sita, samvaad nahin kar paoonga॥Tum baat na meri maan rahi, tumko vishwas dilata hoon.Main satya keh raha hoon, Sitey, saugandh Ram ki khata hoon\"",
+          "english": "I am the priest of Ram, I cannot engage in counter-arguments.It’s getting late, Sita, I cannot converse on these statements.You do not trust my words, but I now make this vow,I speak the truth, Sita, by Ram’s name, I swear it here and now.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "7",
+          "hindi": "sound",
+          "english": "sound",
+          "audioFile": "/Audio/14_7 sound.mp3",
+          "character": "sound",
+          "duration": 8
+        },
+        {
+          "cueId": "8",
+          "hindi": " ab Mujhko vishwas dilane ko yeh nai neeti apnaayi hai.Jo shatru tumhara hai Ravan, unhi ki saugandh khayi hai  ",
+          "english": "\"Now, to make me believe, you’ve adopted this new scheme.The one who is your enemy, Ravan, you’ve sworn by him.\"",
+          "audioFile": "/Audio/14_8_Seeta.mp3",
+          "character": "Sita ",
+          "duration": 14
+        },
+        {
+          "cueId": "9",
+          "hindi": "\"Keh raha satya, durbhaav, koi mat apne chitt dharo Sita.Shiv ki saugandh uthata hoon, mujh par vishwas karo Sita\"",
+          "english": "\"I speak the truth, Sita, do not let ill thoughts take hold.By the oath of Shiva I swear, trust me, Sita, and be bold.\"",
+          "audioFile": null,
+          "character": "Ravan",
+          "duration": 0
+        },
+        {
+          "cueId": "11",
+          "hindi": "\"yadi Shankar ki shapath uthali hai to Ramdal ko jaaoongi.Ardhangini hoon main Raghav ki pooja ko poorn karaaoongi\"",
+          "english": "\"I swear by Lord Shankar, I will go to Ram’s army.I am determined, and I will complete the worship of Raghav.\"",
+          "audioFile": "/Audio/14_11_Seeta.mp3",
+          "character": "Sita ",
+          "duration": 11
+        },
+        {
+          "cueId": "12",
+          "hindi": "\"Pooja nirvighn safal hogi, saakshi swayam Tripurari hain.Lekin Sita us poojan mein do shartein maatr hamari hain॥Acharya dashanan ka aagrah, Devi Sita Kalyani se.Raghav se baat nahin karna, naino se athva vaani se॥Poojan se poorv tumhara aur Raghav ka gathbandhan hoga.poojan tak saath maatr, mat socho mahamilan hoga॥Is poojan se hai Vaidehi sandesh jagat mein jaayega.Hai shatru bhale Ravan lekin, apna har dharm nibhaayega\"",
+          "english": "\"The worship will be flawless, with Tripurari as the witness.But, Sita, there are only two conditions for this worship.The request for the darshan of the priest, Devi Sita, is clear.You must not speak to Raghav, neither with your eyes nor with your voice.Before the worship, you and Raghav will be bound in a sacred bond.You will only be together for the worship — do not think this is a reunion.Through this worship, Vaidehi, the message will reach the world.Though Ravan is our enemy, he will fulfill his duty in this ritual.\"",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "13",
+          "hindi": "song + music",
+          "english": "song + music",
+          "audioFile": "/Audio/14_13 song + music.mp3",
+          "character": "song + music",
+          "duration": 39
+        }
+      ]
+    },
+    "15": {
+      "title": "Ashok Vatika mein Raavan",
+      "dialogs": [
+        {
+          "cueId": "1",
+          "hindi": "\"Sita ko Pushpak Vimaan se lekar Panditraaj Acharya Ravan Ramadal mein pahunche.\"",
+          "english": "With Sita in the Pushpak Vimaan, the priestly king Ravan reached Ram’s army.",
+          "audioFile": "/Audio/15_1_Narrator.mp3",
+          "character": "Narrator",
+          "duration": 5
+        },
+        {
+          "cueId": "3",
+          "hindi": "Aashish de raha hoon tumko, saakshi hain Bhole Shiv Shankar.Dono ki manokamna ko paripoorn karenge prayankar",
+          "english": "I bless you now, with Lord Shiva as the witness.Your hearts' desires will be fulfilled by this sacred action.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "4",
+          "hindi": "\"Acharya aapse ek maatr aashish Yajmaan chahta hai.Lanka nagri par vijay mile bas, ye vardaan mangta hai\"",
+          "english": "O Priest, the yajman seeks just one blessing from you.He desires victory over Lanka, this is the boon he asks for.",
+          "audioFile": "/Audio/15_4_Ram.mp3",
+          "character": "Ram",
+          "duration": 14
+        },
+        {
+          "cueId": "5",
+          "hindi": "\"Acharya prashansak hua swayam Raghunandan ki chaturai ka.Main bana purohit maan rakhunga is pad ki prabhutai ka॥Vah dharm nibaaunga Raghav, jiska main swayam praneta hoon.He Ram, tumhein main Lanka par aashish vijay ka deta hoon॥Shivling sthaapit kiya Ram, yeh naam tumhara paayega.Mahadev ka yeh vigrah, ab Rameshwar kehlaayega॥Sita ko lekar jaata hoon, yeh ab bhi vashi vhn k haiYajmaan tumhare poojan ki acharya dakshina baaki hai\"",
+          "english": "The priest, in turn, praises the wisdom of Raghunandan.I will accept this priesthood with honor, upholding the dignity of this role.I will perform my duty in service to Raghav, to whom I am a humble devotee.O Ram, I bestow upon you the blessing of victory over Lanka.The Shivling established by Ram, this name shall be known throughout.The idol of Mahadev shall now be called Rameshwar.I will take Sita with me, though she still remains in Ravan’s grasp.The priestly offering for your worship, O Yajman, is yet to be completed.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "6",
+          "hindi": "aap jo kahenge, hum denge apne man ka sankoch haren.Acharya dakshina kya hogi, Yajmaan khada aap to bas adesh karein",
+          "english": "Whatever you command, we will give, casting aside all hesitation.What shall be the priestly offering? O Yajman, you need only issue the command",
+          "audioFile": "/Audio/15_6_Ram.wav",
+          "character": "Ram",
+          "duration": 15
+        },
+        {
+          "cueId": "7",
+          "hindi": "\"Samaraangan mein he Raghvendra, sanket tumhein de doonga main.Us samay dakshina man chahi, he Ram swayam le loonga main॥Kal se kuch aur samay hoga, ab to aavahan ran ka hai.Dekhenge saare jag wale, kya yuddhadh Ram Ravan ka hai॥Shambuu\"",
+          "english": "In the battlefield, O Raghvendra, I will give you the signal.At that time, the offering will be yours, O Ram — I will take it myself.Tomorrow, a new time will begin, for now, the call to battle is here.The whole world will watch, as the great war between Ram and Ravan unfolds.Shambhu.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "8",
+          "hindi": "song SCR 85",
+          "english": "song SCR 85",
+          "audioFile": "/Audio/15_8 song.mp3",
+          "character": "song",
+          "duration": 188
+        }
+      ]
+    },
+    "16": {
+      "title": "Jyotirling Ram-Eshwaram ki Sthaapna",
+      "dialogs": [
+        {
+          "cueId": "1",
+          "hindi": "\"Ravan lagbhag apni saari sena, praja, bhai Kumbhakarn evam poore kutumb ka yuddh mein samaapt dekh chuka hai.Aaj trailokya vijayi Ravan apne darbar mein singhasan par akela, adharmursthit avastha mein apne ateet aur vartamaan ko sochte hue yuddh ki vibhishika par sthir hai.Thakaan ke kaaran Ravan ko jhapki aati hai, aur use ek swapn aata hai\"",
+          "english": "Ravan has witnessed the near destruction of his entire army, his subjects, his brother Kumbhakarna, and his entire family in battle.Today, the conqueror of the three worlds, Ravan, sits alone on his throne in his court, reflecting on his past and present, in a state of unrighteousness, frozen in the horrors of war.Due to exhaustion, Ravan falls into a light sleep, and a dream comes to him",
+          "audioFile": "/Audio/16_1_narrator ( length needs to be matched).mp3",
+          "character": "Narrator",
+          "duration": 29
+        },
+        {
+          "cueId": "2",
+          "hindi": "silence",
+          "english": "silence",
+          "audioFile": "/Audio/16_2 silence.mp3",
+          "character": "silence",
+          "duration": 23
+        },
+        {
+          "cueId": "3",
+          "hindi": "\"Swagat karta hai Dashkandhar, he Raghunandan, aao, aao.He Arya sanskriti ke prateek, he Dashrath Nandan, aao, aao॥Man ke kapaath se sanshay ki argala hatao Raghvendra.tum nar ho ya narayan mujheko batlao raghavendra\"",
+          "english": "Welcome, O Dashkandhar, He Raghunandan, come, come.O symbol of Aryan culture, O son of Dasharath, come, come.From the depths of your heart, remove the chains of doubt, Raghvendra.Are you a man or Narayan, tell me, Raghavendra",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "4",
+          "hindi": "\"Mujhse kyon poochh rahe ho tum, tum  to teenon kaal jaante ho.Apne vivek ka paaramarsh tum kbhi nhi maante ho॥Jaise tum mujhko chahoge, main tumko waisa milta hoon.nar bhi hoon, Narayan bhi, jaise ko taisa milta hoon\"",
+          "english": "Why do you ask me, when you already know the three worlds?You never accept the guidance of your own intellect.But, As you wish, so shall you receive.I am both man and Narayan, and I manifest as you perceive.",
+          "audioFile": "/Audio/16_4_Ram.mp3",
+          "character": "Ram",
+          "duration": 29
+        },
+        {
+          "cueId": "5",
+          "hindi": "\"\"\"Jaise ko taisa kaha kintu, waise tumne kiya nahin.Seedha sa prashn hamara tha, par seedha uttar diya nahin॥\"\"\"",
+          "english": "You said 'as you sow, so shall you reap,' but you did not act accordingly.My question was simple, yet you did not give a straightforward answer.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "6",
+          "hindi": "\"Seedha sa prashn tumhara tha,aur seedha hi vachan hamara hai. pr Tum bhala kis tarah samjhaoge jab ahankaar ne maara haiJab ahankaar sar chadhkar apna varchasv dikhaata hai.bade-bade vidwanon ka Ravan, vivek mar jaata hai॥Tumne paala hai dambh kintu apna sarvasv ganvaya hai.aur manavta k kalyan hetu mene dhanush van uthaya hai\"",
+          "english": "Your question was simple, and our answer is just as simple.But will can you understand when arrogance has clouded your mind?When arrogance rises and shows its power,Even the greatest of scholars, like Ravan, lose their wisdom.You embraced pride, but at the cost of your own essence.For the welfare of humanity, I have taken up the bow.",
+          "audioFile": "/Audio/16_6_Ram.mp3",
+          "character": "Ram",
+          "duration": 48
+        },
+        {
+          "cueId": "7",
+          "hindi": "\"Mana mana ghamand mujhmein hai, par tum to maryada wale the.Kaisi maryada duniya ko, tum Ram dikhane wale the thi bahan hamari agyaani, usne na smajhi dikhlaai.Kar daala ang bhang, maryada drishti nahin aai॥Stree par haath uthane ka jo Lakshman ne aparadh kiyaMaryada bhanjan bhai ko, he Raghunandan, kya dand diya\"",
+          "english": "Yes, yes, pride is within me, but you were the one who upheld righteousness.What kind of righteousness did you, Ram, wish to show the world?It was our sister’s ignorance that she failed to understand.She caused harm, yet you, the one who teaches righteousness, failed to see her error.When Lakshman committed the sin of raising his hand against a woman,What punishment did you, O Raghunandan, give to your brother for breaking the rules of righteousness?",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "8",
+          "hindi": "\"Ravan, jo prashn tumhara hai, uska bas ek yahi uttar.Aparadhi bas aparadhi hai, vah naari hove athva narVah kaamukta ki maari thi, usne humko varna chaaha.Man ki na hui,  to Soorpnakha ne, Sita ka vadh karna chaaha॥Usne maryada todi to Lakshman ne dand diya usko.Vah thi uddand, vasna mein, vasna viheen kiya usko॥Soorpnakha karti sadaacharan, to paksh usi ka dharta main.Lakshman tab use dand dete,  to Lakshman ko dandit karta main\"",
+          "english": "Ravan, the answer to your question is simple.A criminal is a criminal, whether he is a woman or a man.She was driven by lust, and she desired us.But when her desires were unfulfilled, Soorpanakha sought to harm Sita.She broke the boundaries of respect, and Lakshman gave her her due punishment.She was unruly, consumed by lust, and Lakshman rendered her without desire.Had Soorpanakha behaved with decency, I would have supported her cause.But if Lakshman had punished her, I would have punished Lakshman myself.",
+          "audioFile": "/Audio/16_8_Ram.mp3",
+          "character": "Ram",
+          "duration": 57
+        },
+        {
+          "cueId": "9",
+          "hindi": "Mana dhar karke sadhu vesh Sita ka haran kiya maine.Behana ke bahte lohoo ka keval pratishodh liya maine॥Naari maryada ke vrudh Lanka mein kuch bhi hua nahin.Raghav, maine Vaidehi ko ek ungli tak se chhua nahin",
+          "english": "Yes, I admit, I took the guise of a sadhu and abducted Sita.But I only took revenge for the bloodshed of my sister.No wrong was done to women in Lanka, and there was no violation of their dignity.Raghav, I never even touched Vaidehi with a single finger.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "10",
+          "hindi": "\"Samman kiya hai naari ka? Tumne apaharan kiya chhal se.Rambha ki ichha ke virudh, kya loot nahin use bal se॥parantu yadi Chhoote Sita ko vishai ho to kaal kaal mein kho jaate.Tha Nalkuber ka shaap, tumhein sar ke sau tukde ho jaate॥Tum vishay vasna mein doobe, gyaani hokar bhi paapi ho.Jitne vardaan mile tumko, unse zyaada abishaapi ho\"",
+          "english": "Did you honor the woman’s dignity? You abducted her through deceit.Did you not violate Rambha’s desires, with forceful cruelty?But when the innocent Sita suffers, she vanishes into time.It was Nalkuber’s curse that should have torn you into a thousand pieces.You are submerged in lust, a learned man, yet a sinner.For every blessing you received, you have become more cursed than blessed.",
+          "audioFile": "/Audio/16_10_Ram ( length needs to be matched) .mp3",
+          "character": "Ram",
+          "duration": 46
+        },
+        {
+          "cueId": "11",
+          "hindi": "\"Meri aasuri vritti Raghav, mere nirnay par bhaari thi.pr Tum Arya sanskriti wale the, tumko kaisi lachaari thi॥Tum maryada ke poshak the, to shanti maarg apna lete.Jeevan mein sahi galat kya hai, milkr mujhko samjha dete\"",
+          "english": "My demonic tendencies, Raghav, were overwhelming my decisions.But you, the embodiment of Aryan culture, what weakness did you possess?You were the upholder of righteousness, yet you should have chosen the path of peace.You could have explained to me together what is right and wrong in life",
+          "audioFile": null,
+          "character": "Ravan a bit hesistant",
+          "duration": 0
+        },
+        {
+          "cueId": "12",
+          "hindi": "\"Samjha deta samjha detaparantuChaudah varsho ka vanvasi mein nagar nahin aa sakta tha.Todkar vachan ki maryada, kya tumko samjha sakta thaLekin phir bhi samjhaane ka daayitv nibhaaya tha hai maine.Kitne logon ki vaani se, Ravan samjhaaya tha maine॥Marich, Sumali, Malyavant, aur Jambavant ne samjhaaya.Angad, Hanuman gaye Lanka, tumko sat ka path dikhlaaya॥Mandodari, Kumbhakarn ne bhi tumko samjhaaya tha Ravan.Aur bhrata Vibhishan ne tumko sanmarg bataya tha Ravan॥Swayam Swayam Meghnad se sut ne bhi darpan dikhlaaya tha tumko.Itne logon ne samjhaaya, par samajh na aaya tha tumkoIn sabke to tere aage keval apna munh khola tha.Lekin inhone jo bola tha tumse, he Ravan, vo main hi bola tha\"",
+          "english": "I would have explained, I would have,But as a fourteen-year exile, I could not have entered the city.\"\"Breaking my word's promise, how could I have explained to you,Yet, I took on the responsibility to enlighten you too.\"\"Through the words of so many, I tried to make you see,Marich, Sumali, Malyavant, and Jambavant all tried to set you free.\"\"Angad and Hanuman went to Lanka, showing you the path of truth,Mandodari and Kumbhakarna too, tried to open your eyes, in their youth.\"\"Even Meghnad, your own son, tried to show you the mirror of truth,Many spoke to you, yet you failed to understand, O Ravan, in your ruthless pursuit.\"\"They spoke only their minds in front of you,But what they said, O Ravan, I too said to you.",
+          "audioFile": "/Audio/16_12_Ram.mp3",
+          "character": "Ram",
+          "duration": 98
+        },
+        {
+          "cueId": "13",
+          "hindi": "\"Kitne nirdoshon ko tumne karuna viheen ho sanhaar.Jab keval main aparadhi tha, mere kutumb ka kyon maar॥Kya dosh baal-vriddhon ka tha, kya kulvadhuon-lalanaon ka.Tumne paridhaan pehna daala, sabdhaon se vidhvaon ka॥Kya isse vyathit hua kinchit Raghav ka antar-karan nahin.Kya yeh aparadh nahin, athva yeh maryada ka saran nahin\"",
+          "english": "How mercilessly you have destroyed the innocent.When only I was the criminal, why did you harm my family?What was the fault of the children and the elderly? What crime did the wives and daughters commit?You dressed them in sorrow, casting them as widows with your words.Did this not pain Raghav’s heart even a little?Is this not a crime, or a violation of the code of honor?",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "14",
+          "hindi": "\"Yeh dharmniti samaraangan ki, yeh nirnay karna padta hai.Jo hai raja ke saath khade, un sabko marna padta hai॥Raja ki raajniti hi, jab anyaay dhara par karti hai.Nirdosh bechari janta bhi, un paapon ka phal bharti hai॥Jo jaisa karta hai Ravan, vah waisa hi phal paata hai.Raja ke kukarmo ka phal, janta ke maathe aata hai॥Apni vish buri kaamnaon, apni anant vasnaon ka.Ravan tu uttar daayi hai, Lanka ki sab vidhvaon ka\"",
+          "english": "his is the law of righteousness in battle, this is the decision that must be made.Those who stand with the king must be killed.When a king’s policies stray from justice,Innocent and helpless people bear the consequences of his sins.As Ravan acts, so shall he reap the fruits of his actions.The result of a king’s misdeeds is carried on the shoulders of the people.Through your wicked desires and insatiable lusts,Ravan, you have reaped the outcome of Lanka’s devastation",
+          "audioFile": "/Audio/16_14_Ram.mp3",
+          "character": "Ram",
+          "duration": 63
+        },
+        {
+          "cueId": "15",
+          "hindi": "\"Mera vadh karke Raghvendra, dharti ka bhaar utaaro tum.Yadi main aparadhi hoon to phir kal ran mein mujhko maaro tum॥Par sach batlana samaraangan mein, mujhko sanhaar sakoge kya.Tum bina sahyog Vibhishan ke, Ravan ko maar sakoge kya\"",
+          "english": "By killing me, Raghvendra, you will lift the burden of the earth.If I am truly a criminal, then strike me down in battle tomorrow.But tell me, will you be able to destroy me on the battlefield,when you face Ravan without the support of Vibhishan?",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "16",
+          "hindi": "Ravan Hum dono ke hi beech Vibhishan ji ka aana aavashyak hai.Aisa karke isss jag ko yeh samjhaana aavashyak hai॥Ki Anyayi ke viruddh ran mein jo haath mile lena chahiye.fir chahea vo  shatru paksh ka ho, yadi saath mile lena chahiye॥Voh neeti nipun hai, dharmavaan maana, vo bhrata tumhara hai.Apmaanit hokar bhi tumko samjha samjha kar haara hai॥usko koi dosh nahin Ravan, usne na koi chhal paala hai.Tumne hi to pad prahaar karke apni Lanka se use nikaala hai॥Dharm virodhi ko chorna, koi abishaap nahin Ravan.Uske kaaran Uske kaaran tumhara vadh hai, to ismein koi paap nahin Ravan॥Vyabhichaari aur kukarmi ka apne bhi saath nahin dete.Jo haath surakshit mein, rehte hain paapon mein saath nahin dete॥Teri saari chintaon ko pal bhar mein har sakta hoon mein.Ek hi baan se Lankapati tera vdh kar sakta hoon mein॥Jada bhavishay ka mat socho, kal kal shatru bhaav laana ram mein.Saari shaktiyaan, sabhi kaushal, laakr ke dikhlaana ran mein॥Ravan ke liye yuddh  mein phir koi pareeksha shesh na ho.Jab tera vadh ho, tab teri koi abhilasha shesh na ho",
+          "english": "Ravan, for both of us, the presence of Vibhishan is essential,It’s crucial to make the world understand this principle.\"\"That in the battle against injustice, any hand that extends must be taken,Even if it belongs to the enemy side, such a hand must be forsaken.\"\"He is wise, righteous, and undoubtedly your brother,Even after being humiliated, he tried to guide you, though he suffered.\"\"There is no fault with him, Ravan, he didn’t resort to deceit,You are the one who struck him, casting him out of your seat.\"\"Leaving aside those who oppose dharma, there is no curse upon them,It is because of him, because of his actions, that your end has come.\"\"The wicked and the wrongdoer do not receive support,Those who remain in safety, don’t partake in the sinful sort.\"\"I can erase all your concerns in a moment,With just one arrow, O Lanka's king, I can bring your end, potent.\"\"Don’t think about the future, nor bring hostility into the battle,Show all your strength, all your skill, and let the fight rattle.\"\"For Ravan, the battle has no test left,When your end comes, there will be no desire left.",
+          "audioFile": "/Audio/16_16_Ram.mp3",
+          "character": "Ram",
+          "duration": 154
+        },
+        {
+          "cueId": "17",
+          "hindi": "Raam!!  Saamne nahin aa sakte the, to sapne mein aakar chale gaye.Mere aparadhon ki ginti mujhko ginvakar chale gaye.Is Ravan se he Narayan, tum door nahin ja paoge.Apne haathon se kul samet, mujhko nij dhaam pathaogeshambuuu",
+          "english": "They could not come before me, so they entered my dreams.Counting my sins, they left, as if to condemn me.From this Ravan, O Narayan, you will not escape.With your own hands, you will send me to my rightful place.Shambhu.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "18",
+          "hindi": "song",
+          "english": "song",
+          "audioFile": "/Audio/16_18 song.mp3",
+          "character": "song",
+          "duration": 59
+        }
+      ]
+    },
+    "17": {
+      "title": "Raavan ke Vichaaron mein Ram",
+      "dialogs": [
+        {
+          "cueId": "1",
+          "hindi": "\"Agli hi subah Ram aur Ravan ke beech bhishan yuddh praarambh ho gaya.Ram baar-baar Ravan ka sheer kaat dete, kintu vah sheer punah jud jaate.Yeh dekh kar Vibhishan ke paramarsh anusar Shri Ram ne agnibaan seRavan ki nabhi ka amrit sookha daala aur phir antim prahaar ke liyeApni tu-neer se Brahmastra nikaala!\"",
+          "english": "The very next morning, a fierce battle began between Ram and Ravan.Ram struck at Ravan’s head again and again, but it kept regenerating.Seeing this, following Vibhishan’s advice, Shri Ram fired an Agnibaan atRavan’s navel, drying up his life force, and then, for the final blow,He drew his Brahmastra from the ocean of his divine energy!",
+          "audioFile": "/Audio/17_1_narrator.mp3",
+          "character": "Narrator",
+          "duration": 27
+        },
+        {
+          "cueId": "2",
+          "hindi": "background music",
+          "english": "background music",
+          "audioFile": "/Audio/17_2_background.mp3",
+          "character": "background music",
+          "duration": 15
+        },
+        {
+          "cueId": "3",
+          "hindi": "Jab tak main jeevit raha, shatru ka bhaav kabhi marne na diya.Apni Lanka mein Raghvendra, tumko pravesh karne na diya॥Mere sammukh meri sena, mere kutumb ke veer gaye.He Ram, tumhare param dhaam, taj karaake sabhi sharir gaye॥Yeh dharm-adharm, punya-paatak, jo bhi apmaan hai maine.Antim kshan tak raja ka yeh daayitv nibhaaya hai maine॥Ab shesh ek antim hath hai, dekho main use nibhaata hoon.He Ram, tumhare hi sammukh mein, lok tumhare jaata hoon",
+          "english": "As long as I lived, I never allowed the feeling of defeat to arise in me.In my Lanka, O Raghvendra, I never allowed you to enter.Before me, my army and my brave kin were laid to rest.O Ram, all have gone to your eternal abode, leaving behind their bodies.This dharma and adharma, the virtuous and sinful, all the wrongs I have committed,Until the last moment, I fulfilled the king’s duty.Now there remains but one final act, see, I will fulfill it.O Ram, before you, I leave this world and take my final steps.",
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "4",
+          "hindi": "Vardaan mit gaye sab, tere mit gaye Dashanan sabhi shaap.Nishpaap ho gaya tu Ravan, jal gaye yuddh mein sabhi paap॥Jis tarah doodh mil jaata hai, nirmal se paani mein.Vaise hi tera naam rahe dharti par, Ram kahani mein॥parantu iss Peedit janta ko Dashkandhar, krooran nahin hone doonga.Main manavta ko dharti par asahaya nahin hone doonga॥Dwapar ho athva ho Kaliyug, jab bhi adharm badh jaayega.Tab lekar ke avatar koi, yeh Ram dhara par aayega",
+          "english": "All the blessings have been erased, your curses, O Dashanan, are all nullified.You are now free of sin, Ravan, all your sins have been burned in this battle.Just as milk mixes with water, Ravan, you have become pure in the water.Similarly, your name will remain on earth, in the tales of Ram.I, Dashkandhar, will never let the oppressed people suffer.I will not allow humanity to be helpless on this earth.Whether it be the Dwapar or Kali Yuga, whenever injustice arises,An incarnation will come, and this Ram will descend upon the earth",
+          "audioFile": "/Audio/17_4_Ram.mp3",
+          "character": "Ram",
+          "duration": 98
+        },
+        {
+          "cueId": "5",
+          "hindi": "shank",
+          "english": "shank",
+          "audioFile": "/Audio/17_5 shank.mp3",
+          "character": "shank",
+          "duration": 7
+        },
+        {
+          "cueId": "6",
+          "hindi": "Aapne tribhuvan vijayi, aatank aur adharm ke paryaay,Mata Sita ke apaharan-kaari mahabali Lanka naresh ka vadh kar diya bhaiya, aapki jai ho",
+          "english": "You, the conqueror of the three worlds, have vanquished the embodiment of terror and injustice.By slaying the mighty king of Lanka, the one who abducted Mata Sita, O brother, victory is yours!",
+          "audioFile": "/Audio/17_6_Lakshman.mp3",
+          "character": "Laxman",
+          "duration": 22
+        },
+        {
+          "cueId": "7",
+          "hindi": "Keval adharm aur paap ke prateek Ravan ka hi samaapan nahin ho raha laxman.Ek mahapandit,  ek maha Shivbhakt, neeti, raajniti aur vivid kalaon ke param vidwan Ravan ka bhi ant ho raha hai.",
+          "english": "The end of Ravan, the symbol of adharma and sin, is not just happening, my brother.Even a great scholar, a devoted follower of Shiva, an expert in politics, ethics, and various arts — the end of such a learned Ravan was also destined.",
+          "audioFile": "/Audio/17_7_Ram.mp3",
+          "character": "Ram",
+          "duration": 28
+        },
+        {
+          "cueId": "8",
+          "hindi": "Us durachari ka yahi dand tha Raghvendra",
+          "english": "This was the punishment for that wicked one, O Raghvendra",
+          "audioFile": "/Audio/17_8_Lakshman.mp3",
+          "character": "Laxman",
+          "duration": 4
+        },
+        {
+          "cueId": "9",
+          "hindi": "nhi laxman nhi pitr Mrityu ko praapt ho rahe kisi bhi vyakti se aise aprashabd nahin bole jaate Lakshman.Ravan ke saath hi uske neeti aur raajniti ke mahaan anubhav bhi samaapt ho rahe hain.Tum Ravan se vinamrata poorvak uski anubhavjanya shikshaayein grahan karoge Lakshman",
+          "english": "Words like these should not be spoken to a person who is about to meet death, Lakshman.With Ravan’s end, his great experiences in policy and governance are also coming to an end.You, Lakshman, will humbly accept the valuable lessons from Ravan’s experiences.",
+          "audioFile": "/Audio/17_9_Ram.mp3",
+          "character": "Ram",
+          "duration": 27
+        },
+        {
+          "cueId": "10",
+          "hindi": "\"Ye Ravan mujhe kya shiksha dega bhaiya?",
+          "english": "What lesson will this Ravan teach me, brother?",
+          "audioFile": "/Audio/17_10_Lakshman.mp3",
+          "character": "Laxman",
+          "duration": 2
+        },
+        {
+          "cueId": "11",
+          "hindi": "\"Dega nahin denge. jaise mene kaha ye param adarneye hai jao laxman ravan k sameep jao aur unse unke jeewan k amual shikshayein grehan kr lo bhaiya jao  \"",
+          "english": "He will not teach. Control your speech and emotions, my dear.He is highly respected. Go to him and humbly request the priceless lessons of life",
+          "audioFile": "/Audio/17_11_Ram.mp3",
+          "character": "Ram ",
+          "duration": 17
+        },
+        {
+          "cueId": "12",
+          "hindi": "Jo aagya bhaiya",
+          "english": "As you command, brother.",
+          "audioFile": "/Audio/17_12_lakshman.mp3",
+          "character": "Laxman",
+          "duration": 2
+        },
+        {
+          "cueId": "13",
+          "hindi": "silence",
+          "english": "silence",
+          "audioFile": "/Audio/17_13 silence.mp3",
+          "character": "silence",
+          "duration": 17
+        },
+        {
+          "cueId": "14",
+          "hindi": "Main Prabhu Shri Ram ka anuj Lakshman, aapko pranam karta hoon.(Ravan aankhen hi nahin kholta hai)Bhaiya, ne mujhe aapke shmashk neeti shiksha grahan karne hetu bheja hai.\"ravan ravan",
+          "english": "I, Lakshman, the younger brother of Lord Shri Ram, offer my salutations to you.Brother, Shri Ramchandra has sent me to you to receive lessons in righteousness.",
+          "audioFile": "/Audio/17_14_1_lakshman.mp3",
+          "character": "Laxman",
+          "duration": 14
+        },
+        {
+          "cueId": "15",
+          "hindi": "Kya hua priya Lakshman? Tumhare aanan par kheej kyon jhalak rahi hai?",
+          "english": "What happened, dear Lakshman? Why does a frown appear on your face?",
+          "audioFile": "/Audio/17_15_ram.mp3",
+          "character": "Ram",
+          "duration": 10
+        },
+        {
+          "cueId": "16",
+          "hindi": "\"Vah bahut ahankari hain bhaiya.Na to unhone mera pranam sweekara, aur na hi mere nivedan par koi pratikriya hi vyakt ki.\"",
+          "english": "He is very arrogant, brother.He neither accepted my salutations, nor did he respond to my request.",
+          "audioFile": "/Audio/17_16_Lakshman.wav",
+          "character": "Laxman",
+          "duration": 7
+        },
+        {
+          "cueId": "17",
+          "hindi": "Gyaan dene wala kaun hota hai Lakshman?\"",
+          "english": "Who is the one to give knowledge, Lakshman?",
+          "audioFile": "/Audio/17_17_ram.wav",
+          "character": "Ram",
+          "duration": 3
+        },
+        {
+          "cueId": "18",
+          "hindi": "Guru hota hai.",
+          "english": "It is the Guru, brother.",
+          "audioFile": "/Audio/17_18_lakshman.mp3",
+          "character": "laxman",
+          "duration": 1
+        },
+        {
+          "cueId": "19",
+          "hindi": "Aur gyaan arjit karne wala?\"",
+          "english": "And the one who acquires knowledge?",
+          "audioFile": "/Audio/17_19_ram.mp3",
+          "character": "Ram",
+          "duration": 4
+        },
+        {
+          "cueId": "20",
+          "hindi": "Shishya hota hai Bhaiya",
+          "english": "it is the desciple",
+          "audioFile": "/Audio/17_20_lakshman.mp3",
+          "character": "Laxman",
+          "duration": 1
+        },
+        {
+          "cueId": "21",
+          "hindi": "To kya tum sache shishay k bhaati dil me aadar lekr vinamrata porvak vidvan Ravan ke sameep gaye the? ek sache shishya ka sthaan guru ke charnon ke paas hota hai.Main dekh raha tha ki tum Ravan ke sheersh ke paas khade the.jao bhaiya ek baar punaye pryatna krodil me shishya ka bhav lekr man me adar lekr vinamr ravan k sameep jao mujhe visvas k vo tumhe awashay dikshit kregejao bhaiya tumhara kalyaan ho  ",
+          "english": "So, did you go to Ravan with the heart of a disciple, honoring the guru, as you should?Lakshman, the place of the disciple is at the feet of the guru.I was observing, and you were standing near Ravan’s head.",
+          "audioFile": "/Audio/17_21_ram.mp3",
+          "character": "Ram",
+          "duration": 28
+        },
+        {
+          "cueId": "22",
+          "hindi": "jo aagya bhaiya",
+          "english": "As you command brother",
+          "audioFile": "/Audio/17_22_lakshman.mp3",
+          "character": "laxman",
+          "duration": 2
+        },
+        {
+          "cueId": "23",
+          "hindi": "silence",
+          "english": "silence",
+          "audioFile": "/Audio/17_23-silence.mp3",
+          "character": "silence",
+          "duration": 19
+        },
+        {
+          "cueId": "24",
+          "hindi": "\"Main Ayodhya Naresh Dashrath ka putra evam Prabhu Shri Ram ka anuj Lakshman,Mahapandit Mahagyani Ravan ko guru roop se sadar pranam karta hoon.\"",
+          "english": "I, Lakshman, the son of King Dashrath of Ayodhya and the younger brother of Lord Shri Ram,respectfully offer my salutations to the great scholar, the supreme devotee, Ravan, in the form of a disciple",
+          "audioFile": "/Audio/17_24_lakshman.mp3",
+          "character": "LAxman",
+          "duration": 20
+        },
+        {
+          "cueId": "25",
+          "hindi": "Ayushman bhava Lakshman! Kaho apne jeewan ki is antim bela me mai tumhare kis hit ki poorti kar sakta hu",
+          "english": "May your welfare be ensured, O Lakshman!Tell me, what do you expect from Ravan at the time of your final journey?",
+          "audioFile": null,
+          "character": "RAVAN",
+          "duration": 0
+        },
+        {
+          "cueId": "26",
+          "hindi": "He Mahamana, neeti, dharm, raajniti aur samast Ved-Shastro ke gyaata,  aap apne gyaan aur anubhavon ki diksha se Lakshman ko jeevan ka path prashast karne ki kripa karein.\"",
+          "english": "O Great One, knower of ethics, righteousness, politics, and all the Vedas and scriptures,May you bless Lakshman with the grace to guide him on the path of life through your wisdom and experience",
+          "audioFile": "/Audio/17_26_lakshman.wav",
+          "character": "Laxman",
+          "duration": 16
+        },
+        {
+          "cueId": "27",
+          "hindi": " me dekh rha ho lakshman tum ek yogya shishya ki patrata lekar upasthit hue ho.astu me apne jeewan ke kuch  anubhavon ko tumse awashy saanjha karunga.hey bhanu kulbhosan ahankaar chahe satta ka ho ya saundharya ka shakti ka ho ya bhakti ka dhan ka ko ya dharm ka ye bde se bde vishw vijayeta ko nasht kr deta hai iska prtaksh prmaan ye trilok vijayta vidhya vishat maha pandit ravan hailaxman ye jagat sabkuch sehn kr sakta hai kintu ashista aur ahenkar sehan nhi krta ravan ko apne gyaan ka ahankaar tha aur tumhare bhai Ram ko ahankar ka gyan haiislea gyaan waqkti ko bhrmukt bhi krta hai aur bharyuqt bhi krta hailaxman vidvan aur vidhyavaan ko kbhi ek maan k bhool mt krna ye sarwata bhin hote haividvan arthath uch shisht jo ravan haividhyavan artharth tumhare bhai jo sushisht hai vidwan vayakti apni vidwaqta k karam apne mitro ko bhi kashtru bna leta hai, lekin vidhyavan vagakti viamrta k karam apne vimantra k karam apne kshtruyo ko bhi apnab mitr banane k bhi kabil hota haiye jg in dono k samuh haath jodkr kada rehta hailekin yaad rkhna vidvan k samaan ye bhay k karam haath jodkr kada rehta hai aur vidhayvan k samuhk ye bhav k  karan k haath jodta hai  jeewan me mtr safal hone k lea nhi apitu jeewan ko sarthak hone k lea kshtru dhristi aur mitra dhrithi ka bheed ana anivarya hai laxman mitrta bhaley he apne samtulya ya apne se nimaya stal k vayati k saath kr lena kinu shtruta saidaiv apne se yogy apne se seesth vayakti se thanna kyuki ye jagat hamare vayaktitwa ka aakalan hamare mitru ko dekhkr nhi hamare shtriyo ko dekhkr krta hai jitna bda aur garima poran hamara shtru hota hai utne he bde aur garima poran vayukti gayati ko ham prapt hote medekha na iss jagat me jo kuch  ram se mitriya krke prat nhi kiya vo ram se shtruta paakr prapt kr lea laxman vo hamara shtru he hota hai jo apne upasthti se  sukhi prri hue urja ko jagrit krne ka karya krta hai hamara shtru he hame aksham se shkasm bnne k prerna deta hai vo hamara shtru he hota hai jo hame asuraksha me daalkr suraksha k aur jane k prerna deta hai vo hamara shtru he hota hai laxaman jo hame apne semit varit se nikaalkr hame apne vrit ko aseemt krne k prerna deta hai islea shtru tiraskar ka nhi namaskar ka patr hota hai islea laxaman kbhi apne hridya se shtru ko namaskar krke dekhna vo tumhara pareshkar kr dega laxman shtru krodh ka nhi sodh ka aur bodh ka vishya hota hai hm apne mitro se adhik apne shtru k  bare me vicharte hai unka naam ka smarn krte hai unka chintin krte hai unka manan krte hai aur jinka hm chintan manan saparam krte hai jeewan me usse k jaise ho jaate hai islea mitro k chunav se adhik sajakta k awaskta shtruyo k chunav me hoti hai hm sabhi ek bdi vawastha k bhut chote ank hai to jaise manush k sareer ko sanchalit krne vala maschit aakar me shareer se bda nhi hota jaise gaj ko sanchalit krne vala manush aakar me gaj se bda nhi hota vaise bhi vavashtha ko sanchalit  bhaley vavastha pramusk ho vavastha se bda nhi hona chahea laxman mahadev ko prsan krne k lea do marg hai ya to hm kamna se poorit hokr mhadev k upasna krte hai ya bhavna se bharkr mahadev k upasna krte hai samarn rkhna jb hm kamna se purit hokr mahadev se upashna krte hai tb mahadev hme veh dete hai jo hame priy hota hai lekin jb hm bhavna se bharkr mahadev k upasna krte hai tb mahdev hme vo dete hai jo mahadev ko priya hota hai airavat haathi pr sawar devraj indra ko nandi par sawar mahadev k sammukh masta jhukana parta hai. smaran rakhna, prathistha ya puja, pad aur aasan ki nahi vyakti me nehet guno ki vriddhi hai. ye sara niti gyan tumhare bhai shree ram swayam tumhe de sakte the , kintu unhone tumhe mere pass bheja. Jante ho kyu?  Lakshman, meri sanskriti asur ki hai kintu mai prakriti se ek tapaswee hu, sadhak hu, aacharya hu, aur kisi bhi vyakti ko apne jeewan ke antim samay me apni sanskrite ke anusar nahi apni prakriti ke anukum karm krna chaiye tab use mrytu naihi mukti prapt hoti hai. aur ram rawan ko marna nahi taarne chahte hai tabhi to unhone mere jeewan ke antim kshrin me mere prakriti ke anusar karm karwa kr mere mukti ke marg ko prashast kar dia. aane wale samay me ye jagat kahega ki trilok vijyeta, vidya vishal, maha pandit Rawan ki parajay ka ek matra kaaran tha ki raawan ke paas lakshman jaisa bhai nahi tha. kintu is jagat ko ye smaran rakhna hoga ke lakshman jaisa bhai prapt krne k lie vyakti ki Rawan nahi swayam Ram banna parta hai. Apne naam Lakshman ka arth jante ho? Laksh ki aur sadev unmukh rehne wale man ko lakshman kehte hai. tumhara lakshya tumhare bade bhai shree ram hai. Sadev unke anugami rehna aur matra unke charan ko hi nahi unke aachran ko bhi apne jeewan me utharne ka prayas krna . Aur smaran rakhna lakshman , marg kabhi ek nai hota, aur lakshya kabhi do nahi hote. Kalyan Vastu. Vida AoaoooaoAAO HAOooaa hai i oo  Shesh dakshina Rawan ki antim sharn hai. Vo do swami. Shiv ke bhakt Dashanan ko apni aabha me lo swami. Har Har Mahadev. Shambhoo ",
+          "english": null,
+          "audioFile": null,
+          "character": "Ravan ",
+          "duration": 0
+        },
+        {
+          "cueId": "28",
+          "hindi": "Song",
+          "english": "Song",
+          "audioFile": "/Audio/17_28 song.mp3",
+          "character": "song",
+          "duration": 92
+        }
+      ]
+    },
+    "19": {
+      "title": "Lav – Kush – Ram Samvaad",
+      "dialogs": [
+        {
+          "cueId": "1",
+          "hindi": "Ayodhya ki Yagya sabha me upasthit luv kush ko Shree ram ka charitra dekh kar satya ka aawhas hua",
+          "english": "In the Yajna assembly of Ayodhya, as Luv and Kush witnessed Shri Ram’s character,The truth resounded within them, and they were filled with realization.",
+          "audioFile": "/Audio/19_1_Narrator.mp3",
+          "character": "narrator",
+          "duration": 10
+        },
+        {
+          "cueId": "2",
+          "hindi": "\"Hey poojya pitamah hum dono saari sachchai jaan chuke Hum pita aur mata dono ko bhali bhaanti pehchaan chuke Dono hi ekaakaar sada, dono hi satya sanaatan hain Mata meri Lakshmi hain to, Shri Raghvendra Narayan hain Dono ka tyaag, dhairya, sanyam iss sangsaar mein kahin na dooja hai Dono ne jeevan moolyon ko saare jeevan bhar pooja hai ",
+          "english": "O revered grandfather, we both have now learned the whole truth.We have fully recognized both our father and mother.\"\"Both are eternally one, both embody the eternal truth.My mother is Lakshmi, and Shri Raghvendra is Narayan.\"\"Their sacrifice, patience, and restraint are unmatched in this world.Both have honored the values of life throughout their entire lives",
+          "audioFile": "/Audio/19_2_Luv.mp3",
+          "character": "lav",
+          "duration": 38
+        },
+        {
+          "cueId": "3",
+          "hindi": "Hey pita hamare nishkalank humko hi iska bhaan na tha Jo satya dikhaya hai Swami humko uska anuman na tha Hum suni sunai baton par apna aakrshop jaga baithe Nirdosh pita par anjaane kitne aarop laga baithe Hai oonch neech ya chhua-chhoot, sabka darpan dikhlaya hai Hain dhanya pita, kapiyon ko bhi maanav ka maan dilaya hai Karuna, mamata, vaatsalta ke nij tan par vastra lapete hainHamko hai garv ki hum dono Shri Siya-Ram ke bete hain ",
+          "english": "O Father, you, who are spotless, should not have borne this blame.The truth revealed by the Lord was beyond our comprehension, not the same.\"\"We were quick to anger, based on what we had only heard,Without knowing, we placed countless false accusations, absurd.\"\"The mirror of caste and class, the fear of untouchability, all reflected,We are blessed, Father, as you’ve given honor to the monkeys, unprotected.\"\"Compassion, love, and maternal care, adorned in your embrace,We are proud, for we are the sons of Shri Siya-Ram, with grace.",
+          "audioFile": "/Audio/19_3_kush.mp3",
+          "character": "kush",
+          "duration": 63
+        },
+        {
+          "cueId": "4",
+          "hindi": "Manav bankar aaye to phir jeevan ke sab santap sahe. Ve paas rahe ya door , kintu do deh aur ek hi pran rahe. unpar jai payi dono ne jo bhi vidhi ne sangharsh rache. shree ram aur vaidehi ko mariyada ke aadharsh rahe. hai raa m jaha hai waha siya, hai siya waha raghunandan, ye surya kar raha dono ke ekaki roop ka abhinandan",
+          "english": "When one comes as a human, they must endure all the sufferings of life.Whether near or far, two bodies with one soul, they strive.\"\"Victory came to them both, for they followed the path of destiny’s design.Shri Ram and Vaidehi, the epitome of righteousness, together did shine.\"\"Where Ram is, there Siya resides; where Siya is, there Ram stands,The Sun now honors both of them, as one, in their unified lands.",
+          "audioFile": "/Audio/19_4_suryadev.mp3",
+          "character": "suryadev",
+          "duration": 44
+        },
+        {
+          "cueId": "5",
+          "hindi": "shank",
+          "english": "shank",
+          "audioFile": "/Audio/19_5 shank.mp3",
+          "character": "shank",
+          "duration": 6
+        },
+        {
+          "cueId": "6",
+          "hindi": "Par apni karni par humko hey nath lajja aati hai Aparaadh bodh se hey dinkar yeh drishti swayam jhuk jaati hai ",
+          "english": "But for our own actions, O Lord, we feel a sense of shame.With the awareness of our wrongdoings makes the sun of our conscience bow in blame.",
+          "audioFile": "/Audio/19_6_luv.wav",
+          "character": "lav",
+          "duration": 16
+        },
+        {
+          "cueId": "7",
+          "hindi": "pitamah",
+          "english": "Grandsire",
+          "audioFile": "/Audio/19_7_ram.mp3",
+          "character": "ram ",
+          "duration": 2
+        },
+        {
+          "cueId": "8",
+          "hindi": "Aparaadh bodh se grast hue bachchon ko, he Ram kshama kar do Apne Luv Kush ko apnaakar hey karunadham kshama kar do Hain door pita ki godi se ab in bachchon se pyaar karo Yeh ansh aapke hain Luv-Kush hey Raghvendra swaikaar karo  ",
+          "english": "O Ram, forgive these children, who are burdened with the guilt of their wrongdoings,Take Luv and Kush as your own, and with compassion, grant them your forgiveness.\"\"Though they are far from their father’s embrace, shower them with love,These are your own children, Luv and Kush, O Raghvendra, accept them from above",
+          "audioFile": "/Audio/19_8_suryadev.mp3",
+          "character": "Surya Dev",
+          "duration": 30
+        },
+        {
+          "cueId": "9",
+          "hindi": "pitashree",
+          "english": "Father",
+          "audioFile": "/Audio/19_9_kush.wav",
+          "character": "Luv-Kush",
+          "duration": 2
+        },
+        {
+          "cueId": "10",
+          "hindi": "yeh treta yug hai, aur ismein aarop lage Raghunandan par Aarop lage maryada par aur maanavta ke chandan par \"Aage Dwapar yug aayega to aur bhranti badh jaayengi aaropo wali veidwani kuch zyada hi chadh jaayengi Kal Yug ke aate-aate hi maanav swarthi ho jaayega Woh apne sabhi kukarmon par Prabhu ko hi doshi thahraayega Kitne hi paapi kar kutark, apni vivekta dikhayenge The Ram huye hi nahi kabhi, aisa sabko batlayengeKuch to paapi Ishwar par hi, nirbhay ungliyan uthayenge Kuch maya jaal bichha apna khud Narayan ho jaayenge Yeh Ramayan hi dharti se maanav ke paap mitayegi Durbuddhi adharmi logon ko seedhe raste par laayegi ",
+          "english": "This is the Treta Yuga, and even in it, accusations are laid upon Raghunandan,Accusations against righteousness, and against the sandalwood of humanity's stand.\"\"As the Dwapar Yuga arrives, confusion will rise,Accusations and doubts will only intensify, reaching new highs.\"\"By the time the Kali Yuga dawns, mankind will turn selfish,Blaming the Lord for all their wrongs, on His shoulders, they’ll wish.\"\"Countless sinners will spread falsehoods, showing off their wisdom,They’ll declare that Ram never existed, and this truth will become their prism.\"\"Some sinners will even raise their finger against God Himself,Crafting webs of illusion, and claiming themselves to be Narayan in stealth.\"\"This Ramayana will cleanse the Earth and wipe out humanity’s sins,Guiding the wrongdoers, leading them onto the right path where truth begins.",
+          "audioFile": "/Audio/19_10_suryadev.mp3",
+          "character": "suryadev",
+          "duration": 76
+        },
+        {
+          "cueId": "11",
+          "hindi": " pitaamah, ab apne priye Luv Kush ko dekar dhara-dhaam meri Seeta to bhoomist ho chuki hai, ab ram ka shesh na koi raha kaam Ab main bhi apni ardhangini, Seeta ka saath nibhaata hoon Sarayu aawahan kr rahi hai main jal samaadhi ko jaata hoon ",
+          "english": "Grandfather, now with my dear Luv and Kush, the world is complete.My Sita has returned to the earth, and now, Ram’s work is complete.\"\"Now I too, join my beloved wife, Sita, to fulfill my duty,The river Sarayu calls, and I shall enter the waters in divine purity.\"",
+          "audioFile": "/Audio/19_11_ram.mp3",
+          "character": "Ram",
+          "duration": 36
+        },
+        {
+          "cueId": "12",
+          "hindi": "pitashree",
+          "english": "Father",
+          "audioFile": "/Audio/19_12_kush.wav",
+          "character": "Luv-Kush",
+          "duration": 2
+        },
+        {
+          "cueId": "13",
+          "hindi": "song",
+          "english": "Song",
+          "audioFile": "/Audio/19_13 song.mp3",
+          "character": "song",
+          "duration": 153
         }
       ]
     }
