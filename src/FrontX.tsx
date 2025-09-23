@@ -271,8 +271,10 @@ export default function FrontX() {
         <div className="flex flex-col items-center gap-4">
           <img src="/public/poster.jpg" className="w-64 rounded-2xl" />
           <audio ref={audioRef} preload="auto" />
-          <div className="fixed bottom-3 text-xs opacity-60">
-            synced offset: {Math.round(offsetMs)} ms
+          <audio ref={audioRef} preload="auto" />
+          <div className="fixed bottom-3 w-full text-center text-xs opacity-70">
+            <p>synced offset: {Math.round(offsetMs)} ms</p>
+            <p className="mt-1 italic">Developed by AI Team at FORE School of Management</p>
           </div>
         </div>
       )}
